@@ -1,0 +1,139 @@
+{
+  "checkedAt": "2026-10-18T22:14:44.365Z",
+  "screenshots": [
+    {
+      "file": "iphone/01-make-it-up.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "fb121bc0efa215dee4e52da3d41c1616a16ee98e13623cb9e43d188a0716d3c1"
+    },
+    {
+      "file": "iphone/02-party-night.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "4942dc814f20b379e92f64652930db56e42b2e206f0d1f4730058ca828909a19"
+    },
+    {
+      "file": "iphone/03-prompt-studio.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "ab329c5d0819c53f4e25e549fb74a47cdb609347898b8c7aa189d74a2a8d433e"
+    },
+    {
+      "file": "iphone/04-new-choice.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "2867b78769a9b73fffabd80df60271498604bd4aa378bbe370d1d6bfdc849b66"
+    },
+    {
+      "file": "iphone/05-library.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "9b69ff30b80b27335b301ff4c7b94ea13ef13e176d9aab22a250edb2d3edebdf"
+    },
+    {
+      "file": "iphone/06-saved.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "b57c1eb2bfed4e786d5c5d199dc5364efd21fd576510a10a5af3395d9c341788"
+    },
+    {
+      "file": "ipad/01-make-it-up.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "ea0316d195534a9143d53156fa89f090c469d8de9f3e4574c14cc1aa6a3a1927"
+    },
+    {
+      "file": "ipad/02-party-night.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "efd3a4c5fe517a1a71b65ea28b34832a81b66a24a84b579b3ea747fee201a2e9"
+    },
+    {
+      "file": "ipad/03-prompt-studio.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "a12bf3cf4bb5e5488fe2a19750cbbac14be8be256ecfeb91f5e1f030e13b3e0b"
+    },
+    {
+      "file": "ipad/04-new-choice.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "9ed59ceee0afe4d6e469807b29f74f51b46cd10cb40174bd88031e964e89d266"
+    },
+    {
+      "file": "ipad/05-library.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "4c65f96f52613397780ee14e561fa9c04b44c440a362bba2fe7e6249640c6d43"
+    },
+    {
+      "file": "ipad/06-saved.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "883c37b48c904dd939e0b876b84fede86b055cbd2e538993bb694a6a756e9c76"
+    }
+  ],
+  "videos": [
+    {
+      "file": "off-script-tutorial-horizontal-30s.mp4",
+      "size": [
+        1920,
+        1080
+      ],
+      "codec": "H.264 / yuv420p",
+      "fps": 30,
+      "decodedFrames": 900,
+      "decodedSeconds": 30,
+      "sha256": "90998c027fdee074fee37705eaa1977b234457ce0620727c2c0c1a473e6a7528"
+    },
+    {
+      "file": "off-script-tutorial-vertical-30s.mp4",
+      "size": [
+        1080,
+        1920
+      ],
+      "codec": "H.264 / yuv420p",
+      "fps": 30,
+      "decodedFrames": 900,
+      "decodedSeconds": 30,
+      "sha256": "f9ed59ab2a09efde1d0b56be1cf8a0cb090146b0c49c302deae122a4ff122210"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Off Script",
+    "slug": "off-script",
+    "version": "1.3.0",
+    "scheme": "offscript",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "3"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "Off Script",
+      "description": "Improv party games for 2\u201312 people. Quick riffs with friends or focused practice. One phone, no account.",
+      "favicon": "./public/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-mark.png",
+          "imageWidth": 150,
+          "backgroundColor": "#172B49"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "icon": "./assets/icon.png"
+  }
+}

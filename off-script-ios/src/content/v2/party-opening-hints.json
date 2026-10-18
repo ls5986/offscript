@@ -1,0 +1,926 @@
+[
+  {
+    "id": "prompt_situation_1801",
+    "text": "There's a new building rule named after you.",
+    "openingLine": "I just saw the new building rule, and I think we need to talk.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1802",
+    "text": "Grandma's been banned from the neighborhood group chat.",
+    "openingLine": "I've brought Grandma over so we can sort out the group chat.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1803",
+    "text": "The office fridge now has a dress code.",
+    "openingLine": "I found a dress code on the fridge; do we know who put it there?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1804",
+    "text": "Someone has brought a plus-one to a job interview.",
+    "openingLine": "I've brought someone with me to the interview; is that going to be a problem?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1805",
+    "text": "The restaurant is taking its one-star review personally.",
+    "openingLine": "I wrote the review, and I'd like to explain what happened.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1806",
+    "text": "Your roommate wants a performance review.",
+    "openingLine": "I'd like to understand what you want to cover in my roommate review.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1807",
+    "text": "The wedding has assigned seating for grudges.",
+    "openingLine": "I'm looking at the wedding seating plan, and I have a question about my table.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1808",
+    "text": "You just closed the elevator on your boss.",
+    "openingLine": "I'm sorry; I didn't realize you were trying to get in.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1809",
+    "text": "Your neighbor is rehearsing an acceptance speech for a parking space.",
+    "openingLine": "I can hear you rehearsing from next door; did you get the parking space?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1810",
+    "text": "The family group chat has appointed a spokesperson.",
+    "openingLine": "I'd like to know who chose our family spokesperson.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1811",
+    "text": "The apology came with a loyalty card.",
+    "openingLine": "I'm trying to apologize, and I don't understand why you've given me this card.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1812",
+    "text": "Someone has organized a farewell party for a borrowed charger.",
+    "openingLine": "I still need that charger; can we talk before the farewell party?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1813",
+    "text": "You brought a store-bought dish and called it homemade.",
+    "openingLine": "I need to tell you something about the dish I brought.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1814",
+    "text": "The lost-and-found is holding an auction.",
+    "openingLine": "I think that's my jacket in the auction.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1815",
+    "text": "The office plant has its own calendar.",
+    "openingLine": "I'm trying to book the meeting room, but the plant is already in the calendar.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1816",
+    "text": "The book club has only read the group chat.",
+    "openingLine": "I've read the chat, but I haven't actually opened the book.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1817",
+    "text": "The queue has elected a leader.",
+    "openingLine": "I've been waiting here for an hour; when did we choose a leader?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1818",
+    "text": "Someone has reserved a seat for their emotional baggage.",
+    "openingLine": "I was hoping to sit here; who is this seat reserved for?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1819",
+    "text": "The bake sale has a complaints department.",
+    "openingLine": "I'd like to speak to someone about the cake I bought.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1820",
+    "text": "The house meeting now has a red carpet.",
+    "openingLine": "I'm here for the house meeting; do I need to take my shoes off?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1821",
+    "text": "The hotel breakfast has a strict no-boring-hats policy.",
+    "openingLine": "I came down for breakfast, and nobody mentioned the hat rule.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1822",
+    "text": "The building's suggestion box has resigned.",
+    "openingLine": "I came to leave a suggestion, but there's a resignation note on the box.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1823",
+    "text": "Someone is asking for a refund on a compliment.",
+    "openingLine": "I'd like to talk about the compliment you gave me yesterday.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1824",
+    "text": "The neighborhood watch has lost its binoculars.",
+    "openingLine": "I borrowed the binoculars, and I meant to return them.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_1901",
+    "text": "The first date has requested a second interview.",
+    "openingLine": "I had a good time, but I'm not sure why you called this another interview.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1902",
+    "text": "The dating profile has a customer service number.",
+    "openingLine": "I called the number on your dating profile; was I supposed to?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1903",
+    "text": "The breakup announcement has a sponsor.",
+    "openingLine": "I thought we were announcing our breakup privately; who arranged the sponsor?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1904",
+    "text": "Your date has already planned your next holiday.",
+    "openingLine": "I'm still choosing dinner; when did we agree on a holiday?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1905",
+    "text": "The couples therapist has asked for separate reviews.",
+    "openingLine": "I'm not sure we remember our therapy session the same way.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1906",
+    "text": "The singles mixer has assigned seating for exes.",
+    "openingLine": "I've just seen where I'm sitting, and my ex is at that table.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1907",
+    "text": "The dating app now requires professional references.",
+    "openingLine": "I'm setting up my dating profile; would you be one of my references?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1908",
+    "text": "The walk of shame has a concierge.",
+    "openingLine": "I'm just heading home; could you help me find my coat?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1909",
+    "text": "The flirting workshop has a waiting list.",
+    "openingLine": "I thought we could take the flirting class together, but there's only one place left.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1910",
+    "text": "The honeymoon itinerary has a comments section.",
+    "openingLine": "I've read the comments on our honeymoon plans; we need to talk about them.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1911",
+    "text": "Someone is negotiating a friends-with-benefits renewal.",
+    "openingLine": "I'd like to talk about whether we both still want to keep this casual.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1912",
+    "text": "The romantic getaway has a shared spreadsheet.",
+    "openingLine": "I thought we could leave a little of our weekend unplanned.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1913",
+    "text": "The bachelor party has an HR department.",
+    "openingLine": "I've been asked to speak to someone about the bachelor party plans.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1914",
+    "text": "The situationship has scheduled a quarterly review.",
+    "openingLine": "I'm glad we're talking; I wasn't sure where we stood.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1915",
+    "text": "Someone has sent a calendar invite for a booty call.",
+    "openingLine": "I saw your calendar invite; are you asking me to come over tonight?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_1916",
+    "text": "You run into your ex while buying an anniversary gift.",
+    "openingLine": "I didn't expect to see you here; I'm buying an anniversary gift.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2000",
+    "text": "The group chat has appointed a treasurer.",
+    "openingLine": "I'd like to know why our group chat needs a treasurer.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2001",
+    "text": "Someone has started charging for emotional support in the office.",
+    "openingLine": "I wanted a quick chat; I didn't realize you were charging for it.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2002",
+    "text": "The wedding seating plan now has an appeals process.",
+    "openingLine": "I've seen the seating plan, and I'd like to ask about moving.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2003",
+    "text": "The neighbors are holding auditions for a new neighbor.",
+    "openingLine": "I'm here about the apartment; is this really an audition?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2004",
+    "text": "A restaurant is asking customers for references.",
+    "openingLine": "I'd like a table for two; what kind of references do you need?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2005",
+    "text": "Someone brought a PowerPoint to a casual apology.",
+    "openingLine": "I wanted to hear your apology; do we need the slides?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2006",
+    "text": "The family is voting on who gets to say “I told you so.”",
+    "openingLine": "I'd rather we talked about what happened before we take a vote.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2007",
+    "text": "The book club has finished exactly one paragraph.",
+    "openingLine": "I've only read the first paragraph; how far did everyone else get?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2008",
+    "text": "You both claimed the same idea was yours.",
+    "openingLine": "I heard you present that idea, and I thought it was mine.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2009",
+    "text": "The apartment viewing includes an interview with the houseplant.",
+    "openingLine": "I like the apartment; what does the houseplant need to know about me?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2010",
+    "text": "The carpool has introduced business class.",
+    "openingLine": "I've been in this carpool for months; why has my seat changed?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2011",
+    "text": "Someone keeps replying “per my last email” out loud.",
+    "openingLine": "I'm standing right here; can we just talk about the email?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2012",
+    "text": "A dinner guest has brought their own feedback form.",
+    "openingLine": "I'm glad you came for dinner; what's on that form?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2013",
+    "text": "The dog walker has requested a performance review.",
+    "openingLine": "I've set aside some time to talk about how the dog walks are going.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2014",
+    "text": "The potluck spreadsheet has become legally binding.",
+    "openingLine": "I know I put my name next to salad; can I bring something else?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2015",
+    "text": "A hotel has introduced a strict no-boring-hats policy.",
+    "openingLine": "I've just checked in, and I need someone to explain the hat policy.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2016",
+    "text": "Someone has booked a meeting to discuss fewer meetings.",
+    "openingLine": "I'm here for the meeting about reducing our meetings.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2017",
+    "text": "The neighborhood watch is investigating a suspiciously nice lawn.",
+    "openingLine": "I've noticed you looking at my lawn; is there something you'd like to ask?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2018",
+    "text": "The birthday wishes have been ranked by effort.",
+    "openingLine": "I saw where my birthday message came in the ranking.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2019",
+    "text": "The family photo now requires a rehearsal.",
+    "openingLine": "I'm ready for the photo; what are we supposed to rehearse?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2020",
+    "text": "Your boss walks in while you are rehearsing an excuse.",
+    "openingLine": "I didn't hear you come in; I was practicing what to say to you.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2021",
+    "text": "A roommate has started issuing invoices for small talk.",
+    "openingLine": "I found this invoice on my door; can we talk about it?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2022",
+    "text": "The reunion has a VIP section for people who replied on time.",
+    "openingLine": "I replied to the reunion invite; am I at the right entrance?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2023",
+    "text": "Someone has hired a spokesperson for the group chat.",
+    "openingLine": "I think we need to replace Diana; she keeps telling the group chat the wrong thing.",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2024",
+    "text": "The wedding DJ is taking requests by formal application.",
+    "openingLine": "I'd like to request a song; where do I put this application?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2025",
+    "text": "The shared fridge has elected a representative.",
+    "openingLine": "I came to get my lunch; who's representing the fridge?",
+    "contentRating": "clean"
+  },
+  {
+    "id": "prompt_situation_2026",
+    "text": "The dating app has added a references section.",
+    "openingLine": "I've reached the references section of this dating app, and I need your help.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2027",
+    "text": "The exes at the wedding have formed a table committee.",
+    "openingLine": "I'm at the exes' table; did we all agree to sit together?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2028",
+    "text": "The speed-dating event now has a complaints desk.",
+    "openingLine": "I'd like to talk to someone about how the speed dating went.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2029",
+    "text": "A first date has brought a printed agenda.",
+    "openingLine": "I'm glad we finally met; what's on the agenda you brought?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2030",
+    "text": "Someone has requested a probation period before becoming exclusive.",
+    "openingLine": "I'd like us to be exclusive, but I need to understand what you're proposing.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2031",
+    "text": "A dating profile has been sent back for revisions.",
+    "openingLine": "I've had my profile sent back again; can we look at the changes?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2032",
+    "text": "One of you has told everyone you are a couple.",
+    "openingLine": "I've had three people congratulate me; what have you told them?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2033",
+    "text": "The breakup text has been workshopped by six friends.",
+    "openingLine": "I wanted to talk to you directly about the breakup text.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2034",
+    "text": "The singles mixer has assigned a project manager.",
+    "openingLine": "I'm new to this singles mixer; who put you in charge?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2035",
+    "text": "A flirty message has accidentally become a team discussion.",
+    "openingLine": "I sent that message to one person; how did we all end up discussing it?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2036",
+    "text": "The romantic getaway has a chore rota.",
+    "openingLine": "I thought this weekend was a break; can we talk about the chore rota?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2037",
+    "text": "The dating app bio now needs two professional references.",
+    "openingLine": "I'm updating my dating bio; would you be comfortable giving me a reference?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2038",
+    "text": "A love triangle has requested a scheduling app.",
+    "openingLine": "I'd like to find a time when the three of us can talk.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2039",
+    "text": "Someone has put “good at texting back” on their résumé.",
+    "openingLine": "I'm looking at your résumé; could you explain the texting skill?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2040",
+    "text": "The couple’s matching outfits require written approval.",
+    "openingLine": "I thought we were choosing our own clothes tonight.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2041",
+    "text": "The honeymoon itinerary has been reviewed by an ex.",
+    "openingLine": "I'd like to know why your ex has seen our honeymoon plans.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2042",
+    "text": "A first kiss has been postponed by a calendar conflict.",
+    "openingLine": "I'd still like to kiss you; when are we both actually free?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2043",
+    "text": "The anniversary gift comes with a customer satisfaction survey.",
+    "openingLine": "I opened your gift; do you really want me to fill out the survey?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2044",
+    "text": "The date has asked everyone to keep their flirting receipts.",
+    "openingLine": "I'm not sure what you want me to keep from our date.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2045",
+    "text": "A situationship has introduced quarterly check-ins.",
+    "openingLine": "I'm glad we made time to talk about what this is.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2046",
+    "text": "The romantic playlist has been returned with notes.",
+    "openingLine": "I made that playlist for us; can we listen to it together?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2047",
+    "text": "Someone has made a spreadsheet of mixed signals.",
+    "openingLine": "I'd rather hear how you feel than try to read this spreadsheet.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2048",
+    "text": "The awkward morning-after chat has minutes and action items.",
+    "openingLine": "I thought we could have breakfast and talk about last night.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_2049",
+    "text": "You agreed to keep it casual. One of you made anniversary plans.",
+    "openingLine": "I thought we were keeping this casual; what are the anniversary plans?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3000",
+    "text": "You each thought the other person was paying for the first date.",
+    "openingLine": "I thought you were treating me tonight; did we get our wires crossed?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3001",
+    "text": "Your date arrives wearing the sweater you donated last week.",
+    "openingLine": "I think I used to own that sweater; where did you find it?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3002",
+    "text": "You discover your date has already met all your friends without you.",
+    "openingLine": "I was going to introduce you, but you seem to know everyone.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3003",
+    "text": "Your ex asks for the spare key while your new date is at the door.",
+    "openingLine": "I know you need the key back; can we make this quick?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3004",
+    "text": "You both booked the same restaurant for separate dates.",
+    "openingLine": "I didn't expect to see you here with someone else.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3005",
+    "text": "Your date calls your bluff about being a great dancer.",
+    "openingLine": "I may have overstated the dancing part; would you still like to try?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3006",
+    "text": "You accidentally bring a packed overnight bag to a coffee date.",
+    "openingLine": "I can explain the bag; I wasn't assuming anything.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3007",
+    "text": "Your date thinks the flowers in your hand are for them.",
+    "openingLine": "I should probably explain who these flowers are for.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3008",
+    "text": "You find out you have been flirting with each other under different app names.",
+    "openingLine": "I think we've already had this conversation on the app.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3009",
+    "text": "Your date suggests splitting dessert just as you order two.",
+    "openingLine": "I've ordered my own; did you want us to share?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3010",
+    "text": "You arrive at a singles night with the ex who gave you a ride.",
+    "openingLine": "I'm grateful for the lift, but how are we introducing ourselves?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3011",
+    "text": "Your friend introduces you to the person you kissed last weekend.",
+    "openingLine": "I think we can skip the introduction; we met on Saturday.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3012",
+    "text": "Your date has mistaken your work story for a marriage proposal.",
+    "openingLine": "I was talking about a work project; what did you hear?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3013",
+    "text": "You invite a date over and discover your roommate is hosting your ex.",
+    "openingLine": "I didn't know we were both having company tonight.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3014",
+    "text": "You and your date both pretend not to recognize the love song.",
+    "openingLine": "I know this song; is it the one we talked about?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3015",
+    "text": "Your date asks why your dating profile is still getting updates.",
+    "openingLine": "I thought we were still seeing other people; can we talk about it?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3016",
+    "text": "You are returning an ex's things and neither of you claims the good coat.",
+    "openingLine": "I thought this coat was yours; do we know whose it is?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3017",
+    "text": "Your date remembers the joke you used on a previous date with them.",
+    "openingLine": "I have told you that story already, haven't I?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3018",
+    "text": "You tell a date you love cooking just before the takeaway arrives.",
+    "openingLine": "I need to admit something before I answer the door.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3019",
+    "text": "You both brought a friend to what each called a casual drink.",
+    "openingLine": "I brought someone so this would feel casual; I see you did too.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3020",
+    "text": "Your date wants a photo together before you have learned their surname.",
+    "openingLine": "I'd like to know a little more about you before we post anything.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3021",
+    "text": "You accept a second date, then realize it is an all-day hike.",
+    "openingLine": "I'd like to see you again; how long is this walk?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3022",
+    "text": "Your ex wants to keep the dinner reservation after the breakup.",
+    "openingLine": "I know it's hard to get a table there; are we really going together?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3023",
+    "text": "Your date has been practicing your name and still gets it wrong.",
+    "openingLine": "I heard you practicing; would it help if I said it again?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3024",
+    "text": "You both reach to hold hands and end up carrying each other's shopping.",
+    "openingLine": "I was actually reaching for your hand.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3025",
+    "text": "Your crush asks you to help choose an outfit for another date.",
+    "openingLine": "I can help with the outfit, but I should tell you something first.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3026",
+    "text": "Your date arrives early while you are rehearsing the greeting.",
+    "openingLine": "I didn't expect you yet; how much of that did you hear?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3027",
+    "text": "You invite someone for a romantic picnic and bring the wrong lunch bag.",
+    "openingLine": "I packed us a picnic, but this isn't the bag I prepared.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3028",
+    "text": "You and your date disagree about whether this is your third or fourth date.",
+    "openingLine": "I'm counting tonight as number four; which one am I missing?",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3029",
+    "text": "Your ex joins the same dance class you signed up for with a new date.",
+    "openingLine": "I didn't know you'd be here; I'm taking the class with someone.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3030",
+    "text": "Your date asks you to explain the heart you drew on their receipt.",
+    "openingLine": "I put that heart there on purpose; I wasn't sure if you'd notice.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3031",
+    "text": "You both try to leave a party last so you can ask each other out.",
+    "openingLine": "I'd like to stay and talk to you, but we could also go somewhere.",
+    "contentRating": "spicy"
+  },
+  {
+    "id": "prompt_situation_3100",
+    "text": "You agreed to a casual overnight stay, but someone has brought breakfast for the week.",
+    "openingLine": "I thought you were staying one night; how many breakfasts are in that bag?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3101",
+    "text": "You and a casual partner both pretend not to have left a toothbrush behind.",
+    "openingLine": "I found a toothbrush here, and I think we should talk about it.",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3102",
+    "text": "You are dividing shared belongings after a breakup and both want the expensive sheets.",
+    "openingLine": "I'd like to keep these sheets; what were you hoping to take?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3103",
+    "text": "Your partner thought the romantic hotel booking included separate rooms.",
+    "openingLine": "I booked one room for us; would you prefer me to change it?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3104",
+    "text": "You planned a private anniversary evening, but your partner invited another couple to dinner.",
+    "openingLine": "I thought tonight would just be us; when did we invite company?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3105",
+    "text": "You and your ex have separate dates at the hotel you booked before breaking up.",
+    "openingLine": "I thought you would have canceled your half of the booking.",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3106",
+    "text": "You arrive for an agreed sleepover with a pillow your host recognizes from their ex's home.",
+    "openingLine": "I brought my own pillow; why are you looking at it like that?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3107",
+    "text": "A casual partner offers you a drawer just as you suggest seeing other people.",
+    "openingLine": "I appreciate the drawer, but I wanted to talk about keeping things casual.",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3108",
+    "text": "You both assumed the other person had told your housemate about the overnight guest.",
+    "openingLine": "I thought you knew I was staying; should we sort this out?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3109",
+    "text": "You and your partner disagree about what the shared holiday fund can pay for.",
+    "openingLine": "I thought the holiday fund was for the trip, not this purchase.",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3110",
+    "text": "Your partner finds the romantic note you were drafting before a serious money talk.",
+    "openingLine": "I wrote that earlier; can we talk about both things tonight?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3111",
+    "text": "You agree to move in together, then discover neither of you plans to leave your own apartment.",
+    "openingLine": "I thought we were moving into your place; what did you have in mind?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3112",
+    "text": "You meet a casual partner for brunch and both introduce someone else as a date.",
+    "openingLine": "I didn't know we'd be making introductions this morning.",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3113",
+    "text": "You planned a weekend alone together, but neither of you can stop checking house listings.",
+    "openingLine": "I'd like us to put the phones down; are we house hunting or having a weekend away?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3114",
+    "text": "Your ex wants to buy your share of the sofa in tiny monthly payments.",
+    "openingLine": "I'd like to settle the sofa today; what can we work out?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3115",
+    "text": "You call someone your partner while they are explaining that you keep things casual.",
+    "openingLine": "I called you my partner; I think we need to decide what we're saying.",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3116",
+    "text": "You and your partner discover you each quietly renewed a different dating-app subscription.",
+    "openingLine": "I renewed mine too; can we talk honestly about what we both want?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3117",
+    "text": "You buy a romantic gift together and disagree about whose card should pay.",
+    "openingLine": "I thought this was a gift for both of us; how are we paying for it?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3118",
+    "text": "You are collecting things after a breakup and find the bag packed with your current partner's belongings.",
+    "openingLine": "I came for my things, but this looks like the wrong bag.",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3119",
+    "text": "You both agreed to a discreet relationship and arrive at the same dinner wearing matching rings.",
+    "openingLine": "I didn't know you'd wear yours tonight; what are we telling people?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3120",
+    "text": "You extend a romantic weekend and then remember you both work from the same small room.",
+    "openingLine": "I'd love another day here; how do we handle our calls in one room?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3121",
+    "text": "A planned night together begins with a disagreement about which ex owns the spare bedding.",
+    "openingLine": "I can make up the bed; do we actually own these sheets?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3122",
+    "text": "You and your partner compare what each thought your couples' savings account was for.",
+    "openingLine": "I thought we were saving for a home; what did you want to use it for?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3123",
+    "text": "Your casual partner asks to be your emergency contact while you are finding your shoes.",
+    "openingLine": "I'm happy to talk about that, but I thought we were keeping things casual.",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3124",
+    "text": "You and an ex share a hotel loyalty account, and both want the anniversary upgrade.",
+    "openingLine": "I used the points for this room; did you have plans for them too?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3125",
+    "text": "You plan a quiet morning after an agreed sleepover, but a furniture delivery arrives.",
+    "openingLine": "I was going to make us coffee; did you order a bed for today?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3126",
+    "text": "You and your partner each bought an expensive surprise trip for the same weekend.",
+    "openingLine": "I booked us a trip; please tell me yours is for another weekend.",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3127",
+    "text": "You have agreed to stop seeing each other, but your clothes are still in the wash together.",
+    "openingLine": "I'd like my things back, but I can wait for the wash to finish.",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3128",
+    "text": "You invite a casual partner to stay and realize you have framed their forgotten shopping list.",
+    "openingLine": "I liked having a reminder of you here; is the frame too much?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3129",
+    "text": "Your partner wants to discuss moving in while you are returning the spare key.",
+    "openingLine": "I brought the key back because I thought we were taking a step back.",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3130",
+    "text": "You both arrive at a couples' weekend expecting it to be a breakup conversation.",
+    "openingLine": "I came prepared to talk about ending things; what were you hoping for?",
+    "contentRating": "mature_suggestive"
+  },
+  {
+    "id": "prompt_situation_3131",
+    "text": "You agree to keep separate finances, then receive a joint invoice for your romantic getaway.",
+    "openingLine": "I asked for separate bills; can we work out who booked what?",
+    "contentRating": "mature_suggestive"
+  }
+]

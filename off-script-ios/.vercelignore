@@ -1,0 +1,13 @@
+node_modules/
+ios/
+android/
+.expo/
+.git/
+.env
+.env.*
+dist/
+native-export/
+test-results/
+playwright-report/
+*.xcarchive/
+*.xcresult/

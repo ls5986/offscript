@@ -1,0 +1,371 @@
+:root {
+  color-scheme: light dark;
+  --paper: #f8f6f1;
+  --ink: #202b3e;
+  --muted: #555f70;
+  --card: #fffdf9;
+  --line: #c9cdd2;
+  --lilac: #eae5f4;
+  --blue: #e4ecf3;
+  --accent: #aa4234;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.65;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.page {
+  width: min(72rem, calc(100% - 3rem));
+  margin-inline: auto;
+}
+.article-page {
+  max-width: 54rem;
+}
+header,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  padding-block: 1.4rem;
+  border-bottom: 1px solid var(--line);
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: -0.025em;
+}
+nav,
+.actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+}
+nav {
+  font-size: 0.95rem;
+}
+nav a,
+.text-link,
+.brand {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+a {
+  color: var(--accent);
+  text-underline-offset: 0.22em;
+  overflow-wrap: anywhere;
+}
+a:hover {
+  text-decoration-thickness: 2px;
+}
+a[aria-current="page"] {
+  font-weight: 750;
+}
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 5px;
+}
+.skip-link {
+  position: absolute;
+  z-index: 1;
+  top: 0.5rem;
+  left: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--card);
+  transform: translateY(-200%);
+}
+.skip-link:focus {
+  transform: translateY(0);
+}
+main {
+  padding-block: 2rem 3rem;
+}
+h1,
+h2,
+h3,
+.scene {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+}
+h1 {
+  font-size: clamp(2.6rem, 6vw, 4rem);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+h2 {
+  margin-top: 2rem;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+h3 {
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+p {
+  max-width: 68ch;
+}
+.article-page main > h2 {
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+}
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  font-weight: 750;
+}
+.fine {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  min-height: 52px;
+  padding: 0.8rem 1.5rem;
+  border-radius: 100px;
+  color: #fffdf9;
+  background: #172b49;
+  font-weight: 650;
+  text-decoration: none;
+}
+.button.small {
+  min-height: 44px;
+  padding: 0.5rem 1.2rem;
+}
+.text-link,
+.feature a {
+  font-weight: 650;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  padding-block: 2.5rem 4.5rem;
+}
+.hero h1 {
+  font-size: clamp(3.4rem, 6.5vw, 5.8rem);
+  margin: 1.3rem 0;
+}
+.hero-copy > p:not(.eyebrow):not(.fine) {
+  font-size: 1.08rem;
+  max-width: 42ch;
+}
+.hero-copy .lead {
+  font-size: 1.5rem !important;
+  line-height: 1.4;
+}
+.actions {
+  margin-block: 1.8rem 1rem;
+}
+.idea-board {
+  position: relative;
+  padding: 2rem 0 4rem;
+}
+.idea-card {
+  padding: 2.5rem;
+  border-radius: 1.7rem;
+  background: var(--lilac);
+  border: 1px solid var(--line);
+  transform: rotate(-3deg);
+}
+.scene {
+  font-size: clamp(2.3rem, 4vw, 3.4rem);
+  line-height: 1.15;
+  margin-block: 2rem 1rem;
+}
+.idea-tag {
+  display: inline-block;
+  margin-top: 1.8rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.aside-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: 85%;
+  margin: -1rem 0 0 auto;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  color: #f8f6f1;
+  background: #172b49;
+  transform: rotate(3deg);
+}
+.aside-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.promise-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  border-block: 1px solid var(--line);
+  padding-block: 1.3rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.section {
+  padding-block: 3.5rem;
+}
+.section h2 {
+  margin-top: 0.7rem;
+}
+.feature-grid,
+.browser-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.feature {
+  padding: 2.2rem;
+  border-radius: 1.5rem;
+}
+.lilac {
+  background: var(--lilac);
+}
+.blue {
+  background: var(--blue);
+}
+.number {
+  display: inline-block;
+  font-size: 0.8rem;
+  border: 1px solid var(--muted);
+  border-radius: 50%;
+  padding: 0.4rem 0.65rem;
+}
+.browser-section {
+  gap: 3rem;
+  border-block: 1px solid var(--line);
+}
+.install-card {
+  padding: 1.8rem;
+  border: 1px solid var(--line);
+  border-radius: 1.5rem;
+  background: var(--card);
+}
+.install-card h3 {
+  margin-top: 0;
+}
+li {
+  padding-left: 0.3rem;
+  margin-block: 0.7rem;
+}
+ol,
+ul {
+  padding-left: 1.5rem;
+}
+.closing {
+  text-align: center;
+  max-width: 46rem;
+  margin: auto;
+}
+.closing p {
+  margin-inline: auto;
+}
+.closing .button {
+  margin-top: 1rem;
+}
+details {
+  margin-block: 1rem;
+  padding: 1rem 1.3rem;
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  background: var(--card);
+}
+summary {
+  cursor: pointer;
+  font-weight: 650;
+  padding-block: 0.3rem;
+}
+footer {
+  padding-block: 1.6rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 0;
+  font-size: 0.9rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #101c2c;
+    --ink: #f5f1e9;
+    --muted: #abb3c2;
+    --card: #1c2a3e;
+    --line: #536179;
+    --lilac: #332e49;
+    --blue: #25384a;
+    --accent: #f4a18e;
+  }
+  .button {
+    color: #172b49;
+    background: #e2eaf5;
+  }
+}
+@media (max-width: 720px) {
+  .page {
+    width: calc(100% - 2rem);
+  }
+  nav {
+    gap: 1rem;
+  }
+  header {
+    align-items: flex-start;
+  }
+  .hero,
+  .feature-grid,
+  .browser-section {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .hero {
+    padding-block: 1.5rem;
+  }
+  .hero h1 {
+    font-size: clamp(3.2rem, 12vw, 5rem);
+  }
+  .idea-board {
+    max-width: 30rem;
+    width: calc(100% - 0.8rem);
+    margin: auto;
+    padding-block: 1rem 2rem;
+  }
+  .idea-card,
+  .feature {
+    padding: 1.6rem;
+  }
+  .section {
+    padding-block: 2.5rem;
+  }
+  .promise-strip {
+    justify-content: flex-start;
+  }
+  .promise-strip span {
+    flex-basis: 100%;
+  }
+  .aside-card {
+    width: 90%;
+  }
+  header nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

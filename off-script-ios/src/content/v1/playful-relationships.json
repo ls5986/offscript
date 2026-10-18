@@ -1,0 +1,382 @@
+[
+  {
+    "id": "rel_081",
+    "premise": "Two roommates negotiating custody of an air fryer",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Roommate keeping the air fryer",
+      "Roommate demanding visiting rights"
+    ],
+    "expandableRole": null,
+    "tags": ["domestic", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_082",
+    "premise": "Two wedding planners covering for the raccoon they hired",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Planner defending the raccoon",
+      "Planner talking to the couple"
+    ],
+    "expandableRole": null,
+    "tags": ["celebration", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_083",
+    "premise": "Two neighbors whose garden gnomes are having a very public feud",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Neighbor demanding an apology",
+      "Neighbor defending the gnome"
+    ],
+    "expandableRole": null,
+    "tags": ["domestic", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_084",
+    "premise": "An employee asking their manager why the plant got promoted",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Employee making their case",
+      "Manager defending the promotion"
+    ],
+    "expandableRole": null,
+    "tags": ["workplace", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_085",
+    "premise": "Two adult siblings trying to return the same terrible family gift",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Sibling holding the receipt",
+      "Sibling who already thanked everyone"
+    ],
+    "expandableRole": null,
+    "tags": ["everyday", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_086",
+    "premise": "A chef and a customer debating whether toast counts as a tasting menu",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Chef defending the menu",
+      "Customer who booked an anniversary meal"
+    ],
+    "expandableRole": null,
+    "tags": ["everyday", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_087",
+    "premise": "Two friends opening a luxury hotel for imaginary pets",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Friend managing the bookings",
+      "Friend handling imaginary complaints"
+    ],
+    "expandableRole": null,
+    "tags": ["everyday", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_088",
+    "premise": "A museum curator and a visitor who recognizes the exhibit as their lunch",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Curator protecting the display",
+      "Visitor who packed that sandwich"
+    ],
+    "expandableRole": null,
+    "tags": ["arts", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_089",
+    "premise": "Two bandmates discovering their manager booked them as magicians",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Bandmate trying to cancel",
+      "Bandmate learning a single trick"
+    ],
+    "expandableRole": null,
+    "tags": ["workplace", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_090",
+    "premise": "Two cousins planning a small picnic with an enormous fog machine",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Cousin setting up the fog",
+      "Cousin who promised a quiet picnic"
+    ],
+    "expandableRole": null,
+    "tags": ["celebration", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_091",
+    "premise": "A landlord and a tenant debating the cupboard\u2019s new luxury listing",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Landlord presenting the brochure",
+      "Tenant pointing out the mops"
+    ],
+    "expandableRole": null,
+    "tags": ["domestic", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_092",
+    "premise": "Two colleagues writing an apology to the office printer",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Colleague defending the wording",
+      "Colleague who caused the jam"
+    ],
+    "expandableRole": null,
+    "tags": ["workplace", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_093",
+    "premise": "Three friends opening a cafe staffed by one very confident goose",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Friend taking the orders",
+      "Friend translating the goose",
+      "Friend explaining the business plan"
+    ],
+    "expandableRole": null,
+    "tags": ["everyday", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_094",
+    "premise": "Three adult siblings secretly replacing a family trophy with a potato",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Sibling guarding the trophy",
+      "Sibling decorating the potato",
+      "Sibling expecting the family soon"
+    ],
+    "expandableRole": null,
+    "tags": ["everyday", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_095",
+    "premise": "Three neighbors rehearsing a formal apology to a duck",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Neighbor reading the speech",
+      "Neighbor holding the gift",
+      "Neighbor who upset the duck"
+    ],
+    "expandableRole": null,
+    "tags": ["domestic", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_096",
+    "premise": "Three coworkers deciding whether the office plant needs a business card",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Plant\u2019s unofficial manager",
+      "Person paying for stationery",
+      "Person competing with the plant"
+    ],
+    "expandableRole": null,
+    "tags": ["workplace", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_097",
+    "premise": "A wedding committee discovering their planner is a raccoon",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Overconfident organizer",
+      "Person controlling the budget",
+      "Person defending the strange plan",
+      "Newest person asking reasonable questions"
+    ],
+    "expandableRole": "Committee member",
+    "tags": ["celebration", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_098",
+    "premise": "A neighborhood council deciding what to do about an extremely popular duck",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Overconfident organizer",
+      "Person controlling the budget",
+      "Person defending the strange plan",
+      "Newest person asking reasonable questions"
+    ],
+    "expandableRole": "Committee member",
+    "tags": ["domestic", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_099",
+    "premise": "A cafe team preparing for a royal inspection of their toast",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Overconfident organizer",
+      "Person controlling the budget",
+      "Person defending the strange plan",
+      "Newest person asking reasonable questions"
+    ],
+    "expandableRole": "Committee member",
+    "tags": ["everyday", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_100",
+    "premise": "A family organizing a tiny picnic with a wildly excessive budget",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Overconfident organizer",
+      "Person controlling the budget",
+      "Person defending the strange plan",
+      "Newest person asking reasonable questions"
+    ],
+    "expandableRole": "Committee member",
+    "tags": ["celebration", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_101",
+    "premise": "A museum committee choosing a dramatic name for a very ordinary spoon",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Overconfident organizer",
+      "Person controlling the budget",
+      "Person defending the strange plan",
+      "Newest person asking reasonable questions"
+    ],
+    "expandableRole": "Committee member",
+    "tags": ["arts", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_102",
+    "premise": "An office team welcoming the houseplant as their new manager",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Overconfident organizer",
+      "Person controlling the budget",
+      "Person defending the strange plan",
+      "Newest person asking reasonable questions"
+    ],
+    "expandableRole": "Committee member",
+    "tags": ["workplace", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_103",
+    "premise": "A band rehearsing the magic show they were accidentally booked to perform",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Overconfident organizer",
+      "Person controlling the budget",
+      "Person defending the strange plan",
+      "Newest person asking reasonable questions"
+    ],
+    "expandableRole": "Committee member",
+    "tags": ["arts", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_104",
+    "premise": "A hotel team handling complaints from imaginary pets",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Overconfident organizer",
+      "Person controlling the budget",
+      "Person defending the strange plan",
+      "Newest person asking reasonable questions"
+    ],
+    "expandableRole": "Committee member",
+    "tags": ["everyday", "playful"],
+    "contentRating": "clean",
+    "version": 1,
+    "flavor": "playful"
+  }
+]

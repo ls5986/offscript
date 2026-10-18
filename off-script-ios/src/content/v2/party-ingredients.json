@@ -1,0 +1,2395 @@
+[
+  {
+    "id": "prompt_situation_1801",
+    "category": "situation",
+    "text": "There's a new building rule named after you.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1802",
+    "category": "situation",
+    "text": "Grandma's been banned from the neighborhood group chat.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "civic"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1803",
+    "category": "situation",
+    "text": "The office fridge now has a dress code.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "food",
+      "work"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1804",
+    "category": "situation",
+    "text": "Someone has brought a plus-one to a job interview.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1805",
+    "category": "situation",
+    "text": "The restaurant is taking its one-star review personally.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "food"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1806",
+    "category": "situation",
+    "text": "Your roommate wants a performance review.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "arts",
+      "home"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1807",
+    "category": "situation",
+    "text": "The wedding has assigned seating for grudges.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "hospitality"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1808",
+    "category": "situation",
+    "text": "You just closed the elevator on your boss.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_situation_1809",
+    "category": "situation",
+    "text": "Your neighbor is rehearsing an acceptance speech for a parking space.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "arts",
+      "civic"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1810",
+    "category": "situation",
+    "text": "The family group chat has appointed a spokesperson.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "family"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1811",
+    "category": "situation",
+    "text": "The apology came with a loyalty card.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1812",
+    "category": "situation",
+    "text": "Someone has organized a farewell party for a borrowed charger.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "hospitality"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1813",
+    "category": "situation",
+    "text": "You brought a store-bought dish and called it homemade.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "home"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_situation_1814",
+    "category": "situation",
+    "text": "The lost-and-found is holding an auction.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1815",
+    "category": "situation",
+    "text": "The office plant has its own calendar.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "work",
+      "outdoors"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1816",
+    "category": "situation",
+    "text": "The book club has only read the group chat.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "learning",
+      "sport"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1817",
+    "category": "situation",
+    "text": "The queue has elected a leader.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1818",
+    "category": "situation",
+    "text": "Someone has reserved a seat for their emotional baggage.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "journey"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1819",
+    "category": "situation",
+    "text": "The bake sale has a complaints department.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1820",
+    "category": "situation",
+    "text": "The house meeting now has a red carpet.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "home"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1821",
+    "category": "situation",
+    "text": "The hotel breakfast has a strict no-boring-hats policy.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "hospitality"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1822",
+    "category": "situation",
+    "text": "The building's suggestion box has resigned.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1823",
+    "category": "situation",
+    "text": "Someone is asking for a refund on a compliment.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1824",
+    "category": "situation",
+    "text": "The neighborhood watch has lost its binoculars.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "civic"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1901",
+    "category": "situation",
+    "text": "The first date has requested a second interview.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1902",
+    "category": "situation",
+    "text": "The dating profile has a customer service number.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1903",
+    "category": "situation",
+    "text": "The breakup announcement has a sponsor.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1904",
+    "category": "situation",
+    "text": "Your date has already planned your next holiday.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_situation_1905",
+    "category": "situation",
+    "text": "The couples therapist has asked for separate reviews.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1906",
+    "category": "situation",
+    "text": "The singles mixer has assigned seating for exes.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1907",
+    "category": "situation",
+    "text": "The dating app now requires professional references.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1908",
+    "category": "situation",
+    "text": "The walk of shame has a concierge.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1909",
+    "category": "situation",
+    "text": "The flirting workshop has a waiting list.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1910",
+    "category": "situation",
+    "text": "The honeymoon itinerary has a comments section.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1911",
+    "category": "situation",
+    "text": "Someone is negotiating a friends-with-benefits renewal.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1912",
+    "category": "situation",
+    "text": "The romantic getaway has a shared spreadsheet.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1913",
+    "category": "situation",
+    "text": "The bachelor party has an HR department.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "hospitality"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1914",
+    "category": "situation",
+    "text": "The situationship has scheduled a quarterly review.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1915",
+    "category": "situation",
+    "text": "Someone has sent a calendar invite for a booty call.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_1916",
+    "category": "situation",
+    "text": "You run into your ex while buying an anniversary gift.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_situation_2000",
+    "category": "situation",
+    "text": "The group chat has appointed a treasurer.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2001",
+    "category": "situation",
+    "text": "Someone has started charging for emotional support in the office.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "work"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2002",
+    "category": "situation",
+    "text": "The wedding seating plan now has an appeals process.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "hospitality"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2003",
+    "category": "situation",
+    "text": "The neighbors are holding auditions for a new neighbor.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "civic"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2004",
+    "category": "situation",
+    "text": "A restaurant is asking customers for references.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "food"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2005",
+    "category": "situation",
+    "text": "Someone brought a PowerPoint to a casual apology.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2006",
+    "category": "situation",
+    "text": "The family is voting on who gets to say “I told you so.”",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "family"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2007",
+    "category": "situation",
+    "text": "The book club has finished exactly one paragraph.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "learning",
+      "sport"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2008",
+    "category": "situation",
+    "text": "You both claimed the same idea was yours.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_situation_2009",
+    "category": "situation",
+    "text": "The apartment viewing includes an interview with the houseplant.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "outdoors",
+      "home"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2010",
+    "category": "situation",
+    "text": "The carpool has introduced business class.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "work",
+      "learning",
+      "journey"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2011",
+    "category": "situation",
+    "text": "Someone keeps replying “per my last email” out loud.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2012",
+    "category": "situation",
+    "text": "A dinner guest has brought their own feedback form.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "hospitality"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2013",
+    "category": "situation",
+    "text": "The dog walker has requested a performance review.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "arts"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2014",
+    "category": "situation",
+    "text": "The potluck spreadsheet has become legally binding.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2015",
+    "category": "situation",
+    "text": "A hotel has introduced a strict no-boring-hats policy.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "hospitality"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2016",
+    "category": "situation",
+    "text": "Someone has booked a meeting to discuss fewer meetings.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "learning"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2017",
+    "category": "situation",
+    "text": "The neighborhood watch is investigating a suspiciously nice lawn.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "civic"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2018",
+    "category": "situation",
+    "text": "The birthday wishes have been ranked by effort.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2019",
+    "category": "situation",
+    "text": "The family photo now requires a rehearsal.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "family",
+      "arts"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2020",
+    "category": "situation",
+    "text": "Your boss walks in while you are rehearsing an excuse.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "arts"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_situation_2021",
+    "category": "situation",
+    "text": "A roommate has started issuing invoices for small talk.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "home"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2022",
+    "category": "situation",
+    "text": "The reunion has a VIP section for people who replied on time.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2023",
+    "category": "situation",
+    "text": "Someone has hired a spokesperson for the group chat.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2024",
+    "category": "situation",
+    "text": "The wedding DJ is taking requests by formal application.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "hospitality"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2025",
+    "category": "situation",
+    "text": "The shared fridge has elected a representative.",
+    "tags": [
+      "party_seed",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "food"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2026",
+    "category": "situation",
+    "text": "The dating app has added a references section.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2027",
+    "category": "situation",
+    "text": "The exes at the wedding have formed a table committee.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "civic",
+      "hospitality"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2028",
+    "category": "situation",
+    "text": "The speed-dating event now has a complaints desk.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2029",
+    "category": "situation",
+    "text": "A first date has brought a printed agenda.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2030",
+    "category": "situation",
+    "text": "Someone has requested a probation period before becoming exclusive.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2031",
+    "category": "situation",
+    "text": "A dating profile has been sent back for revisions.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2032",
+    "category": "situation",
+    "text": "One of you has told everyone you are a couple.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_situation_2033",
+    "category": "situation",
+    "text": "The breakup text has been workshopped by six friends.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2034",
+    "category": "situation",
+    "text": "The singles mixer has assigned a project manager.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "work"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2035",
+    "category": "situation",
+    "text": "A flirty message has accidentally become a team discussion.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "sport"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2036",
+    "category": "situation",
+    "text": "The romantic getaway has a chore rota.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2037",
+    "category": "situation",
+    "text": "The dating app bio now needs two professional references.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2038",
+    "category": "situation",
+    "text": "A love triangle has requested a scheduling app.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2039",
+    "category": "situation",
+    "text": "Someone has put “good at texting back” on their résumé.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2040",
+    "category": "situation",
+    "text": "The couple’s matching outfits require written approval.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2041",
+    "category": "situation",
+    "text": "The honeymoon itinerary has been reviewed by an ex.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2042",
+    "category": "situation",
+    "text": "A first kiss has been postponed by a calendar conflict.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2043",
+    "category": "situation",
+    "text": "The anniversary gift comes with a customer satisfaction survey.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2044",
+    "category": "situation",
+    "text": "The date has asked everyone to keep their flirting receipts.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2045",
+    "category": "situation",
+    "text": "A situationship has introduced quarterly check-ins.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2046",
+    "category": "situation",
+    "text": "The romantic playlist has been returned with notes.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2047",
+    "category": "situation",
+    "text": "Someone has made a spreadsheet of mixed signals.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2048",
+    "category": "situation",
+    "text": "The awkward morning-after chat has minutes and action items.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2049",
+    "category": "situation",
+    "text": "You agreed to keep it casual. One of you made anniversary plans.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_situation_2050",
+    "category": "situation",
+    "text": "My roommate labels the air in our apartment.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "home"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2051",
+    "category": "situation",
+    "text": "I accidentally replied “love you” to my boss.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2052",
+    "category": "situation",
+    "text": "My neighbor keeps reviewing my parking.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "civic"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2053",
+    "category": "situation",
+    "text": "I promised to bring a homemade cake. I don’t own an oven.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "food",
+      "home"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2054",
+    "category": "situation",
+    "text": "My friend keeps borrowing my personality.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2055",
+    "category": "situation",
+    "text": "I clapped when the plane landed. Everyone knows.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2056",
+    "category": "situation",
+    "text": "I waved back at someone who was waving behind me.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2057",
+    "category": "situation",
+    "text": "I’m in charge of a surprise party for someone who hates surprises.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "hospitality"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2058",
+    "category": "situation",
+    "text": "I have two birthday dinners on the same night.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2059",
+    "category": "situation",
+    "text": "I’ve been calling a coworker the wrong name for a year.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "work"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2060",
+    "category": "situation",
+    "text": "My dog prefers the dog sitter.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2061",
+    "category": "situation",
+    "text": "I started a book club but haven’t read the book.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "learning",
+      "sport"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2062",
+    "category": "situation",
+    "text": "My parents keep commenting “who is this” on my photos.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "family"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2063",
+    "category": "situation",
+    "text": "I agreed to run a marathon while trying to leave a conversation.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2064",
+    "category": "situation",
+    "text": "The group chat thinks I’m good at organizing things.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2065",
+    "category": "situation",
+    "text": "I’ve forgotten why I called this meeting.",
+    "tags": [
+      "party_advice",
+      "clean",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "clean",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2066",
+    "category": "situation",
+    "text": "My date has asked for a reference from an ex.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2067",
+    "category": "situation",
+    "text": "I matched with the person who ghosted my friend.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2068",
+    "category": "situation",
+    "text": "I sent a flirty text to the wrong group chat.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2069",
+    "category": "situation",
+    "text": "My ex and I have the same favorite restaurant.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "food"
+    ],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2070",
+    "category": "situation",
+    "text": "I said “we should do this again” and now I have to.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2071",
+    "category": "situation",
+    "text": "My date keeps saying “our brand.”",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2072",
+    "category": "situation",
+    "text": "I like someone who only replies with a thumbs-up.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2073",
+    "category": "situation",
+    "text": "I need to look casual about a very carefully planned date.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2074",
+    "category": "situation",
+    "text": "The person I’m flirting with thinks I’m networking.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2075",
+    "category": "situation",
+    "text": "My situationship wants a job title.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2076",
+    "category": "situation",
+    "text": "My date has already rated the evening.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_2077",
+    "category": "situation",
+    "text": "My friend keeps editing my dating profile in real time.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_2078",
+    "category": "profession",
+    "text": "dating-profile consultant",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_2079",
+    "category": "profession",
+    "text": "speed-dating host",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_2080",
+    "category": "profession",
+    "text": "honeymoon travel agent",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "journey"
+    ],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_2081",
+    "category": "profession",
+    "text": "romance audiobook narrator",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "learning"
+    ],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_2082",
+    "category": "profession",
+    "text": "breakup coach",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [
+      "sport"
+    ],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_2083",
+    "category": "profession",
+    "text": "couples’ dance instructor",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_2084",
+    "category": "profession",
+    "text": "bridal concierge",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_profession_2085",
+    "category": "profession",
+    "text": "flirting workshop instructor",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "playful",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_2086",
+    "category": "location",
+    "text": "Speed dating event",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_location_2087",
+    "category": "location",
+    "text": "Couples retreat",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_location_2088",
+    "category": "location",
+    "text": "Honeymoon suite",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_location_2089",
+    "category": "location",
+    "text": "Singles cruise",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_location_2090",
+    "category": "location",
+    "text": "Lingerie shop",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_location_2091",
+    "category": "location",
+    "text": "Singles party",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [
+      "hospitality"
+    ],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 2
+  },
+  {
+    "id": "prompt_location_2092",
+    "category": "location",
+    "text": "Romantic restaurant",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [
+      "food"
+    ],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 3
+  },
+  {
+    "id": "prompt_location_2093",
+    "category": "location",
+    "text": "Hotel restaurant",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [
+      "hospitality"
+    ],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 3
+  }
+]

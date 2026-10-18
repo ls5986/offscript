@@ -1,0 +1,192 @@
+{
+  "pack": "2.7.0",
+  "generationChecks": 4310,
+  "roleChecks": 180,
+  "sampleRows": 328,
+  "changed": [
+    {
+      "from": "2.3.0",
+      "to": "2.4.0",
+      "addedEntries": 0,
+      "retiredEntries": 0,
+      "textChanges": 96,
+      "versionChanges": 96
+    },
+    {
+      "from": "2.4.0",
+      "to": "2.5.0",
+      "addedEntries": 0,
+      "retiredEntries": 0,
+      "textChanges": 24,
+      "versionChanges": 126
+    },
+    {
+      "from": "2.5.0",
+      "to": "2.6.0",
+      "addedEntries": 144,
+      "retiredEntries": 0,
+      "textChanges": 0,
+      "versionChanges": 0
+    },
+    {
+      "from": "2.6.0",
+      "to": "2.6.1",
+      "addedEntries": 0,
+      "retiredEntries": 0,
+      "textChanges": 1,
+      "versionChanges": 1
+    },
+    {
+      "from": "2.6.1",
+      "to": "2.7.0",
+      "addedEntries": 35,
+      "retiredEntries": 207,
+      "textChanges": 556,
+      "versionChanges": 877
+    }
+  ],
+  "history": [
+    {
+      "pack": "2.3.0",
+      "text": "The repair counter of an umbrella shop",
+      "version": 1,
+      "lockedExact": true,
+      "explicitUpgradeText": "Repair shop"
+    },
+    {
+      "pack": "2.4.0",
+      "text": "Repair shop",
+      "version": 2,
+      "lockedExact": true,
+      "explicitUpgradeText": "Repair shop"
+    },
+    {
+      "pack": "2.5.0",
+      "text": "Repair shop",
+      "version": 2,
+      "lockedExact": true,
+      "explicitUpgradeText": "Repair shop"
+    },
+    {
+      "pack": "2.6.0",
+      "text": "Repair shop",
+      "version": 2,
+      "lockedExact": true,
+      "explicitUpgradeText": "Repair shop"
+    },
+    {
+      "pack": "2.6.1",
+      "text": "Repair shop",
+      "version": 2,
+      "lockedExact": true,
+      "explicitUpgradeText": "Repair shop"
+    },
+    {
+      "pack": "2.7.0",
+      "text": "Repair shop",
+      "version": 2,
+      "lockedExact": true,
+      "explicitUpgradeText": "Repair shop"
+    }
+  ],
+  "professionDistributions": {
+    "clean": {
+      "draws": 100,
+      "unique": 37,
+      "immediateRepeats": 0,
+      "values": [
+        "Public librarian",
+        "Matchmaker",
+        "Dating-app moderator",
+        "Wedding photographer",
+        "Honeymoon coordinator",
+        "Blind-date organizer",
+        "Chocolate maker",
+        "Museum curator",
+        "Costume designer",
+        "Lost luggage agent",
+        "Ferry captain",
+        "Walking tour guide",
+        "Food critic",
+        "Personal assistant",
+        "Hotel concierge",
+        "Boat mechanic",
+        "Singles-trip guide",
+        "Anniversary planner",
+        "Theater stage manager",
+        "Night train conductor",
+        "Divorce lawyer",
+        "Weather presenter",
+        "Singles event planner",
+        "Neighborhood baker",
+        "Mobile dog groomer",
+        "Couples counselor",
+        "Dentist",
+        "Bike courier",
+        "Ceramics teacher",
+        "Aquarium guide",
+        "Puppeteer",
+        "Late-night advice host",
+        "Landscape gardener",
+        "Prenup lawyer",
+        "Motivational speaker",
+        "Wedding planner",
+        "Inventor"
+      ]
+    },
+    "spicy": {
+      "draws": 100,
+      "unique": 5,
+      "immediateRepeats": 0,
+      "values": [
+        "flirting workshop instructor",
+        "Film-set intimacy coordinator",
+        "Adult dating coach",
+        "Romance columnist",
+        "romance audiobook narrator"
+      ]
+    },
+    "18_plus": {
+      "draws": 100,
+      "unique": 5,
+      "immediateRepeats": 0,
+      "values": [
+        "Erotic novelist",
+        "Adult-store clerk",
+        "Adult-film director",
+        "Burlesque performer",
+        "Sex therapist"
+      ]
+    }
+  },
+  "partyMaterialDelivery": {
+    "clean": {
+      "cards": 1260,
+      "entryRatings": {
+        "clean": 1140
+      }
+    },
+    "spicy": {
+      "cards": 570,
+      "entryRatings": {
+        "spicy": 630,
+        "clean": 30
+      }
+    },
+    "18_plus": {
+      "cards": 630,
+      "entryRatings": {
+        "mature_suggestive": 570,
+        "clean": 30,
+        "spicy": 60
+      }
+    }
+  },
+  "atomicSeparation": {
+    "independentIngredients": 1154,
+    "completeAdviceProblems": 60,
+    "preservedSourceIngredients": 1326,
+    "redirectedSourceIds": 207,
+    "rewrittenSourceTexts": 762
+  }
+}

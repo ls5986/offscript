@@ -1,0 +1,2418 @@
+[
+  {
+    "id": "prompt_situation_3000",
+    "category": "situation",
+    "text": "You each thought the other person was paying for the first date.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3001",
+    "category": "situation",
+    "text": "Your date arrives wearing the sweater you donated last week.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3002",
+    "category": "situation",
+    "text": "You discover your date has already met all your friends without you.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3003",
+    "category": "situation",
+    "text": "Your ex asks for the spare key while your new date is at the door.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3004",
+    "category": "situation",
+    "text": "You both booked the same restaurant for separate dates.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3005",
+    "category": "situation",
+    "text": "Your date calls your bluff about being a great dancer.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3006",
+    "category": "situation",
+    "text": "You accidentally bring a packed overnight bag to a coffee date.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3007",
+    "category": "situation",
+    "text": "Your date thinks the flowers in your hand are for them.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3008",
+    "category": "situation",
+    "text": "You find out you have been flirting with each other under different app names.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3009",
+    "category": "situation",
+    "text": "Your date suggests splitting dessert just as you order two.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3010",
+    "category": "situation",
+    "text": "You arrive at a singles night with the ex who gave you a ride.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3011",
+    "category": "situation",
+    "text": "Your friend introduces you to the person you kissed last weekend.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3012",
+    "category": "situation",
+    "text": "Your date has mistaken your work story for a marriage proposal.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3013",
+    "category": "situation",
+    "text": "You invite a date over and discover your roommate is hosting your ex.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3014",
+    "category": "situation",
+    "text": "You and your date both pretend not to recognize the love song.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3015",
+    "category": "situation",
+    "text": "Your date asks why your dating profile is still getting updates.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3016",
+    "category": "situation",
+    "text": "You are returning an ex's things and neither of you claims the good coat.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3017",
+    "category": "situation",
+    "text": "Your date remembers the joke you used on a previous date with them.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3018",
+    "category": "situation",
+    "text": "You tell a date you love cooking just before the takeaway arrives.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3019",
+    "category": "situation",
+    "text": "You both brought a friend to what each called a casual drink.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3020",
+    "category": "situation",
+    "text": "Your date wants a photo together before you have learned their surname.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3021",
+    "category": "situation",
+    "text": "You accept a second date, then realize it is an all-day hike.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3022",
+    "category": "situation",
+    "text": "Your ex wants to keep the dinner reservation after the breakup.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3023",
+    "category": "situation",
+    "text": "Your date has been practicing your name and still gets it wrong.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3024",
+    "category": "situation",
+    "text": "You both reach to hold hands and end up carrying each other's shopping.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3025",
+    "category": "situation",
+    "text": "Your crush asks you to help choose an outfit for another date.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3026",
+    "category": "situation",
+    "text": "Your date arrives early while you are rehearsing the greeting.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3027",
+    "category": "situation",
+    "text": "You invite someone for a romantic picnic and bring the wrong lunch bag.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3028",
+    "category": "situation",
+    "text": "You and your date disagree about whether this is your third or fourth date.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3029",
+    "category": "situation",
+    "text": "Your ex joins the same dance class you signed up for with a new date.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3030",
+    "category": "situation",
+    "text": "Your date asks you to explain the heart you drew on their receipt.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3031",
+    "category": "situation",
+    "text": "You both try to leave a party last so you can ask each other out.",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3032",
+    "category": "situation",
+    "text": "I have invited a date over and only know how to cook one dish.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3033",
+    "category": "situation",
+    "text": "I keep practicing a flirty greeting until it sounds like a sales pitch.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3034",
+    "category": "situation",
+    "text": "My date has borrowed my favorite jacket and I want another date.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3035",
+    "category": "situation",
+    "text": "I described myself as outdoorsy and my date suggests camping.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3036",
+    "category": "situation",
+    "text": "My date and I both keep saying we are easy about where to eat.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3037",
+    "category": "situation",
+    "text": "I want to ask my friend on a date without making a grand gesture.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3038",
+    "category": "situation",
+    "text": "I have used the same profile photo for years and a date notices.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3039",
+    "category": "situation",
+    "text": "I sent a goodnight text at lunchtime while distracted.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3040",
+    "category": "situation",
+    "text": "I accepted two invitations thinking one was just a friendly coffee.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3041",
+    "category": "situation",
+    "text": "I want to stop comparing every date to my ex's cooking.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3042",
+    "category": "situation",
+    "text": "My date loves karaoke and I only know one chorus.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3043",
+    "category": "situation",
+    "text": "I waved at my date across the room and knocked over my own flowers.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3044",
+    "category": "situation",
+    "text": "I am nervous about a first date after a long break from dating.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3045",
+    "category": "situation",
+    "text": "I called a date by the name of the restaurant.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3046",
+    "category": "situation",
+    "text": "I want to suggest a cheaper second date without sounding uninterested.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3047",
+    "category": "situation",
+    "text": "I told my date I was spontaneous but packed for every possibility.",
+    "tags": [
+      "party_advice",
+      "spicy",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3000",
+    "category": "profession",
+    "text": "Matchmaker",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3001",
+    "category": "profession",
+    "text": "Blind-date organizer",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3002",
+    "category": "profession",
+    "text": "Singles event planner",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3003",
+    "category": "profession",
+    "text": "Wedding photographer",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3004",
+    "category": "profession",
+    "text": "Romance columnist",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3005",
+    "category": "profession",
+    "text": "Dating-app moderator",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3006",
+    "category": "profession",
+    "text": "Singles-trip guide",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3007",
+    "category": "profession",
+    "text": "Anniversary planner",
+    "tags": [
+      "party_seed",
+      "spicy",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3000",
+    "category": "location",
+    "text": "Wine bar",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3001",
+    "category": "location",
+    "text": "Comedy club",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3002",
+    "category": "location",
+    "text": "Pizza place",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3003",
+    "category": "location",
+    "text": "Art gallery",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3004",
+    "category": "location",
+    "text": "Bus stop",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3005",
+    "category": "location",
+    "text": "Record store",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3006",
+    "category": "location",
+    "text": "Dance floor",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3007",
+    "category": "location",
+    "text": "Park bench",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3000",
+    "category": "opening_line",
+    "text": "I was hoping you'd ask me to stay for another drink.",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3001",
+    "category": "opening_line",
+    "text": "I didn't realize we were both calling this a date.",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3002",
+    "category": "opening_line",
+    "text": "I borrowed that jacket because I wanted to see you again.",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3003",
+    "category": "opening_line",
+    "text": "I know a quieter place if you'd like to keep talking.",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3004",
+    "category": "opening_line",
+    "text": "I've been trying to ask you out all evening.",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3005",
+    "category": "opening_line",
+    "text": "I thought we agreed not to bring our friends.",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3006",
+    "category": "opening_line",
+    "text": "I'd like a second date, but somewhere I can afford.",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3007",
+    "category": "opening_line",
+    "text": "I didn't expect my ex to be serving our dinner.",
+    "tags": [
+      "party_seed",
+      "spicy"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "spicy",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3100",
+    "category": "situation",
+    "text": "You agreed to a casual overnight stay, but someone has brought breakfast for the week.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3101",
+    "category": "situation",
+    "text": "You and a casual partner both pretend not to have left a toothbrush behind.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3102",
+    "category": "situation",
+    "text": "You are dividing shared belongings after a breakup and both want the expensive sheets.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3103",
+    "category": "situation",
+    "text": "Your partner thought the romantic hotel booking included separate rooms.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3104",
+    "category": "situation",
+    "text": "You planned a private anniversary evening, but your partner invited another couple to dinner.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3105",
+    "category": "situation",
+    "text": "You and your ex have separate dates at the hotel you booked before breaking up.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3106",
+    "category": "situation",
+    "text": "You arrive for an agreed sleepover with a pillow your host recognizes from their ex's home.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3107",
+    "category": "situation",
+    "text": "A casual partner offers you a drawer just as you suggest seeing other people.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3108",
+    "category": "situation",
+    "text": "You both assumed the other person had told your housemate about the overnight guest.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3109",
+    "category": "situation",
+    "text": "You and your partner disagree about what the shared holiday fund can pay for.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3110",
+    "category": "situation",
+    "text": "Your partner finds the romantic note you were drafting before a serious money talk.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3111",
+    "category": "situation",
+    "text": "You agree to move in together, then discover neither of you plans to leave your own apartment.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3112",
+    "category": "situation",
+    "text": "You meet a casual partner for brunch and both introduce someone else as a date.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3113",
+    "category": "situation",
+    "text": "You planned a weekend alone together, but neither of you can stop checking house listings.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3114",
+    "category": "situation",
+    "text": "Your ex wants to buy your share of the sofa in tiny monthly payments.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3115",
+    "category": "situation",
+    "text": "You call someone your partner while they are explaining that you keep things casual.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3116",
+    "category": "situation",
+    "text": "You and your partner discover you each quietly renewed a different dating-app subscription.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3117",
+    "category": "situation",
+    "text": "You buy a romantic gift together and disagree about whose card should pay.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3118",
+    "category": "situation",
+    "text": "You are collecting things after a breakup and find the bag packed with your current partner's belongings.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3119",
+    "category": "situation",
+    "text": "You both agreed to a discreet relationship and arrive at the same dinner wearing matching rings.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3120",
+    "category": "situation",
+    "text": "You extend a romantic weekend and then remember you both work from the same small room.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3121",
+    "category": "situation",
+    "text": "A planned night together begins with a disagreement about which ex owns the spare bedding.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3122",
+    "category": "situation",
+    "text": "You and your partner compare what each thought your couples' savings account was for.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3123",
+    "category": "situation",
+    "text": "Your casual partner asks to be your emergency contact while you are finding your shoes.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3124",
+    "category": "situation",
+    "text": "You and an ex share a hotel loyalty account, and both want the anniversary upgrade.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3125",
+    "category": "situation",
+    "text": "You plan a quiet morning after an agreed sleepover, but a furniture delivery arrives.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3126",
+    "category": "situation",
+    "text": "You and your partner each bought an expensive surprise trip for the same weekend.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3127",
+    "category": "situation",
+    "text": "You have agreed to stop seeing each other, but your clothes are still in the wash together.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3128",
+    "category": "situation",
+    "text": "You invite a casual partner to stay and realize you have framed their forgotten shopping list.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3129",
+    "category": "situation",
+    "text": "Your partner wants to discuss moving in while you are returning the spare key.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3130",
+    "category": "situation",
+    "text": "You both arrive at a couples' weekend expecting it to be a breakup conversation.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3131",
+    "category": "situation",
+    "text": "You agree to keep separate finances, then receive a joint invoice for your romantic getaway.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3132",
+    "category": "situation",
+    "text": "My casual partner has left enough clothes at my place to fill a drawer.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3133",
+    "category": "situation",
+    "text": "I want to discuss splitting the bill for a romantic weekend.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3134",
+    "category": "situation",
+    "text": "My ex and I both want the duvet after dividing everything else.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3135",
+    "category": "situation",
+    "text": "I agreed on a casual sleepover but prepared an elaborate breakfast.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3136",
+    "category": "situation",
+    "text": "My partner wants to move in, but I am attached to living alone.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3137",
+    "category": "situation",
+    "text": "I keep calling a casual partner my emergency contact by mistake.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3138",
+    "category": "situation",
+    "text": "I bought expensive sheets just before agreeing to separate.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3139",
+    "category": "situation",
+    "text": "I planned a private night together but forgot my housemate's dinner party.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3140",
+    "category": "situation",
+    "text": "My partner and I cannot agree on a budget for an anniversary trip.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3141",
+    "category": "situation",
+    "text": "I want to leave a toothbrush at a casual partner's place without making assumptions.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3142",
+    "category": "situation",
+    "text": "My former partner still uses the streaming profile with my romantic nickname.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3143",
+    "category": "situation",
+    "text": "My partner and I booked a hotel room but have different expectations about sharing it.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3144",
+    "category": "situation",
+    "text": "I am dating again and want to explain why an ex's sofa is still in my home.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3145",
+    "category": "situation",
+    "text": "I want to slow down a new relationship after receiving a spare key.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3146",
+    "category": "situation",
+    "text": "I agreed to separate finances but keep buying joint household things.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_situation_3147",
+    "category": "situation",
+    "text": "My partner and I each packed an elaborate outfit for a quiet night in.",
+    "tags": [
+      "party_advice",
+      "mature_suggestive",
+      "social"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3100",
+    "category": "profession",
+    "text": "Couples counselor",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3101",
+    "category": "profession",
+    "text": "Divorce lawyer",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3102",
+    "category": "profession",
+    "text": "Intimacy coordinator",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3103",
+    "category": "profession",
+    "text": "Prenup lawyer",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3104",
+    "category": "profession",
+    "text": "Relationship therapist",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3105",
+    "category": "profession",
+    "text": "Late-night advice host",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3106",
+    "category": "profession",
+    "text": "Adult dating coach",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_profession_3107",
+    "category": "profession",
+    "text": "Honeymoon coordinator",
+    "tags": [
+      "party_seed",
+      "mature_suggestive",
+      "familiar_profession"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "noun",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3100",
+    "category": "location",
+    "text": "Adults-only resort",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3101",
+    "category": "location",
+    "text": "Divorce court",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3102",
+    "category": "location",
+    "text": "Burlesque club",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3103",
+    "category": "location",
+    "text": "Lingerie store",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3104",
+    "category": "location",
+    "text": "Adult novelty store",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3105",
+    "category": "location",
+    "text": "Adults-only pool",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3106",
+    "category": "location",
+    "text": "Wedding night suite",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_location_3107",
+    "category": "location",
+    "text": "Couples counseling room",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "place",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3100",
+    "category": "opening_line",
+    "text": "I enjoyed last night, and I'd like to talk about what we both want.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3101",
+    "category": "opening_line",
+    "text": "I brought my own pillow; I didn't mean it as a statement.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3102",
+    "category": "opening_line",
+    "text": "I'd like you to stay, but let's talk about the morning first.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3103",
+    "category": "opening_line",
+    "text": "I thought we agreed to split the cost of this weekend.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3104",
+    "category": "opening_line",
+    "text": "I'm happy keeping this casual, but my things are still here.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3105",
+    "category": "opening_line",
+    "text": "I want us to have separate keys before we have a shared account.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3106",
+    "category": "opening_line",
+    "text": "I've packed your things, but we still need to decide about the bed.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  },
+  {
+    "id": "prompt_opening_line_3107",
+    "category": "opening_line",
+    "text": "I'd like a little privacy before we continue this conversation.",
+    "tags": [
+      "party_seed",
+      "mature_suggestive"
+    ],
+    "flavor": "grounded",
+    "domains": [],
+    "compositionForm": "clause",
+    "contentRating": "mature_suggestive",
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "version": 1
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "quirks_001",
+    "text": "You treat every chair as a possible antique",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_002",
+    "text": "You keep offering to draw a map of the room",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_003",
+    "text": "You believe every object would make a good hat",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_004",
+    "text": "You announce tiny changes as major news",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_005",
+    "text": "You politely try to organize a parade",
+    "tags": ["celebration"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_006",
+    "text": "You think the party is a rehearsal for tomorrow",
+    "tags": ["celebration", "arts"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_007",
+    "text": "You keep checking whether objects float",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_008",
+    "text": "You give every snack a formal introduction",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_009",
+    "text": "You are secretly planning a tiny museum",
+    "tags": ["workplace", "mystery"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_010",
+    "text": "You speak as though narrating a nature documentary",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_011",
+    "text": "You treat the host as an expert gardener",
+    "tags": ["domestic"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_012",
+    "text": "You keep proposing names for the room",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_013",
+    "text": "You behave as though the floor is a gentle boat deck",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_014",
+    "text": "You are looking for the perfect place for a plant",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_015",
+    "text": "You turn ordinary requests into ceremonial speeches",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_016",
+    "text": "You keep trying to trade imaginary coupons",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_017",
+    "text": "You believe every conversation needs a title",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_018",
+    "text": "You think you are here to judge a jam contest",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_019",
+    "text": "You ask for reviews of ordinary household objects",
+    "tags": ["domestic"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_020",
+    "text": "You insist the room is an excellent film location",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_021",
+    "text": "You try to make every object more aerodynamic",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_022",
+    "text": "You behave as though you are testing a hotel",
+    "tags": ["travel"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_023",
+    "text": "You offer weather reports about different parts of the room",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_024",
+    "text": "You think everyone is a potential bandmate",
+    "tags": ["arts"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_025",
+    "text": "You keep suggesting improvements to an imaginary board game",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_026",
+    "text": "You are trying to find a mascot for a very small club",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_027",
+    "text": "You treat each arrival as a surprise celebrity guest",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_028",
+    "text": "You are rehearsing to be a tour guide",
+    "tags": ["travel"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_029",
+    "text": "You keep protecting an imaginary birthday cake",
+    "tags": ["celebration"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_030",
+    "text": "You believe the furniture is arranged as a treasure map",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_031",
+    "text": "You are collecting ideas for a community festival",
+    "tags": ["celebration"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_032",
+    "text": "You act as if every sound is a musical cue",
+    "tags": ["arts"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_033",
+    "text": "You are quietly preparing a ridiculous award ceremony",
+    "tags": ["celebration"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_034",
+    "text": "You believe you have found the world's quietest room",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_035",
+    "text": "You keep giving imaginary objects little name tags",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_036",
+    "text": "You want everyone to help choose a lighthouse color",
+    "tags": ["domestic"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_037",
+    "text": "You think the party is the launch of a tiny boat",
+    "tags": ["celebration"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_038",
+    "text": "You treat each drink as a scientific discovery",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_039",
+    "text": "You are trying to recruit a team for a picnic competition",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "quirks_040",
+    "text": "You believe every doorway deserves a ribbon cutting",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  }
+]

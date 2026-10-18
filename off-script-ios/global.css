@@ -1,0 +1,39 @@
+:root {
+  color-scheme: light dark;
+}
+html,
+body,
+#root {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+*:focus-visible {
+  outline: 3px solid #c76450 !important;
+  outline-offset: 4px;
+}
+button,
+a,
+input,
+[role="button"] {
+  -webkit-tap-highlight-color: transparent;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0s !important;
+    transition-duration: 0s !important;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}

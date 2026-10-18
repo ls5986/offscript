@@ -1,0 +1,296 @@
+{
+  "version": "2.8.0",
+  "groups": [
+    {
+      "category": "action",
+      "contentRating": "spicy",
+      "compositionForm": "gerund",
+      "entries": [
+        { "id": "prompt_action_4500", "text": "Scattering ashes" },
+        { "id": "prompt_action_4501", "text": "Rehearsing a eulogy" },
+        { "id": "prompt_action_4502", "text": "Practicing fake crying" },
+        { "id": "prompt_action_4503", "text": "Dividing an inheritance" },
+        {
+          "id": "prompt_action_4504",
+          "text": "Writing a brutally honest obituary"
+        },
+        { "id": "prompt_action_4505", "text": "Planning a petty revenge" },
+        {
+          "id": "prompt_action_4506",
+          "text": "Rehearsing a dramatic resignation"
+        },
+        {
+          "id": "prompt_action_4507",
+          "text": "Practicing an insincere apology"
+        },
+        { "id": "prompt_action_4508", "text": "Inventing an alibi" },
+        { "id": "prompt_action_4509", "text": "Preparing a public denial" },
+        {
+          "id": "prompt_action_4510",
+          "text": "Writing a passive-aggressive review"
+        },
+        { "id": "prompt_action_4511", "text": "Rehearsing a breakup" },
+        { "id": "prompt_action_4512", "text": "Practicing a walk of shame" },
+        { "id": "prompt_action_4513", "text": "Writing a thirst trap caption" },
+        { "id": "prompt_action_4514", "text": "Practicing a seductive wink" },
+        { "id": "prompt_action_4516", "text": "Trying to look sober" },
+        {
+          "id": "prompt_action_4517",
+          "text": "Drafting a scandalous confession"
+        },
+        { "id": "prompt_action_4518", "text": "Rehearsing a public meltdown" },
+        {
+          "id": "prompt_action_4519",
+          "text": "Writing a wildly inappropriate toast"
+        },
+        { "id": "prompt_action_4520", "text": "Practicing a victory gloat" },
+        { "id": "prompt_action_4521", "text": "Negotiating hush money" },
+        { "id": "prompt_action_4522", "text": "Staging a dramatic exit" },
+        {
+          "id": "prompt_action_4523",
+          "text": "Writing a suspiciously generous will"
+        }
+      ]
+    },
+    {
+      "category": "action",
+      "contentRating": "mature_suggestive",
+      "compositionForm": "gerund",
+      "entries": [
+        { "id": "prompt_action_4515", "text": "Auditioning a fake orgasm" },
+        { "id": "prompt_action_4524", "text": "Rehearsing a striptease" },
+        { "id": "prompt_action_4525", "text": "Writing an erotic novel" },
+        {
+          "id": "prompt_action_4526",
+          "text": "Composing an embarrassingly formal sext"
+        },
+        { "id": "prompt_action_4527", "text": "Practicing dirty talk" },
+        {
+          "id": "prompt_action_4528",
+          "text": "Rehearsing a burlesque routine"
+        },
+        {
+          "id": "prompt_action_4529",
+          "text": "Negotiating a very unsexy safe word"
+        },
+        { "id": "prompt_action_4530", "text": "Rating imaginary lovers" },
+        {
+          "id": "prompt_action_4531",
+          "text": "Writing an adult-film acceptance speech"
+        },
+        {
+          "id": "prompt_action_4532",
+          "text": "Explaining a kink with business jargon"
+        },
+        {
+          "id": "prompt_action_4533",
+          "text": "Rehearsing an overconfident seduction"
+        },
+        {
+          "id": "prompt_action_4534",
+          "text": "Drafting a five-star review of a hookup"
+        },
+        {
+          "id": "prompt_action_4535",
+          "text": "Practicing an extremely unconvincing sex voice"
+        }
+      ]
+    },
+    {
+      "category": "situation",
+      "contentRating": "spicy",
+      "compositionForm": "clause",
+      "entries": [
+        {
+          "id": "prompt_situation_4500",
+          "text": "A heartfelt tribute is turning into a list of grievances."
+        },
+        {
+          "id": "prompt_situation_4501",
+          "text": "The wrong person is enjoying a suspiciously generous inheritance."
+        },
+        {
+          "id": "prompt_situation_4502",
+          "text": "A solemn moment keeps being mistaken for a networking opportunity."
+        },
+        {
+          "id": "prompt_situation_4503",
+          "text": "An apology has somehow made the original offense sound better."
+        },
+        {
+          "id": "prompt_situation_4504",
+          "text": "A public denial is revealing facts nobody had accused anyone of."
+        },
+        {
+          "id": "prompt_situation_4505",
+          "text": "A tactful explanation has become an unsolicited ranking."
+        },
+        {
+          "id": "prompt_situation_4506",
+          "text": "An attempt at subtle flirting sounds like a threat to leave a review."
+        },
+        {
+          "id": "prompt_situation_4507",
+          "text": "A private boast has reached the exact person who can disprove it."
+        },
+        {
+          "id": "prompt_situation_4508",
+          "text": "Everyone has prepared a different version of the same alibi."
+        },
+        {
+          "id": "prompt_situation_4509",
+          "text": "Someone is far too offended by a compliment that was not meant for them."
+        },
+        {
+          "id": "prompt_situation_4510",
+          "text": "A graceful exit has become an elaborate campaign to be asked to stay."
+        },
+        {
+          "id": "prompt_situation_4511",
+          "text": "A tiny victory is being celebrated with alarming personal bitterness."
+        }
+      ]
+    },
+    {
+      "category": "situation",
+      "contentRating": "mature_suggestive",
+      "compositionForm": "clause",
+      "entries": [
+        {
+          "id": "prompt_situation_4512",
+          "text": "An attempt at dirty talk sounds exactly like a performance review."
+        },
+        {
+          "id": "prompt_situation_4513",
+          "text": "A sexual fantasy is receiving notes on its budget and logistics."
+        },
+        {
+          "id": "prompt_situation_4514",
+          "text": "Someone keeps explaining a kink as though applying for planning permission."
+        },
+        {
+          "id": "prompt_situation_4515",
+          "text": "A safe word is so ordinary that it keeps interrupting harmless conversation."
+        },
+        {
+          "id": "prompt_situation_4516",
+          "text": "A boast about sexual experience has invited a devastating follow-up question."
+        },
+        {
+          "id": "prompt_situation_4517",
+          "text": "An erotic description has become an argument about grammar."
+        },
+        {
+          "id": "prompt_situation_4518",
+          "text": "A seductive invitation is being treated as a formal request for quotations."
+        },
+        {
+          "id": "prompt_situation_4519",
+          "text": "A very explicit misunderstanding is being clarified with increasingly polite language."
+        },
+        {
+          "id": "prompt_situation_4520",
+          "text": "Someone has made an extremely unsexy checklist for a sexual adventure."
+        },
+        {
+          "id": "prompt_situation_4521",
+          "text": "An attempt to describe sexual chemistry has become a weather report."
+        },
+        {
+          "id": "prompt_situation_4522",
+          "text": "A confession about a hookup sounds suspiciously like a customer complaint."
+        },
+        {
+          "id": "prompt_situation_4523",
+          "text": "A suggestive compliment has been mistaken for professional feedback."
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "recipe_siblings_apology",
+      "title": "Two siblings, one apology",
+      "description": "An action and a relationship. You supply the reason.",
+      "ingredientIds": ["prompt_relationship_030", "prompt_action_068"]
+    },
+    {
+      "id": "recipe_rooftop_rivals",
+      "title": "Rivals on the rooftop",
+      "description": "A place and two people. No situation is added.",
+      "ingredientIds": ["prompt_relationship_014", "prompt_location_004"]
+    },
+    {
+      "id": "recipe_neighbors_kitchen",
+      "title": "Neighbors in the kitchen",
+      "description": "A small shared space. Make a small offer.",
+      "ingredientIds": ["prompt_relationship_083", "prompt_location_069"]
+    },
+    {
+      "id": "recipe_colleagues_airport",
+      "title": "Colleagues at the airport",
+      "description": "A pair of colleagues, far from the usual routine.",
+      "ingredientIds": ["prompt_relationship_092", "prompt_location_005"]
+    },
+    {
+      "id": "recipe_partners_restaurant",
+      "title": "Partners at dinner",
+      "description": "A familiar relationship and a restaurant. The conversation is yours.",
+      "ingredientIds": ["prompt_relationship_4000", "prompt_location_002"]
+    },
+    {
+      "id": "recipe_group_rooftop",
+      "title": "The rooftop committee",
+      "description": "An ensemble of colleagues, with room for everyone.",
+      "ingredientIds": ["prompt_relationship_044", "prompt_location_004"]
+    },
+    {
+      "id": "recipe_ashes_beach",
+      "title": "A solemn day at the beach",
+      "description": "Scattering ashes. A beach. Play the awkwardness, not a real person's grief.",
+      "ingredientIds": ["prompt_action_4500", "prompt_location_033"]
+    },
+    {
+      "id": "recipe_eulogy_siblings",
+      "title": "The tribute needs work",
+      "description": "Two siblings rehearse a eulogy. Their shared history is yours to invent.",
+      "ingredientIds": ["prompt_relationship_030", "prompt_action_4501"]
+    },
+    {
+      "id": "recipe_exit_wedding",
+      "title": "Not making a scene",
+      "description": "Stage a dramatic exit at a wedding venue. Nobody chose a character for you.",
+      "ingredientIds": ["prompt_location_009", "prompt_action_4522"]
+    },
+    {
+      "id": "recipe_rivals_gloat",
+      "title": "A very gracious winner",
+      "description": "Rivals practice a victory gloat. Keep the stakes gloriously petty.",
+      "ingredientIds": ["prompt_relationship_014", "prompt_action_4520"]
+    },
+    {
+      "id": "recipe_denial_restaurant",
+      "title": "Absolutely nothing to explain",
+      "description": "A public denial in a restaurant. The scandal is entirely fictional.",
+      "ingredientIds": ["prompt_location_002", "prompt_action_4509"]
+    },
+    {
+      "id": "recipe_dirty_talk_review",
+      "title": "Needs improvement",
+      "description": "Practice dirty talk while it sounds like a performance review.",
+      "ingredientIds": ["prompt_action_4527", "prompt_situation_4512"]
+    },
+    {
+      "id": "recipe_erotic_edit",
+      "title": "A very thorough edit",
+      "description": "An erotic novel. A deeply unsexy grammar argument. Keep it verbal and fictional.",
+      "ingredientIds": ["prompt_action_4525", "prompt_situation_4517"]
+    },
+    {
+      "id": "recipe_seduction_rooftop",
+      "title": "Confidence is not the problem",
+      "description": "Rehearse an overconfident seduction on a rooftop. No touching or undressing.",
+      "ingredientIds": ["prompt_action_4533", "prompt_location_004"]
+    }
+  ]
+}

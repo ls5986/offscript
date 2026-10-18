@@ -1,0 +1,1017 @@
+[
+  {
+    "id": "rel_002",
+    "premise": "Former teammates",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First former teammate",
+      "Second former teammate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_004",
+    "premise": "Old classmates",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First classmate",
+      "Second classmate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_005",
+    "premise": "A mentor and former apprentice",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Mentor",
+      "Former apprentice"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_006",
+    "premise": "Two cousins",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First cousin",
+      "Second cousin"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_007",
+    "premise": "Former roommates",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First former roommate",
+      "Second former roommate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_009",
+    "premise": "Two pen pals",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First pen pal",
+      "Second pen pal"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace",
+      "travel"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_011",
+    "premise": "A predecessor and their replacement",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Predecessor",
+      "Replacement"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_013",
+    "premise": "A service provider and a customer",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Service provider",
+      "Customer"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_014",
+    "premise": "Rivals",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First rival",
+      "Second rival"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_015",
+    "premise": "Collaborators",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First collaborator",
+      "Second collaborator"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_016",
+    "premise": "Two co-founders",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First co-founder",
+      "Second co-founder"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_017",
+    "premise": "An adult child and a parent",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Adult child",
+      "Parent"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "family",
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_018",
+    "premise": "A visitor and a local",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Visitor",
+      "Local resident"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_019",
+    "premise": "Two former bandmates",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First former bandmate",
+      "Second former bandmate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "arts"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_020",
+    "premise": "An organizer and a participant",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Organizer",
+      "Participant"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_021",
+    "premise": "Two volunteers",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First volunteer",
+      "Second volunteer"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_022",
+    "premise": "A recipient and a donor",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Recipient",
+      "Donor"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_023",
+    "premise": "Longtime rivals",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First longtime rival",
+      "Second longtime rival"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_024",
+    "premise": "A tenant and a caretaker",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Tenant",
+      "Caretaker"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_025",
+    "premise": "Two friends",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First friend",
+      "Second friend"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_026",
+    "premise": "A creator and a reviewer",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Creator",
+      "Reviewer"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_027",
+    "premise": "Childhood friends",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First childhood friend",
+      "Second childhood friend"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_028",
+    "premise": "Fellow travelers",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First fellow traveler",
+      "Second fellow traveler"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_029",
+    "premise": "A newcomer and a local",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Newcomer",
+      "Local resident"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_030",
+    "premise": "Two siblings",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First sibling",
+      "Second sibling"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_031",
+    "premise": "Three former roommates",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First former roommate",
+      "Second former roommate",
+      "Third former roommate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace",
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_032",
+    "premise": "Three adult cousins",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First adult cousin",
+      "Second adult cousin",
+      "Third adult cousin"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_033",
+    "premise": "Three former teammates",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First former teammate",
+      "Second former teammate",
+      "Third former teammate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_034",
+    "premise": "Three co-owners",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First co-owner",
+      "Second co-owner",
+      "Third co-owner"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_035",
+    "premise": "Three old friends",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First friend",
+      "Second friend",
+      "Third friend"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_036",
+    "premise": "Three neighbors",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First neighbor",
+      "Second neighbor",
+      "Third neighbor"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_037",
+    "premise": "Co-founders",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First co-founder",
+      "Second co-founder",
+      "Third co-founder"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_038",
+    "premise": "Three siblings",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First sibling",
+      "Second sibling",
+      "Third sibling"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_039",
+    "premise": "Colleagues",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First colleague",
+      "Second colleague",
+      "Third colleague"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_041",
+    "premise": "Board members",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Board member 1",
+      "Board member 2",
+      "Board member 3",
+      "Board member 4"
+    ],
+    "expandableRole": "Board member",
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_042",
+    "premise": "Members of an extended family",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Family member 1",
+      "Family member 2",
+      "Family member 3",
+      "Family member 4"
+    ],
+    "expandableRole": "Family member",
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_043",
+    "premise": "Volunteers",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Volunteer 1",
+      "Volunteer 2",
+      "Volunteer 3",
+      "Volunteer 4"
+    ],
+    "expandableRole": "Volunteer",
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_044",
+    "premise": "Colleagues",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Colleague 1",
+      "Colleague 2",
+      "Colleague 3",
+      "Colleague 4"
+    ],
+    "expandableRole": "Colleague",
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_045",
+    "premise": "Crew members",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Crew member 1",
+      "Crew member 2",
+      "Crew member 3",
+      "Crew member 4"
+    ],
+    "expandableRole": "Crew member",
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_046",
+    "premise": "Club members",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Club member 1",
+      "Club member 2",
+      "Club member 3",
+      "Club member 4"
+    ],
+    "expandableRole": "Club member",
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_047",
+    "premise": "Neighbors",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Neighbor 1",
+      "Neighbor 2",
+      "Neighbor 3",
+      "Neighbor 4"
+    ],
+    "expandableRole": "Neighbor",
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_048",
+    "premise": "Group members",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Group member 1",
+      "Group member 2",
+      "Group member 3",
+      "Group member 4"
+    ],
+    "expandableRole": "Group member",
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_050",
+    "premise": "Teammates",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Teammate 1",
+      "Teammate 2",
+      "Teammate 3",
+      "Teammate 4"
+    ],
+    "expandableRole": "Teammate",
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_055",
+    "premise": "Committee members",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Committee member 1",
+      "Committee member 2",
+      "Committee member 3",
+      "Committee member 4"
+    ],
+    "expandableRole": "Committee member",
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_058",
+    "premise": "Bandmates",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Bandmate 1",
+      "Bandmate 2",
+      "Bandmate 3",
+      "Bandmate 4"
+    ],
+    "expandableRole": "Bandmate",
+    "tags": [
+      "arts"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_065",
+    "premise": "Cooperative members",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Cooperative member 1",
+      "Cooperative member 2",
+      "Cooperative member 3",
+      "Cooperative member 4"
+    ],
+    "expandableRole": "Cooperative member",
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_068",
+    "premise": "Cousins",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Cousin 1",
+      "Cousin 2",
+      "Cousin 3",
+      "Cousin 4"
+    ],
+    "expandableRole": "Cousin",
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_069",
+    "premise": "Classmates",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Classmate 1",
+      "Classmate 2",
+      "Classmate 3",
+      "Classmate 4"
+    ],
+    "expandableRole": "Classmate",
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_077",
+    "premise": "Former classmates",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Former classmate 1",
+      "Former classmate 2",
+      "Former classmate 3",
+      "Former classmate 4"
+    ],
+    "expandableRole": "Former classmate",
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_081",
+    "premise": "Two roommates",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First roommate",
+      "Second roommate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "domestic",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_083",
+    "premise": "Two neighbors",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First neighbor",
+      "Second neighbor"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "domestic",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_084",
+    "premise": "An employee and their manager",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Employee",
+      "Manager"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_088",
+    "premise": "A host and a visitor",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Host",
+      "Visitor"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 3,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_089",
+    "premise": "Two bandmates",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First bandmate",
+      "Second bandmate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_091",
+    "premise": "A landlord and a tenant",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Landlord",
+      "Tenant"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "domestic",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_092",
+    "premise": "Two colleagues",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First colleague",
+      "Second colleague"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_4000",
+    "premise": "Partners",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First partner",
+      "Second partner"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_4001",
+    "premise": "Ex-partners",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First ex-partner",
+      "Second ex-partner"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_4002",
+    "premise": "Casual partners",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First casual partner",
+      "Second casual partner"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "spicy",
+    "version": 1
+  },
+  {
+    "id": "rel_4003",
+    "premise": "Newly dating",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First person dating",
+      "Second person dating"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "atomic"
+    ],
+    "contentRating": "spicy",
+    "version": 1
+  }
+]

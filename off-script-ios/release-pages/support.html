@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Get help with Off Script on Android and iPhone browsers, saved games, offline play and the iOS beta."
+    />
+    <title>Support | Off Script</title>
+    <!-- SITE_METADATA -->
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page article-page">
+      <header>
+        <a class="brand" href="/" aria-label="Off Script website">
+          <img src="/brand/mark.svg" width="34" height="34" alt="" />
+          <span>OFF SCRIPT</span>
+        </a>
+        <nav aria-label="Support pages">
+          <a href="/play">Play online</a>
+          <a href="/support" aria-current="page">Support</a>
+          <a href="/privacy">Privacy</a>
+        </nav>
+      </header>
+      <main id="main">
+        <h1>Off Script support</h1>
+        <p>
+          Get help with games, saved prompts, browser play or the iOS beta.
+          Android users can <a href="/play">play online</a> in a modern browser;
+          no native Android app is needed. The native iPhone app requires iOS
+          16.4 or later.
+        </p>
+
+        <h2>Report a problem or ask a question</h2>
+        <!-- SUPPORT_CONTACT -->
+        <p>
+          <a class="button" href="https://github.com/ls5986/offscript/issues"
+            >Open the Off Script issue tracker</a
+          >
+        </p>
+        <p>
+          Reports there are public. A GitHub account is required to post. Do not
+          include player names, private-role cards, personal information, Apple
+          passwords, or verification codes. Crop or redact screenshots before
+          attaching them. For a privacy-sensitive request, ask for private
+          contact instructions without posting the details.
+        </p>
+        <p>A useful bug report includes:</p>
+        <ul>
+          <li>The app version, device, and iOS/Android or browser version.</li>
+          <li>The game or screen you were using.</li>
+          <li>The steps that caused the problem.</li>
+          <li>What you expected and what actually happened.</li>
+          <li>A redacted screenshot, if it helps explain the problem.</li>
+        </ul>
+        <p>
+          If you are testing through TestFlight, you can also use TestFlight's
+          feedback tools to send comments or screenshots to the developer. Apple
+          handles that submission under its
+          <a href="https://www.apple.com/legal/privacy/data/en/test-flight/"
+            >TestFlight privacy terms</a
+          >.
+        </p>
+
+        <h2>Common questions</h2>
+        <details>
+          <summary>Can I install it on an Android home screen?</summary>
+          <p>
+            Open <a href="/play">Play online</a> in Chrome and use the browser
+            menu's Install app or Add to Home screen option if offered. On
+            iPhone Safari, use Share, then Add to Home Screen. The installed web
+            app opens directly to play. Install availability and wording depend
+            on your browser; it is not an APK or an App Store install.
+          </p>
+        </details>
+        <details>
+          <summary>Do I need an account or internet connection?</summary>
+          <p>
+            There is no Off Script account. Games and prompts are bundled with
+            the iOS app, so ordinary play works offline after installation.
+            Installing or updating through TestFlight and opening support links
+            need a connection. The web version needs a connection on its first
+            visit so the app files can load and be cached. Open the game and
+            allow caching to finish before relying on offline play. Your browser
+            can remove cached files; private browsing and clearing site data can
+            prevent offline access or remove saves.
+          </p>
+        </details>
+        <details>
+          <summary>How do I get another prompt or change ingredients?</summary>
+          <p>
+            In Studio, select the ingredients you want and use Generate Again.
+            Optional composition combines the selected ingredients into a scene.
+            Saved and locked words keep their original wording until you
+            explicitly choose an available update for an editable copy.
+          </p>
+        </details>
+        <details>
+          <summary>How do I end a game or hide a game type?</summary>
+          <p>
+            Use End game in the game's footer to finish the party and open its
+            saved recap. In Party, open the gear menu and choose Hide this game
+            type to stop it appearing in future deals on this device. Choose
+            games lets you include it again.
+          </p>
+        </details>
+        <details>
+          <summary>Why is some content unavailable?</summary>
+          <p>
+            Check Classroom clean and Optional 18+ format in Settings. Classroom
+            clean keeps adult content hidden, including adult saved prompts.
+            Party Night has its own group content opt-in. The content settings
+            are not age verification. Any game can be skipped; drinking,
+            touching, and personal disclosures are not required.
+          </p>
+        </details>
+        <details>
+          <summary>Does a rating automatically send feedback?</summary>
+          <p>
+            No. Ratings and notes are saved on your device. Report a problem
+            lets you prepare a report, then use Share feedback on iOS or Copy
+            feedback on the web. You decide where to send it. The prepared
+            report does not automatically include player names or private roles,
+            but an optional note can contain anything you type, so review it.
+          </p>
+        </details>
+        <details>
+          <summary>
+            Can I sync or recover saved games on another device?
+          </summary>
+          <p>
+            There is no app-managed cloud sync or browser-to-iPhone transfer.
+            Native saves use local SQLite; browser saves use local browser
+            storage. Device backups may include app data, but Off Script does
+            not provide its own cloud-backup or restore service. Export local
+            feedback shares feedback reports, not a backup of all saved games. A
+            new website domain also has separate browser storage, so a Vercel
+            deployment does not automatically import saves from an older site.
+          </p>
+        </details>
+        <details>
+          <summary>Can friends join the same game remotely?</summary>
+          <p>
+            Not through a shared online room. Party Night is designed for
+            in-person play using one device. The online version runs the same
+            local game on your browser; it does not synchronize different
+            players' screens or saved sessions.
+          </p>
+        </details>
+        <details>
+          <summary>How do I remove saved names and sessions?</summary>
+          <p>
+            Open Settings, choose Clear all local data, and confirm. This resets
+            saved user data while keeping the bundled catalog. It does not
+            delete older device backups, reports already sent through
+            TestFlight, public GitHub reports, or other copies you shared.
+          </p>
+        </details>
+        <details>
+          <summary>
+            What should I try if the beta will not open or save?
+          </summary>
+          <p>
+            Check TestFlight for an available current build, confirm your device
+            has free storage, then close and reopen the app. Save an error
+            message or a redacted screenshot for a report. Do not clear local
+            data or delete the app as a first troubleshooting step: that can
+            remove saved progress. For browser storage errors, allow site
+            storage and close older Off Script tabs before retrying.
+          </p>
+        </details>
+        <details>
+          <summary>Why can I not hear cues or the New Choice bell?</summary>
+          <p>
+            Check device volume and silent settings. Spoken cues also depend on
+            the app's sound setting and available device speech features. New
+            Choice has a manual bell control for the separate caller. Visual and
+            manual cues remain available; microphone access is not needed.
+          </p>
+        </details>
+
+        <h2>Privacy</h2>
+        <p>
+          See the <a href="/privacy">privacy policy</a> for local data, backups,
+          user-chosen sharing, automatic TestFlight diagnostics, and Vercel
+          hosting. These pages contain no tracking scripts, advertising, contact
+          forms, or remote fonts.
+        </p>
+      </main>
+      <footer>
+        <span>Off Script. Make it up as you go.</span>
+        <nav aria-label="Footer">
+          <a href="/">Website</a>
+          <a href="/privacy">Privacy policy</a>
+          <a href="/play">Play online</a>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "goals_001",
+    "text": "Get the other person to help you carry a very awkward box",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_002",
+    "text": "Convince someone to stay for one more cup of tea",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_003",
+    "text": "Find out who left a thank-you note without admitting it matters to you",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_004",
+    "text": "Persuade the group to try your new recipe",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_005",
+    "text": "Get someone to agree to take care of your plant",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_006",
+    "text": "Ask for help fixing something you claimed to understand",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_007",
+    "text": "Work up the courage to offer an apology",
+    "tags": ["workplace"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_008",
+    "text": "Get the meeting finished before your cake melts",
+    "tags": ["workplace", "celebration"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_009",
+    "text": "Convince someone to take a different route home",
+    "tags": ["domestic"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_010",
+    "text": "Return a borrowed object without revealing how long you kept it",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_011",
+    "text": "Find a partner for an unusual contest",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_012",
+    "text": "Get someone to teach you their signature skill",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_013",
+    "text": "Persuade the group to keep an old tradition",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_014",
+    "text": "Suggest a new tradition without criticizing the old one",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_015",
+    "text": "Get permission to use the room for a secret celebration",
+    "tags": ["celebration", "mystery"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_016",
+    "text": "Convince a friend to read your short poem",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_017",
+    "text": "Find out whether a gift was well received",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_018",
+    "text": "Offer someone a job without making it sound grand",
+    "tags": ["workplace"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_019",
+    "text": "Get someone to admit they remember your first meeting",
+    "tags": ["workplace"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_020",
+    "text": "Keep everyone nearby until a surprise arrives",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_021",
+    "text": "Persuade someone to bring their instrument tomorrow",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_022",
+    "text": "Get help remembering the words of an old song",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_023",
+    "text": "Convince the group your shortcut is worth trying",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_024",
+    "text": "Get someone to swap seats for a harmless personal reason",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_025",
+    "text": "Ask someone to look after a mystery parcel",
+    "tags": ["mystery"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_026",
+    "text": "Get your friend to accept a sincere compliment",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_027",
+    "text": "Find out what name everyone gave the stray garden gnome",
+    "tags": ["domestic"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_028",
+    "text": "Persuade someone to display your handmade sign",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_029",
+    "text": "Get a reluctant expert to demonstrate their craft",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_030",
+    "text": "Convince a neighbor to share a garden plot",
+    "tags": ["domestic"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_031",
+    "text": "Ask someone to be your emergency contact for a craft fair",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_032",
+    "text": "Get a promise that an embarrassing old photo will be framed kindly",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_033",
+    "text": "Find someone willing to rehearse a speech with you",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_034",
+    "text": "Persuade the group to open a time capsule together",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_035",
+    "text": "Ask a rival for honest advice",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_036",
+    "text": "Get someone to taste a new flavor of jam",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_037",
+    "text": "Convince a friend to help repair a stage prop",
+    "tags": ["arts"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_038",
+    "text": "Get the group to pause for a shared photo",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_039",
+    "text": "Ask someone to keep a small harmless surprise secret",
+    "tags": ["mystery"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_040",
+    "text": "Persuade someone to return to a club they once loved",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_041",
+    "text": "Get help choosing a name for your tiny boat",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_042",
+    "text": "Invite someone to your first public performance",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_043",
+    "text": "Convince the group to postpone the vote until everyone arrives",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_044",
+    "text": "Get someone to tell the story behind their hat",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_045",
+    "text": "Ask permission to restore an old object",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_046",
+    "text": "Persuade your friend to take the credit they deserve",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_047",
+    "text": "Get someone to explain a mysterious instruction",
+    "tags": ["mystery"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_048",
+    "text": "Invite a newcomer into your old routine",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_049",
+    "text": "Get help finding the right words for a thank-you card",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_050",
+    "text": "Convince the group that your ordinary object belongs in the display",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_051",
+    "text": "Get someone to leave a message in the guest book",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_052",
+    "text": "Ask for a second chance at a small task",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_053",
+    "text": "Persuade a friend to accept a useful hand-me-down",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_054",
+    "text": "Get someone to reveal which song they want to hear",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_055",
+    "text": "Convince the group to use your handmade decorations",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_056",
+    "text": "Get someone to show you the view from their favorite spot",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_057",
+    "text": "Ask an old teammate to join one last friendly game",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_058",
+    "text": "Find out whether the missing key has been found",
+    "tags": ["mystery"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_059",
+    "text": "Persuade someone to keep a promise from years ago",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  },
+  {
+    "id": "goals_060",
+    "text": "Get everyone to agree on a small first step",
+    "tags": ["everyday"],
+    "rating": "clean",
+    "version": 1
+  }
+]

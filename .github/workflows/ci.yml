@@ -1,0 +1,30 @@
+name: Off Script checks
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: off-script-ios
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: off-script-ios/.nvmrc
+          cache: npm
+          cache-dependency-path: off-script-ios/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run content:validate
+      - run: npm test
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build:web
+      - run: npm run test:e2e:web
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: browser-evidence
+          path: |
+            off-script-ios/playwright-report/
+            off-script-ios/docs/screenshots/

@@ -1,0 +1,141 @@
+{
+  "screenshots": [
+    {
+      "file": "iphone/01-make-it-up.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "capture": "iphone/01-home.png",
+      "headline": "Make it up. As you go."
+    },
+    {
+      "file": "iphone/02-party-night.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "capture": "iphone/03-party.png",
+      "headline": "One phone. Everyone plays."
+    },
+    {
+      "file": "iphone/03-prompt-studio.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "capture": "iphone/08-studio.png",
+      "headline": "Small prompt. Big possibilities."
+    },
+    {
+      "file": "iphone/04-new-choice.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "capture": "iphone/05-new-choice.png",
+      "headline": "New choice. New chaos."
+    },
+    {
+      "file": "iphone/05-library.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "capture": "iphone/09-library.png",
+      "headline": "Good ideas. By the listful."
+    },
+    {
+      "file": "iphone/06-saved.png",
+      "size": [
+        1320,
+        2868
+      ],
+      "capture": "iphone/11-saved.png",
+      "headline": "Keep the gems. Riff on them later."
+    },
+    {
+      "file": "ipad/01-make-it-up.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "capture": "ipad/01-home.png",
+      "headline": "Make it up. As you go."
+    },
+    {
+      "file": "ipad/02-party-night.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "capture": "ipad/03-party.png",
+      "headline": "One phone. Everyone plays."
+    },
+    {
+      "file": "ipad/03-prompt-studio.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "capture": "ipad/08-studio.png",
+      "headline": "Small prompt. Big possibilities."
+    },
+    {
+      "file": "ipad/04-new-choice.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "capture": "ipad/05-new-choice.png",
+      "headline": "New choice. New chaos."
+    },
+    {
+      "file": "ipad/05-library.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "capture": "ipad/09-library.png",
+      "headline": "Good ideas. By the listful."
+    },
+    {
+      "file": "ipad/06-saved.png",
+      "size": [
+        2064,
+        2752
+      ],
+      "capture": "ipad/11-saved.png",
+      "headline": "Keep the gems. Riff on them later."
+    }
+  ],
+  "videos": [
+    {
+      "file": "off-script-tutorial-horizontal-30s.mp4",
+      "size": [
+        1920,
+        1080
+      ],
+      "frames": 900,
+      "fps": 30,
+      "seconds": 30,
+      "audio": "None; caption-first silent tutorial.",
+      "use": "Website and social media. Not an App Store App Preview."
+    },
+    {
+      "file": "off-script-tutorial-vertical-30s.mp4",
+      "size": [
+        1080,
+        1920
+      ],
+      "frames": 900,
+      "fps": 30,
+      "seconds": 30,
+      "audio": "None; caption-first silent tutorial.",
+      "use": "Website and social media. Not an App Store App Preview."
+    }
+  ],
+  "duration": 30,
+  "fps": 30,
+  "source": "Current Release simulator app; original native captures, never browser-emulated app screens."
+}

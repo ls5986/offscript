@@ -1,0 +1,1137 @@
+[
+  {
+    "id": "rel_001",
+    "premise": "Two adult siblings preparing a surprise for a parent",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["First adult sibling", "Second adult sibling"],
+    "expandableRole": null,
+    "tags": ["family"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_002",
+    "premise": "Former teammates asked to coach their old club",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Former team captain", "Former teammate"],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_003",
+    "premise": "Longtime neighbors sharing a garden fence",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Neighbor tending the fence", "Neighbor tending the garden"],
+    "expandableRole": null,
+    "tags": ["domestic"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_004",
+    "premise": "Old classmates reopening a time capsule",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Time capsule keeper", "Returning classmate"],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_005",
+    "premise": "A mentor and former apprentice meeting as equals",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Former mentor", "Former apprentice"],
+    "expandableRole": null,
+    "tags": ["workplace"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_006",
+    "premise": "Two cousins entrusted with a family recipe",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Recipe keeper", "Cousin learning the recipe"],
+    "expandableRole": null,
+    "tags": ["family"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_007",
+    "premise": "Former roommates sorting their final shared box",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Roommate moving out", "Roommate keeping the lease"],
+    "expandableRole": null,
+    "tags": ["domestic"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_008",
+    "premise": "A shop owner and their very first customer",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Shop owner", "First customer"],
+    "expandableRole": null,
+    "tags": ["workplace"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_009",
+    "premise": "Two pen pals finally meeting at a station",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Pen pal who arrived early",
+      "Pen pal holding the old letters"
+    ],
+    "expandableRole": null,
+    "tags": ["workplace", "travel"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_010",
+    "premise": "A ferry captain and a regular passenger on the last crossing",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Ferry captain", "Regular passenger"],
+    "expandableRole": null,
+    "tags": ["travel"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_011",
+    "premise": "A retiring librarian and their replacement",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Retiring librarian", "New librarian"],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_012",
+    "premise": "Two friends who made a promise ten years ago",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Friend who made the promise",
+      "Friend who remembers it differently"
+    ],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_013",
+    "premise": "A baker and a customer planning an unusual cake",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Baker", "Customer planning the cake"],
+    "expandableRole": null,
+    "tags": ["celebration"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_014",
+    "premise": "Two rival gardeners sharing one greenhouse",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Gardener favoring tradition",
+      "Gardener testing new methods"
+    ],
+    "expandableRole": null,
+    "tags": ["domestic"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_015",
+    "premise": "An artist and a patient model after a long sitting",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Artist", "Patient model"],
+    "expandableRole": null,
+    "tags": ["arts"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_016",
+    "premise": "Two co-founders rehearsing their first pitch",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Co-founder pitching the idea",
+      "Co-founder checking the details"
+    ],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_017",
+    "premise": "An adult child helping a parent move house",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Adult child", "Parent moving house"],
+    "expandableRole": null,
+    "tags": ["family", "domestic"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_018",
+    "premise": "A tour guide and someone who grew up on the route",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Tour guide", "Returning local"],
+    "expandableRole": null,
+    "tags": ["travel"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_019",
+    "premise": "Two former bandmates tuning up again",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Former singer", "Former instrumentalist"],
+    "expandableRole": null,
+    "tags": ["arts"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_020",
+    "premise": "A wedding planner and a nervous best friend",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Wedding planner", "Best friend of the couple"],
+    "expandableRole": null,
+    "tags": ["celebration"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_021",
+    "premise": "Two volunteers assigned to fix an old sign",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Volunteer fixing the sign",
+      "Volunteer checking the wording"
+    ],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_022",
+    "premise": "A curator and the donor of a peculiar object",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Museum curator", "Object donor"],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_023",
+    "premise": "Two longtime chess opponents away from the board",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Longtime chess challenger", "Longtime chess opponent"],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_024",
+    "premise": "A tenant and a caretaker on moving day",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Tenant moving out", "Building caretaker"],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_025",
+    "premise": "Two friends returning something they borrowed years ago",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Friend returning the object", "Friend who lent it"],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_026",
+    "premise": "An inventor and their most honest tester",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Inventor", "Honest tester"],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_027",
+    "premise": "A radio host and their childhood friend on air",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Radio host", "Childhood friend"],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_028",
+    "premise": "Two people who always meet on the same train",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Regular morning passenger", "Regular evening passenger"],
+    "expandableRole": null,
+    "tags": ["travel"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_029",
+    "premise": "A newcomer and the neighborhood's unofficial greeter",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Neighborhood newcomer", "Unofficial greeter"],
+    "expandableRole": null,
+    "tags": ["domestic"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_030",
+    "premise": "Two siblings learning a craft from the same old manual",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": ["Sibling reading the manual", "Sibling trying the craft"],
+    "expandableRole": null,
+    "tags": ["family"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_031",
+    "premise": "Three former roommates opening a restaurant together",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Person protecting the old plan",
+      "Person proposing a change",
+      "Person trying to bring them together"
+    ],
+    "expandableRole": null,
+    "tags": ["workplace", "domestic"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_032",
+    "premise": "Three adult cousins planning a family reunion",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Person protecting the old plan",
+      "Person proposing a change",
+      "Person trying to bring them together"
+    ],
+    "expandableRole": null,
+    "tags": ["family"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_033",
+    "premise": "Three old teammates choosing a new captain",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Person protecting the old plan",
+      "Person proposing a change",
+      "Person trying to bring them together"
+    ],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_034",
+    "premise": "Three co-owners inheriting a tiny bookstore",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Person protecting the old plan",
+      "Person proposing a change",
+      "Person trying to bring them together"
+    ],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_035",
+    "premise": "Three friends reuniting to finish an old project",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Person protecting the old plan",
+      "Person proposing a change",
+      "Person trying to bring them together"
+    ],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_036",
+    "premise": "Three neighbors sharing a newly discovered garden",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Person protecting the old plan",
+      "Person proposing a change",
+      "Person trying to bring them together"
+    ],
+    "expandableRole": null,
+    "tags": ["domestic"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_037",
+    "premise": "Three club founders choosing a name at last",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Person protecting the old plan",
+      "Person proposing a change",
+      "Person trying to bring them together"
+    ],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_038",
+    "premise": "Three siblings deciding what to put in a time capsule",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Person protecting the old plan",
+      "Person proposing a change",
+      "Person trying to bring them together"
+    ],
+    "expandableRole": null,
+    "tags": ["family"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_039",
+    "premise": "Three tour guides disagreeing about a local legend",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Person protecting the old plan",
+      "Person proposing a change",
+      "Person trying to bring them together"
+    ],
+    "expandableRole": null,
+    "tags": ["travel"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_040",
+    "premise": "Three performers preparing their comeback show",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "Person protecting the old plan",
+      "Person proposing a change",
+      "Person trying to bring them together"
+    ],
+    "expandableRole": null,
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_041",
+    "premise": "Board members of a struggling neighborhood theater planning opening night",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["domestic", "arts"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_042",
+    "premise": "Relatives coordinating a family reunion at a tiny cottage",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["family"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_043",
+    "premise": "Volunteer gardeners entering their first flower show",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["domestic"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_044",
+    "premise": "Museum staff preparing to display an unexplained object",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["workplace"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_045",
+    "premise": "A ferry crew preparing for a ceremonial voyage",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["travel"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_046",
+    "premise": "Members of a book club planning their first public event",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_047",
+    "premise": "Neighbors organizing a street feast",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["domestic"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_048",
+    "premise": "A choir preparing a surprise performance",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_049",
+    "premise": "Amateur astronomers welcoming a famous visitor",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_050",
+    "premise": "A bakery team filling an enormous unusual order",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["workplace"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_051",
+    "premise": "A community radio crew preparing an anniversary broadcast",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_052",
+    "premise": "Members of a walking club lost near their own town",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_053",
+    "premise": "A restaurant team practicing for a critic's visit",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["workplace"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_054",
+    "premise": "A wedding party repairing a small planning mistake",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["celebration"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_055",
+    "premise": "A school reunion committee discovering an old promise",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["family"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_056",
+    "premise": "A neighborhood council choosing a new fountain",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["domestic"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_057",
+    "premise": "A costume team preparing for a community play",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_058",
+    "premise": "A band trying to agree on its comeback song",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["arts"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_059",
+    "premise": "Members of a boat club organizing a launch",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_060",
+    "premise": "A family clearing out a beloved old workshop",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["workplace", "family"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_061",
+    "premise": "Volunteers restoring a miniature railway",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_062",
+    "premise": "A library team preparing its first overnight event",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["workplace"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_063",
+    "premise": "Members of a chess club organizing a friendly tournament",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["travel"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_064",
+    "premise": "A hotel staff welcoming a mysterious group booking",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["travel", "mystery"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_065",
+    "premise": "A gardening cooperative dividing its first harvest",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["domestic"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_066",
+    "premise": "A local history society opening a time capsule",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_067",
+    "premise": "A film club making its first original movie",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_068",
+    "premise": "A group of cousins taking over a family food stall",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["family"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_069",
+    "premise": "A pottery class arranging its first exhibition",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_070",
+    "premise": "A team of inventors rehearsing a product demonstration",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_071",
+    "premise": "A community kitchen team preparing a thank-you dinner",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["domestic"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_072",
+    "premise": "A neighborhood orchestra choosing a new rehearsal space",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["domestic", "arts"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_073",
+    "premise": "Members of a sailing team waiting for the wind",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_074",
+    "premise": "An amateur archaeology team identifying its first find",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_075",
+    "premise": "A festival committee replacing a missing mascot",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["celebration", "mystery"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_076",
+    "premise": "A repair cafe team trying to fix an unrecognizable machine",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_077",
+    "premise": "A group of old classmates building a reunion float",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["family"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_078",
+    "premise": "A planetarium crew rehearsing a new show",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_079",
+    "premise": "Volunteers opening a tiny community cinema",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["everyday"],
+    "contentRating": "clean",
+    "version": 1
+  },
+  {
+    "id": "rel_080",
+    "premise": "A family band preparing to play at a relative's birthday",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Coordinator",
+      "Keeper of resources",
+      "Creative planner",
+      "Newest member"
+    ],
+    "expandableRole": "Participating member",
+    "tags": ["family", "celebration", "arts"],
+    "contentRating": "clean",
+    "version": 1
+  }
+]

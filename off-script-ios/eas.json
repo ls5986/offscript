@@ -1,0 +1,38 @@
+{
+  "cli": {
+    "version": ">=16.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "base": {
+      "node": "24.19.0"
+    },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "environment": "development",
+      "extends": "base"
+    },
+    "preview": {
+      "distribution": "internal",
+      "environment": "preview",
+      "ios": {
+        "simulator": true
+      },
+      "extends": "base"
+    },
+    "device": {
+      "distribution": "internal",
+      "environment": "preview",
+      "extends": "base"
+    },
+    "production": {
+      "autoIncrement": true,
+      "environment": "production",
+      "extends": "base"
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

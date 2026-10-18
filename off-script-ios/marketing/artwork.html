@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Off Script - editable marketing artwork</title>
+  <style>
+    @font-face { font-family: DM; src: url("../assets/fonts/DMSans-Regular.woff2"); font-weight: 400; }
+    @font-face { font-family: DM; src: url("../assets/fonts/DMSans-Medium.woff2"); font-weight: 500; }
+    @font-face { font-family: DM; src: url("../assets/fonts/DMSans-Bold.woff2"); font-weight: 700; }
+    @font-face { font-family: Fraunces; src: url("../assets/fonts/Fraunces-Regular.woff2"); }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; }
+    body { font-family: DM, sans-serif; color: #172B49; background: #F8F6F1; }
+    .canvas { position: absolute; inset: 0; overflow: hidden; background: var(--bg); color: var(--ink); }
+    .paper { --bg: #F8F6F1; --ink: #172B49; --shape: #EAE5F4; --accent: #AA4234; }
+    .blue { --bg: #E4ECF3; --ink: #172B49; --shape: #F8F6F1; --accent: #AA4234; }
+    .lilac { --bg: #EAE5F4; --ink: #172B49; --shape: #F8F6F1; --accent: #AA4234; }
+    .navy { --bg: #172B49; --ink: #F8F6F1; --shape: #2B4160; --accent: #F29B87; }
+    .brand { position: absolute; display: flex; align-items: center; gap: 22px; z-index: 4; }
+    .brand img { width: 82px; height: 82px; }
+    .brand span { font-weight: 700; letter-spacing: 2px; font-size: 49px; }
+    .copy { position: absolute; z-index: 3; }
+    .kicker { font-size: 27px; letter-spacing: 5px; font-weight: 700; color: var(--accent); margin-bottom: 23px; }
+    h1 { font-family: Fraunces, Georgia, serif; font-weight: 400; letter-spacing: -5px; line-height: 1.03; margin: 0; white-space: pre-line; }
+    .description { font-size: 36px; line-height: 1.4; margin: 28px 0 0; max-width: 1100px; }
+    .offset-card { position: absolute; width: 1200px; height: 1900px; background: var(--shape); border-radius: 100px; transform: rotate(-8deg); }
+    .accent-corner { position: absolute; width: 220px; height: 220px; background: #F29B87; transform: rotate(12deg); border-radius: 45px; }
+    .device { position: absolute; padding: 17px; background: #17202E; border: 2px solid #5B6470; border-radius: 93px; box-shadow: 0 22px 0 #10203814, 0 45px 90px #1020382B; z-index: 2; }
+    .device img { display: block; width: 100%; height: auto; border-radius: 76px; }
+    .phone .brand { left: 108px; top: 84px; }
+    .phone .copy { left: 108px; top: 208px; right: 90px; }
+    .phone h1 { font-size: 130px; }
+    .phone .description { font-size: 34px; }
+    .phone .device { width: 1012px; left: 154px; top: 650px; }
+    .phone .offset-card { left: 56px; top: 1150px; }
+    .phone .accent-corner { right: -70px; top: 565px; }
+    .tablet .brand { left: 160px; top: 76px; }
+    .tablet .copy { left: 160px; top: 217px; right: 140px; }
+    .tablet .kicker { font-size: 29px; }
+    .tablet h1 { font-size: 148px; line-height: 1.01; }
+    .tablet .description { font-size: 41px; max-width: 1700px; margin-top: 22px; }
+    .tablet .device { width: 1520px; left: 272px; top: 700px; border-radius: 64px; padding: 19px; }
+    .tablet .device img { border-radius: 43px; }
+    .tablet .offset-card { width: 1940px; height: 1900px; left: -20px; top: 1130px; }
+    .tablet .accent-corner { right: 128px; top: 635px; width: 270px; height: 270px; }
+    .tutorial .brand { left: 116px; top: 72px; }
+    .tutorial .brand img { width: 62px; height: 62px; }
+    .tutorial .brand span { font-size: 36px; }
+    .tutorial .copy { left: 116px; top: 284px; width: 1000px; }
+    .tutorial .kicker { font-size: 22px; letter-spacing: 3px; margin-bottom: 28px; }
+    .tutorial h1 { font-size: 114px; line-height: 1.04; letter-spacing: -3px; }
+    .tutorial .description { font-size: 33px; width: 780px; line-height: 1.5; margin-top: 35px; }
+    .tutorial .device { left: 1300px; top: 102px; width: 390px; border-radius: 39px; padding: 7px; }
+    .tutorial .device img { border-radius: 31px; }
+    .tutorial .offset-card { left: 1200px; top: 350px; width: 820px; height: 950px; border-radius: 70px; }
+    .tutorial .accent-corner { width: 130px; height: 130px; left: 1580px; top: 72px; border-radius: 25px; }
+    .progress { position: absolute; left: 116px; right: 116px; bottom: 72px; height: 6px; background: #7C859330; border-radius: 6px; }
+    .progress span { height: 100%; display: block; background: var(--accent); border-radius: inherit; }
+    .tutorial.vertical .brand { left: 85px; top: 75px; }
+    .tutorial.vertical .copy { left: 85px; top: 235px; width: 920px; }
+    .tutorial.vertical .kicker { font-size: 22px; }
+    .tutorial.vertical h1 { font-size: 103px; line-height: 1.02; }
+    .tutorial.vertical .description { font-size: 31px; width: 870px; margin-top: 28px; }
+    .tutorial.vertical .device { width: 535px; left: 272px; top: 645px; border-radius: 53px; padding: 9px; }
+    .tutorial.vertical .device img { border-radius: 43px; }
+    .tutorial.vertical .offset-card { width: 1000px; height: 1000px; left: 65px; top: 1000px; }
+    .tutorial.vertical .accent-corner { left: 760px; top: 600px; width: 160px; height: 160px; }
+    .tutorial.vertical .progress { left: 85px; right: 85px; bottom: 65px; }
+    .outro .device, .outro .accent-corner { display: none; }
+    .tutorial.outro .copy { left: 230px; top: 335px; width: 1500px; text-align: center; }
+    .tutorial.outro h1 { font-size: 155px; }
+    .tutorial.outro .description { width: auto; max-width: none; font-size: 40px; }
+    .tutorial.outro .kicker { color: #F29B87; }
+    .tutorial.outro .offset-card { left: 1430px; top: 690px; }
+    .tutorial.vertical.outro .copy { left: 85px; top: 650px; width: 910px; }
+    .tutorial.vertical.outro h1 { font-size: 123px; }
+    .tutorial.vertical.outro .description { font-size: 36px; }
+    .tutorial.vertical.outro .offset-card { left: 650px; top: 1400px; }
+  </style>
+</head>
+<body>
+  <main class="canvas paper" id="canvas">
+    <div class="offset-card"></div>
+    <div class="accent-corner"></div>
+    <div class="brand"><img src="../public/brand/mark.svg" alt=""><span>OFF SCRIPT</span></div>
+    <div class="copy"><div class="kicker" id="kicker"></div><h1 id="headline"></h1><p class="description" id="description"></p></div>
+    <div class="device"><img id="capture" alt="Actual Off Script native app screen"></div>
+    <div class="progress" hidden><span id="progress"></span></div>
+  </main>
+  <script src="./story.js"></script>
+  <script>
+    const parameters = new URLSearchParams(location.search);
+    const format = parameters.get("format") || "phone";
+    const mode = parameters.get("mode") || "screenshot";
+    const canvas = document.getElementById("canvas");
+    let active = -1;
+    window.renderMedia = async function (seconds = 0) {
+      const story = window.offscriptMedia;
+      const index = mode === "tutorial"
+        ? story.tutorial.findIndex((scene) => seconds >= scene.start && seconds < scene.end)
+        : Number(parameters.get("shot") || 0);
+      const scene = (mode === "tutorial" ? story.tutorial : story.screenshots)[index];
+      if (!scene) throw new Error(`No media scene at ${seconds}`);
+      if (index !== active) {
+        canvas.className = `canvas ${scene.theme} ${mode === "tutorial" ? "tutorial" : format} ${format === "vertical" ? "vertical" : ""} ${scene.outro ? "outro" : ""}`;
+        document.getElementById("kicker").textContent = scene.kicker;
+        document.getElementById("headline").textContent = scene.title;
+        document.getElementById("description").textContent = scene.description;
+        const image = document.getElementById("capture");
+        if (scene.capture) {
+          image.src = `./captures/${format === "tablet" ? "ipad" : "iphone"}/${scene.capture}.png`;
+          await image.decode();
+        }
+        active = index;
+      }
+      if (mode === "tutorial") {
+        document.querySelector(".progress").hidden = false;
+        document.getElementById("progress").style.width = `${seconds / story.duration * 100}%`;
+        const local = seconds - scene.start;
+        const entry = Math.min(1, local / 0.3);
+        const exit = Math.min(1, (scene.end - seconds) / 0.18);
+        const ease = 1 - Math.pow(1 - entry, 3);
+        const copy = document.querySelector(".copy");
+        copy.style.opacity = entry * exit;
+        copy.style.transform = `translateY(${(1 - ease) * 24}px)`;
+        const device = document.querySelector(".device");
+        device.style.opacity = entry * exit;
+        device.style.transform = `translateY(${(1 - ease) * 35}px)`;
+      }
+      await document.fonts.ready;
+    };
+    window.mediaReady = window.renderMedia(0);
+  </script>
+</body>
+</html>

@@ -1,0 +1,1681 @@
+[
+  {
+    "id": "rel_001",
+    "premise": "Two adult siblings",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First adult sibling",
+      "Second adult sibling"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_002",
+    "premise": "Former teammates",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First former teammate",
+      "Second former teammate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 3
+  },
+  {
+    "id": "rel_003",
+    "premise": "Longtime neighbors",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First neighbor",
+      "Second neighbor"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_004",
+    "premise": "Old classmates",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First classmate",
+      "Second classmate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_005",
+    "premise": "A mentor and former apprentice",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Mentor",
+      "Former apprentice"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_006",
+    "premise": "Two cousins",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First cousin",
+      "Second cousin"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_007",
+    "premise": "Former roommates",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First former roommate",
+      "Second former roommate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_008",
+    "premise": "A shop owner and a customer",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Shop owner",
+      "Customer"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_009",
+    "premise": "Two pen pals",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First pen pal",
+      "Second pen pal"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace",
+      "travel"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_010",
+    "premise": "A ferry captain and a regular passenger",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Ferry captain",
+      "Regular passenger"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "travel"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_011",
+    "premise": "A librarian and their replacement",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Librarian",
+      "Replacement librarian"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_012",
+    "premise": "Two longtime friends",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First friend",
+      "Second friend"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_013",
+    "premise": "A baker and a customer",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Baker",
+      "Customer"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "celebration"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_014",
+    "premise": "Two rival gardeners",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First gardener",
+      "Second gardener"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_015",
+    "premise": "An artist and a model",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Artist",
+      "Model"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "arts"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_016",
+    "premise": "Two co-founders",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First co-founder",
+      "Second co-founder"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_017",
+    "premise": "An adult child and a parent",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Adult child",
+      "Parent"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "family",
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_018",
+    "premise": "A tour guide and a local resident",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Tour guide",
+      "Local resident"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "travel"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_019",
+    "premise": "Two former bandmates",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First former bandmate",
+      "Second former bandmate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "arts"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_020",
+    "premise": "A wedding planner and a member of the wedding party",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Wedding planner",
+      "Wedding-party member"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "celebration"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_021",
+    "premise": "Two volunteers",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First volunteer",
+      "Second volunteer"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_022",
+    "premise": "A museum curator and a donor",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Museum curator",
+      "Donor"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_023",
+    "premise": "Two longtime chess opponents",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First chess opponent",
+      "Second chess opponent"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_024",
+    "premise": "A tenant and a caretaker",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Tenant",
+      "Caretaker"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_025",
+    "premise": "Two friends",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First friend",
+      "Second friend"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_026",
+    "premise": "An inventor and a tester",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Inventor",
+      "Tester"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_027",
+    "premise": "A radio host and their childhood friend",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Radio host",
+      "Childhood friend"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_028",
+    "premise": "Two regular train passengers",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First regular passenger",
+      "Second regular passenger"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "travel"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_029",
+    "premise": "A newcomer and a neighborhood greeter",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Newcomer",
+      "Neighborhood greeter"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_030",
+    "premise": "Two siblings",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First sibling",
+      "Second sibling"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_031",
+    "premise": "Three former roommates",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First former roommate",
+      "Second former roommate",
+      "Third former roommate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace",
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_032",
+    "premise": "Three adult cousins",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First adult cousin",
+      "Second adult cousin",
+      "Third adult cousin"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_033",
+    "premise": "Three former teammates",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First former teammate",
+      "Second former teammate",
+      "Third former teammate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_034",
+    "premise": "Three co-owners",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First co-owner",
+      "Second co-owner",
+      "Third co-owner"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_035",
+    "premise": "Three old friends",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First friend",
+      "Second friend",
+      "Third friend"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_036",
+    "premise": "Three neighbors",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First neighbor",
+      "Second neighbor",
+      "Third neighbor"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_037",
+    "premise": "Three club founders",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First founder",
+      "Second founder",
+      "Third founder"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_038",
+    "premise": "Three siblings",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First sibling",
+      "Second sibling",
+      "Third sibling"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_039",
+    "premise": "Three tour guides",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First guide",
+      "Second guide",
+      "Third guide"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "travel"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_040",
+    "premise": "Three fellow performers",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First performer",
+      "Second performer",
+      "Third performer"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_041",
+    "premise": "Members of a neighborhood theater board",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Theater board member 1",
+      "Theater board member 2",
+      "Theater board member 3",
+      "Theater board member 4"
+    ],
+    "expandableRole": "Theater board member",
+    "tags": [
+      "domestic",
+      "arts"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_042",
+    "premise": "Members of an extended family",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Family member 1",
+      "Family member 2",
+      "Family member 3",
+      "Family member 4"
+    ],
+    "expandableRole": "Family member",
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_043",
+    "premise": "Fellow volunteer gardeners",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Volunteer gardener 1",
+      "Volunteer gardener 2",
+      "Volunteer gardener 3",
+      "Volunteer gardener 4"
+    ],
+    "expandableRole": "Volunteer gardener",
+    "tags": [
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_044",
+    "premise": "Museum colleagues",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Museum colleague 1",
+      "Museum colleague 2",
+      "Museum colleague 3",
+      "Museum colleague 4"
+    ],
+    "expandableRole": "Museum colleague",
+    "tags": [
+      "workplace"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_045",
+    "premise": "Members of a ferry crew",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Ferry crew member 1",
+      "Ferry crew member 2",
+      "Ferry crew member 3",
+      "Ferry crew member 4"
+    ],
+    "expandableRole": "Ferry crew member",
+    "tags": [
+      "travel"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_046",
+    "premise": "Members of a book club",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Book-club member 1",
+      "Book-club member 2",
+      "Book-club member 3",
+      "Book-club member 4"
+    ],
+    "expandableRole": "Book-club member",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_047",
+    "premise": "Neighbors on the same street",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Neighbor 1",
+      "Neighbor 2",
+      "Neighbor 3",
+      "Neighbor 4"
+    ],
+    "expandableRole": "Neighbor",
+    "tags": [
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_048",
+    "premise": "Members of a choir",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Choir member 1",
+      "Choir member 2",
+      "Choir member 3",
+      "Choir member 4"
+    ],
+    "expandableRole": "Choir member",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_049",
+    "premise": "Fellow amateur astronomers",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Astronomy-club member 1",
+      "Astronomy-club member 2",
+      "Astronomy-club member 3",
+      "Astronomy-club member 4"
+    ],
+    "expandableRole": "Astronomy-club member",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_050",
+    "premise": "Members of a bakery team",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Bakery team member 1",
+      "Bakery team member 2",
+      "Bakery team member 3",
+      "Bakery team member 4"
+    ],
+    "expandableRole": "Bakery team member",
+    "tags": [
+      "workplace"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_051",
+    "premise": "Members of a community radio crew",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Radio crew member 1",
+      "Radio crew member 2",
+      "Radio crew member 3",
+      "Radio crew member 4"
+    ],
+    "expandableRole": "Radio crew member",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_052",
+    "premise": "Members of a walking club",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Walking-club member 1",
+      "Walking-club member 2",
+      "Walking-club member 3",
+      "Walking-club member 4"
+    ],
+    "expandableRole": "Walking-club member",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_053",
+    "premise": "Members of a restaurant team",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Restaurant team member 1",
+      "Restaurant team member 2",
+      "Restaurant team member 3",
+      "Restaurant team member 4"
+    ],
+    "expandableRole": "Restaurant team member",
+    "tags": [
+      "workplace"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_054",
+    "premise": "Members of a wedding party",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Wedding-party member 1",
+      "Wedding-party member 2",
+      "Wedding-party member 3",
+      "Wedding-party member 4"
+    ],
+    "expandableRole": "Wedding-party member",
+    "tags": [
+      "celebration"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_055",
+    "premise": "Members of a school reunion committee",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Reunion committee member 1",
+      "Reunion committee member 2",
+      "Reunion committee member 3",
+      "Reunion committee member 4"
+    ],
+    "expandableRole": "Reunion committee member",
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_056",
+    "premise": "Members of a neighborhood council",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Council member 1",
+      "Council member 2",
+      "Council member 3",
+      "Council member 4"
+    ],
+    "expandableRole": "Council member",
+    "tags": [
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_057",
+    "premise": "Members of a costume team",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Costume team member 1",
+      "Costume team member 2",
+      "Costume team member 3",
+      "Costume team member 4"
+    ],
+    "expandableRole": "Costume team member",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_058",
+    "premise": "Bandmates",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Bandmate 1",
+      "Bandmate 2",
+      "Bandmate 3",
+      "Bandmate 4"
+    ],
+    "expandableRole": "Bandmate",
+    "tags": [
+      "arts"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_059",
+    "premise": "Members of a boat club",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Boat-club member 1",
+      "Boat-club member 2",
+      "Boat-club member 3",
+      "Boat-club member 4"
+    ],
+    "expandableRole": "Boat-club member",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_060",
+    "premise": "Members of a family",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Family member 1",
+      "Family member 2",
+      "Family member 3",
+      "Family member 4"
+    ],
+    "expandableRole": "Family member",
+    "tags": [
+      "workplace",
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_061",
+    "premise": "Fellow railway volunteers",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Railway volunteer 1",
+      "Railway volunteer 2",
+      "Railway volunteer 3",
+      "Railway volunteer 4"
+    ],
+    "expandableRole": "Railway volunteer",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_062",
+    "premise": "Library colleagues",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Library colleague 1",
+      "Library colleague 2",
+      "Library colleague 3",
+      "Library colleague 4"
+    ],
+    "expandableRole": "Library colleague",
+    "tags": [
+      "workplace"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_063",
+    "premise": "Members of a chess club",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Chess-club member 1",
+      "Chess-club member 2",
+      "Chess-club member 3",
+      "Chess-club member 4"
+    ],
+    "expandableRole": "Chess-club member",
+    "tags": [
+      "travel"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_064",
+    "premise": "Hotel colleagues",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Hotel colleague 1",
+      "Hotel colleague 2",
+      "Hotel colleague 3",
+      "Hotel colleague 4"
+    ],
+    "expandableRole": "Hotel colleague",
+    "tags": [
+      "travel",
+      "mystery"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_065",
+    "premise": "Members of a gardening cooperative",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Cooperative member 1",
+      "Cooperative member 2",
+      "Cooperative member 3",
+      "Cooperative member 4"
+    ],
+    "expandableRole": "Cooperative member",
+    "tags": [
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_066",
+    "premise": "Members of a local history society",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "History-society member 1",
+      "History-society member 2",
+      "History-society member 3",
+      "History-society member 4"
+    ],
+    "expandableRole": "History-society member",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_067",
+    "premise": "Members of a film club",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Film-club member 1",
+      "Film-club member 2",
+      "Film-club member 3",
+      "Film-club member 4"
+    ],
+    "expandableRole": "Film-club member",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_068",
+    "premise": "Cousins",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Cousin 1",
+      "Cousin 2",
+      "Cousin 3",
+      "Cousin 4"
+    ],
+    "expandableRole": "Cousin",
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_069",
+    "premise": "Classmates in a pottery course",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Pottery classmate 1",
+      "Pottery classmate 2",
+      "Pottery classmate 3",
+      "Pottery classmate 4"
+    ],
+    "expandableRole": "Pottery classmate",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_070",
+    "premise": "Members of an inventors' team",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Inventor 1",
+      "Inventor 2",
+      "Inventor 3",
+      "Inventor 4"
+    ],
+    "expandableRole": "Inventor",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_071",
+    "premise": "Members of a community kitchen team",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Kitchen team member 1",
+      "Kitchen team member 2",
+      "Kitchen team member 3",
+      "Kitchen team member 4"
+    ],
+    "expandableRole": "Kitchen team member",
+    "tags": [
+      "domestic"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_072",
+    "premise": "Members of a neighborhood orchestra",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Orchestra member 1",
+      "Orchestra member 2",
+      "Orchestra member 3",
+      "Orchestra member 4"
+    ],
+    "expandableRole": "Orchestra member",
+    "tags": [
+      "domestic",
+      "arts"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_073",
+    "premise": "Members of a sailing team",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Sailing team member 1",
+      "Sailing team member 2",
+      "Sailing team member 3",
+      "Sailing team member 4"
+    ],
+    "expandableRole": "Sailing team member",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_074",
+    "premise": "Members of an amateur archaeology team",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Archaeology team member 1",
+      "Archaeology team member 2",
+      "Archaeology team member 3",
+      "Archaeology team member 4"
+    ],
+    "expandableRole": "Archaeology team member",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_075",
+    "premise": "Members of a festival committee",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Festival committee member 1",
+      "Festival committee member 2",
+      "Festival committee member 3",
+      "Festival committee member 4"
+    ],
+    "expandableRole": "Festival committee member",
+    "tags": [
+      "celebration",
+      "mystery"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_076",
+    "premise": "Members of a repair cafe team",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Repair cafe colleague 1",
+      "Repair cafe colleague 2",
+      "Repair cafe colleague 3",
+      "Repair cafe colleague 4"
+    ],
+    "expandableRole": "Repair cafe colleague",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_077",
+    "premise": "Former classmates",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Former classmate 1",
+      "Former classmate 2",
+      "Former classmate 3",
+      "Former classmate 4"
+    ],
+    "expandableRole": "Former classmate",
+    "tags": [
+      "family"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_078",
+    "premise": "Members of a planetarium crew",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Planetarium crew member 1",
+      "Planetarium crew member 2",
+      "Planetarium crew member 3",
+      "Planetarium crew member 4"
+    ],
+    "expandableRole": "Planetarium crew member",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_079",
+    "premise": "Fellow cinema volunteers",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Cinema volunteer 1",
+      "Cinema volunteer 2",
+      "Cinema volunteer 3",
+      "Cinema volunteer 4"
+    ],
+    "expandableRole": "Cinema volunteer",
+    "tags": [
+      "everyday"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_080",
+    "premise": "Members of a family band",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Family band member 1",
+      "Family band member 2",
+      "Family band member 3",
+      "Family band member 4"
+    ],
+    "expandableRole": "Family band member",
+    "tags": [
+      "family",
+      "celebration",
+      "arts"
+    ],
+    "contentRating": "clean",
+    "version": 2
+  },
+  {
+    "id": "rel_081",
+    "premise": "Two roommates",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First roommate",
+      "Second roommate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "domestic",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_082",
+    "premise": "Two wedding planners",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First wedding planner",
+      "Second wedding planner"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "celebration",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_083",
+    "premise": "Two neighbors",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First neighbor",
+      "Second neighbor"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "domestic",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_084",
+    "premise": "An employee and their manager",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Employee",
+      "Manager"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_086",
+    "premise": "A chef and a customer",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Chef",
+      "Customer"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_088",
+    "premise": "A museum curator and a visitor",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Museum curator",
+      "Visitor"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "arts",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_089",
+    "premise": "Two bandmates",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First bandmate",
+      "Second bandmate"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_091",
+    "premise": "A landlord and a tenant",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "Landlord",
+      "Tenant"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "domestic",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_092",
+    "premise": "Two colleagues",
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "namedRoles": [
+      "First colleague",
+      "Second colleague"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_093",
+    "premise": "Three friends",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First friend",
+      "Second friend",
+      "Third friend"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_094",
+    "premise": "Three adult siblings",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First sibling",
+      "Second sibling",
+      "Third sibling"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "everyday",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_096",
+    "premise": "Three coworkers",
+    "minPlayers": 3,
+    "maxPlayers": 3,
+    "namedRoles": [
+      "First coworker",
+      "Second coworker",
+      "Third coworker"
+    ],
+    "expandableRole": null,
+    "tags": [
+      "workplace",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_097",
+    "premise": "Members of a wedding committee",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Wedding committee member 1",
+      "Wedding committee member 2",
+      "Wedding committee member 3",
+      "Wedding committee member 4"
+    ],
+    "expandableRole": "Wedding committee member",
+    "tags": [
+      "celebration",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_099",
+    "premise": "Members of a cafe team",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Cafe team member 1",
+      "Cafe team member 2",
+      "Cafe team member 3",
+      "Cafe team member 4"
+    ],
+    "expandableRole": "Cafe team member",
+    "tags": [
+      "everyday",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_101",
+    "premise": "Members of a museum committee",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Museum committee member 1",
+      "Museum committee member 2",
+      "Museum committee member 3",
+      "Museum committee member 4"
+    ],
+    "expandableRole": "Museum committee member",
+    "tags": [
+      "arts",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 2,
+    "flavor": "playful"
+  },
+  {
+    "id": "rel_102",
+    "premise": "Colleagues",
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "namedRoles": [
+      "Colleague 1",
+      "Colleague 2",
+      "Colleague 3",
+      "Colleague 4"
+    ],
+    "expandableRole": "Colleague",
+    "tags": [
+      "workplace",
+      "playful"
+    ],
+    "contentRating": "clean",
+    "version": 3,
+    "flavor": "playful"
+  }
+]
