@@ -1,5 +1,12 @@
 # Off Script marketing media
 
+## Separate Cheeky / 18+ campaign
+
+The [After Hours gallery](after-hours.html) and [its source/usage guide](AFTER_HOURS.md)
+contain the separate adults-only website/social cut. Its exports live in
+`exports/after-hours/`; the all-ages screenshot/video files and launch ZIP
+below are unchanged. Do not mix the adult campaign into App Store previews.
+
 ## What to use
 
 - `exports/iphone/`: six ordered **1320 x 2868** App Store screenshot designs.
@@ -23,7 +30,12 @@ Use the six PNGs in each device folder, in filename order. The iPhone set uses A
 
 **Do not upload the tutorial MP4s as App Store App Previews.** They are branded, frame-animated website/social tutorials, not App Preview deliverables. Apple previews have separate device-specific accepted video resolutions and in-app-footage/content requirements. A preview video is optional; these screenshot sets do not depend on one.
 
-The artwork depicts current source, including the compact Library and first-use improvements. It is newer than the uploaded TestFlight build 1.3.0 (3). Build and submit a matching new native binary before using these screenshots for release. Verify final wording and UI against that binary. No upload, public deployment, or App Review submission is performed by these scripts.
+The artwork depicts current source, including the compact Library and first-use
+improvements now included in uploaded TestFlight beta **1.3.0 (4)**. The older
+build 3 does not match. Final App Store release still needs approved live
+privacy/support links and owner metadata; verify final wording and UI against
+the eventual submitted binary. No upload, public deployment, or App Review
+submission is performed by these media scripts.
 
 ## Editing
 
@@ -68,4 +80,8 @@ All shown gameplay uses the default Clean level. Prompt Studio examples are the 
 - [Apple App Preview guidance](https://developer.apple.com/app-store/app-previews/)
 - [Apple App Preview technical specifications](https://developer.apple.com/help/app-store-connect/reference/app-information/app-preview-specifications/)
 
-Only Clean, all-ages material appears here. The app also has opt-in higher-rated content; this media does not replace the owner's obligation to disclose that accurately in the App Store age-rating questionnaire.
+Only Clean, all-ages material appears in the original screenshot/video set
+described above. The separate After Hours campaign includes non-graphic,
+opt-in higher-rated examples. Neither set replaces the owner's obligation
+to disclose all accessible app content accurately in the App Store
+age-rating questionnaire.

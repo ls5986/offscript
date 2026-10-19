@@ -7,10 +7,14 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import assert from "node:assert/strict";
 
 const root = dirname(fileURLToPath(import.meta.url));
-const output = resolve(root, "exports");
+const afterHours = process.argv.includes("--after-hours");
+const output = resolve(root, afterHours ? "exports/after-hours" : "exports");
 const frames = 900;
 const fps = 30;
 const videoRequested = process.argv.includes("--video");
+if (afterHours && !videoRequested) {
+  throw new Error("After Hours is a video campaign. Include --video.");
+}
 const ffmpeg = process.env.FFMPEG;
 if (videoRequested && !ffmpeg) {
   throw new Error("Set FFMPEG to an installed FFmpeg executable to encode the tutorial.");
@@ -26,12 +30,14 @@ page.on("request", (request) => {
 });
 const sizes = { phone: [1320, 2868], tablet: [2064, 2752], horizontal: [1920, 1080], vertical: [1080, 1920] };
 const manifest = { screenshots: [], videos: [], duration: 30, fps, source: "Current Release simulator app; original native captures, never browser-emulated app screens." };
+if (afterHours) manifest.audience = "18+";
 
 async function open(format, mode = "screenshot", shot = 0) {
   const [width, height] = sizes[format];
   await page.setViewportSize({ width, height });
   const url = pathToFileURL(resolve(root, "artwork.html"));
   url.search = new URLSearchParams({ format, mode, shot: String(shot) }).toString();
+  if (afterHours) url.searchParams.set("campaign", "after-hours");
   await page.goto(url.href);
   await page.evaluate(() => window.mediaReady);
   await page.evaluate(async () => {
@@ -65,7 +71,10 @@ async function contactSheet(items, destination, columns, cellWidth) {
   const imageHeight = Math.round(cellWidth * firstHeight / firstWidth);
   const cellHeight = imageHeight + 48;
   const sheet = await browser.newPage({ viewport: { width: columns * cellWidth, height: rows * cellHeight }, deviceScaleFactor: 1 });
-  await sheet.goto(pathToFileURL(resolve(root, "artwork.html")).href);
+  const url = pathToFileURL(resolve(root, "artwork.html"));
+  if (afterHours) url.search = "?mode=tutorial&format=horizontal&campaign=after-hours";
+  await sheet.goto(url.href);
+  await sheet.evaluate(() => window.mediaReady);
   const encoded = await Promise.all(items.map(async (item) => ({
     label: item.file,
     src: `data:image/png;base64,${(await readFile(resolve(output, item.file))).toString("base64")}`,
@@ -92,7 +101,7 @@ async function contactSheet(items, destination, columns, cellWidth) {
 }
 
 try {
-  await open("phone");
+  await open(afterHours ? "horizontal" : "phone", afterHours ? "tutorial" : "screenshot");
   const story = await page.evaluate(() => window.offscriptMedia);
   assert.equal(story.fps, fps);
   assert.equal(story.duration * fps, frames);
@@ -100,9 +109,10 @@ try {
   assert.equal(story.tutorial.at(-1).end, 30);
   story.tutorial.forEach((scene, index) => {
     assert.ok(scene.end > scene.start);
+    assert.ok(scene.caption.split(/\s+/).length / (scene.end - scene.start) * 60 <= 180, "Captions exceed 180 words per minute.");
     if (index) assert.equal(scene.start, story.tutorial[index - 1].end);
   });
-  for (const format of ["phone", "tablet"]) {
+  for (const format of afterHours ? [] : ["phone", "tablet"]) {
     const folder = format === "phone" ? "iphone" : "ipad";
     await mkdir(resolve(output, folder), { recursive: true });
     for (const [index, scene] of story.screenshots.entries()) {
@@ -121,7 +131,7 @@ try {
   if (videoRequested) {
     for (const format of ["horizontal", "vertical"]) {
       await open(format, "tutorial");
-      const file = `off-script-tutorial-${format}-30s.mp4`;
+      const file = `off-script-${afterHours ? "after-hours" : "tutorial"}-${format}-30s.mp4`;
       const encoder = spawn(ffmpeg, [
         "-y", "-hide_banner", "-loglevel", "warning", "-f", "image2pipe", "-vcodec", "png", "-r", String(fps), "-i", "pipe:0",
         "-vf", "scale=in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv420p",
@@ -130,7 +140,7 @@ try {
         "-frames:v", String(frames), "-movflags", "+faststart", resolve(output, file),
       ], { stdio: ["pipe", "inherit", "inherit"] });
       const completed = once(encoder, "exit");
-      const sampleFrames = [15, 135, 255, 405, 555, 645, 735, 825, 885];
+      const sampleFrames = [...new Set([...story.tutorial.map((scene) => (scene.start + 0.5) * fps), 885])];
       const samples = [];
       try {
         for (let frame = 0; frame < frames; frame++) {

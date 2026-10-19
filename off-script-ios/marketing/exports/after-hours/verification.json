@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-18T23:03:40.949Z",
+  "screenshots": [],
+  "videos": [
+    {
+      "file": "off-script-after-hours-horizontal-30s.mp4",
+      "size": [
+        1920,
+        1080
+      ],
+      "codec": "H.264 / yuv420p",
+      "fps": 30,
+      "decodedFrames": 900,
+      "decodedSeconds": 30,
+      "sha256": "d2285ff8053d7eb19e3877f6c3c45e5285f33c90662f1cf774bc6f6e1f9b6f9e"
+    },
+    {
+      "file": "off-script-after-hours-vertical-30s.mp4",
+      "size": [
+        1080,
+        1920
+      ],
+      "codec": "H.264 / yuv420p",
+      "fps": 30,
+      "decodedFrames": 900,
+      "decodedSeconds": 30,
+      "sha256": "95c52440bc47ada39bbba521b0e81b2c56c0f253ae0d8f81fed2586041d5eb35"
+    }
+  ]
+}

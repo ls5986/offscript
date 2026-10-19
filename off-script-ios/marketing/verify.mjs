@@ -6,9 +6,11 @@ import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 
 const root = dirname(fileURLToPath(import.meta.url));
-const output = resolve(root, "exports");
+const afterHours = process.argv.includes("--after-hours");
+const output = resolve(root, afterHours ? "exports/after-hours" : "exports");
 const manifest = JSON.parse(await readFile(resolve(output, "manifest.json"), "utf8"));
-assert.equal(manifest.screenshots.length, 12);
+assert.equal(manifest.screenshots.length, afterHours ? 0 : 12);
+if (afterHours) assert.equal(manifest.audience, "18+");
 assert.equal(manifest.videos.length, 2, "Both tutorial aspect ratios must be rendered.");
 const result = { checkedAt: new Date().toISOString(), screenshots: [], videos: [] };
 

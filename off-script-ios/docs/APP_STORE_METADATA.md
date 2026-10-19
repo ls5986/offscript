@@ -91,9 +91,11 @@ Use the six files in each device folder, in filename order:
 - [iPad: 2064 x 2752](../marketing/exports/ipad/)
 - [Local gallery](../marketing/index.html)
 
-These use the current native UI and are newer than uploaded build 1.3.0 (3).
-Select a matching new build, not build 3. Do not upload the website/social
-tutorial videos as Apple App Previews; an App Preview is optional.
+These use the current native UI, matching the source in uploaded beta
+**1.3.0 (4)** rather than older build 3. A public-release binary still needs
+the owner-approved live privacy/support links before submission. Do not
+upload the website/social tutorial videos as Apple App Previews; an App
+Preview is optional.
 
 ## Owner/account fields that cannot be invented
 
@@ -120,7 +122,10 @@ implementation changes; do not make unrelated export declarations by guess.
 ## Actual submission state
 
 Both shared App Store Connect and Vercel pages currently require sign-in.
-The public-release preflight rejects unset privacy/support URLs. A matching
-release archive, standard App Store upload, processed-build selection,
-metadata save and App Review submission are still pending those prerequisites.
+The public-release preflight rejects unset privacy/support URLs. The matching
+source beta **1.3.0 (4)** has been signed and successfully uploaded using
+standard App Store Connect distribution; Apple acknowledged processing.
+Completed processing and tester access remain unverified. Final public links,
+any matching public-release rebuild, processed-build selection, metadata save
+and App Review submission remain pending their prerequisites.
 See [release readiness](APP_STORE_READINESS.md) for the current verified state.

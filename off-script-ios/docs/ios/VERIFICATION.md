@@ -1,6 +1,54 @@
 # iOS handoff verification
 
-## Matching App Store release preparation: device compilation verified, submission blocked
+## Latest matching beta: 1.3.0 (4), upload confirmed
+
+On October 18, the requested latest-source TestFlight update was signed and
+uploaded successfully as **1.3.0 (4)** at **7:50 PM**. The command-line Xcode
+delivery log explicitly records **"Upload succeeded"**, **"Uploaded package
+is processing"** and **"EXPORT SUCCEEDED"**. No duplicate upload is needed.
+
+The real archive contains the compact Library and approved first-use changes
+shown in the marketing screenshots. Its Hermes bundle is **4,437,448 bytes**,
+SHA-256 `366da756e2b7d1b442f97a34925863fbb0df5eadadf6ca6ce321119a9ce8c5d9`,
+with `2.8.0`, `catalog-record-title`, `Report a problem`,
+`Inspect full catalog`, `Recipe details`, `View saved parties` and
+`Learn this game` verified in the actual bundle.
+
+Fresh **358 unit tests across 41 files**, TypeScript, lint and content
+validation passed. The signed archive verified the registered bundle/team,
+iOS 16.4 minimum and single-scene bootstrap. Camera, microphone, local-network
+usage descriptions and background modes are absent from the Release payload;
+the encryption exemption and no-tracking/no-collected-data manifest remain.
+The app's own symbols and all three authentic official framework dSYMs match
+their arm64 executable UUIDs. Attaching framework symbols left all **83**
+app-payload file hashes unchanged; strict deep code-signature verification
+passed.
+
+Delivery used **standard App Store Connect** export with
+`testFlightInternalTestingOnly=false`, `uploadSymbols=true`, and
+`manageAppVersionAndBuildNumber=false`. Expo/native build metadata is now
+persisted as 1.3.0 (4). There were no missing-symbol upload warnings.
+
+**Apple processing was acknowledged, not verified complete.** The shared
+browser still redirects to App Store Connect sign-in. Internal-group build
+assignment, tester install availability and installation on the owner's
+iPhone could not be rechecked. The existing Owner testing group was previously
+configured for automatic distribution; do not infer current access from that.
+Refresh TestFlight after processing and look specifically for **1.3.0 (4)**.
+
+Retained evidence in the session workspace:
+`OffScript-TestFlight-1.3.0-4.xcarchive`,
+`testflight-build4-verification.json`, and `testflight-build4-upload.log`.
+The detailed successful delivery log is
+`OffScript_2026-10-18_19-48-21.397.xcdistributionlogs`.
+
+This beta upload does **not** submit for public App Review or publish the
+website. Approved live privacy/support URLs and owner contact/declarations
+are still required before final public release. Those App Store requirements
+were not bypassed or filled with invented values; they are not prerequisites
+for this TestFlight upload.
+
+## Earlier App Store preparation: unsigned device validation, public submission blocked
 
 On October 18, after the owner requested a release matching the new media,
 fresh **358 unit tests across 41 files**, TypeScript, lint and content

@@ -1,6 +1,20 @@
 # Off Script: App Store submission readiness
 
-## Current release attempt: matching build requested, owner prerequisites blocked
+## Latest TestFlight update: matching build 1.3.0 (4) uploaded
+
+The newer compact Library and first-use source now has a signed matching
+archive, **1.3.0 (4)**, successfully uploaded at **7:50 PM on October 18**.
+Apple acknowledged processing. The shared portal remains signed out, so
+completed processing and current tester availability are not verified.
+See [the exact build/delivery evidence](ios/VERIFICATION.md).
+
+This standard App Store Connect upload is not restricted to internal-only
+testing, but it is still a **beta upload, not public App Review submission**.
+It does not complete the owner-approved public links, contact details or
+other declarations below. A later public-release binary must embed the
+approved privacy/support URLs, which remain unset. Do not reupload build 4.
+
+## Earlier public-release attempt: owner prerequisites blocked
 
 The owner requested a matching native build and App Review submission on
 October 18, 2026. Fresh validation passed **358 unit tests across 41 files**,
@@ -30,7 +44,7 @@ archiving so they are embedded in the matching binary. No new build number
 has been assigned, matching archive created, upload performed or App Review
 submission made during this attempt.
 
-The latest confirmed upload is **1.3.0 (3)**, delivered successfully through
+At that earlier attempt, the latest confirmed upload was **1.3.0 (3)**, delivered successfully through
 Organizer on October 18 with matching authentic framework symbols. It used
 standard App Store Connect distribution (`testFlightInternalTestingOnly=false`).
 It is not restricted to internal TestFlight, but predates the compact Library

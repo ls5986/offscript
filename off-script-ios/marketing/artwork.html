@@ -77,6 +77,15 @@
     .tutorial.vertical.outro h1 { font-size: 123px; }
     .tutorial.vertical.outro .description { font-size: 36px; }
     .tutorial.vertical.outro .offset-card { left: 650px; top: 1400px; }
+    .audience { display: none; }
+    .after-hours .audience { display: block; position: absolute; right: 116px; top: 73px; z-index: 5; background: #F29B87; color: #172B49; padding: 13px 21px; border-radius: 50px; font: 700 20px DM, sans-serif; letter-spacing: 2px; }
+    .after-hours.vertical .audience { right: 85px; top: 155px; font-size: 20px; }
+    .after-hours.tutorial h1 { font-size: 108px; }
+    .after-hours.tutorial.vertical h1 { font-size: 96px; }
+    .after-hours.tutorial.outro h1 { font-size: 145px; }
+    .after-hours.tutorial.vertical.outro h1 { font-size: 112px; }
+    .after-hours .accent-corner { transform: rotate(-12deg); }
+    .after-hours.tutorial:not(.vertical) .device { top: 145px; width: 370px; }
   </style>
 </head>
 <body>
@@ -84,15 +93,19 @@
     <div class="offset-card"></div>
     <div class="accent-corner"></div>
     <div class="brand"><img src="../public/brand/mark.svg" alt=""><span>OFF SCRIPT</span></div>
+    <div class="audience">AFTER HOURS / 18+</div>
     <div class="copy"><div class="kicker" id="kicker"></div><h1 id="headline"></h1><p class="description" id="description"></p></div>
     <div class="device"><img id="capture" alt="Actual Off Script native app screen"></div>
     <div class="progress" hidden><span id="progress"></span></div>
   </main>
   <script src="./story.js"></script>
+  <script src="./after-hours-story.js"></script>
   <script>
     const parameters = new URLSearchParams(location.search);
     const format = parameters.get("format") || "phone";
     const mode = parameters.get("mode") || "screenshot";
+    const afterHours = parameters.get("campaign") === "after-hours";
+    if (afterHours) window.offscriptMedia = window.offscriptAfterHours;
     const canvas = document.getElementById("canvas");
     let active = -1;
     window.renderMedia = async function (seconds = 0) {
@@ -103,13 +116,13 @@
       const scene = (mode === "tutorial" ? story.tutorial : story.screenshots)[index];
       if (!scene) throw new Error(`No media scene at ${seconds}`);
       if (index !== active) {
-        canvas.className = `canvas ${scene.theme} ${mode === "tutorial" ? "tutorial" : format} ${format === "vertical" ? "vertical" : ""} ${scene.outro ? "outro" : ""}`;
+        canvas.className = `canvas ${scene.theme} ${mode === "tutorial" ? "tutorial" : format} ${format === "vertical" ? "vertical" : ""} ${scene.outro ? "outro" : ""} ${afterHours ? "after-hours" : ""}`;
         document.getElementById("kicker").textContent = scene.kicker;
         document.getElementById("headline").textContent = scene.title;
         document.getElementById("description").textContent = scene.description;
         const image = document.getElementById("capture");
         if (scene.capture) {
-          image.src = `./captures/${format === "tablet" ? "ipad" : "iphone"}/${scene.capture}.png`;
+          image.src = `./captures/${afterHours ? "after-hours" : format === "tablet" ? "ipad" : "iphone"}/${scene.capture}.png`;
           await image.decode();
         }
         active = index;

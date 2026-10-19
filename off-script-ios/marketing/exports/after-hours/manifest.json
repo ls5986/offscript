@@ -1,0 +1,33 @@
+{
+  "screenshots": [],
+  "videos": [
+    {
+      "file": "off-script-after-hours-horizontal-30s.mp4",
+      "size": [
+        1920,
+        1080
+      ],
+      "frames": 900,
+      "fps": 30,
+      "seconds": 30,
+      "audio": "None; caption-first silent tutorial.",
+      "use": "Website and social media. Not an App Store App Preview."
+    },
+    {
+      "file": "off-script-after-hours-vertical-30s.mp4",
+      "size": [
+        1080,
+        1920
+      ],
+      "frames": 900,
+      "fps": 30,
+      "seconds": 30,
+      "audio": "None; caption-first silent tutorial.",
+      "use": "Website and social media. Not an App Store App Preview."
+    }
+  ],
+  "duration": 30,
+  "fps": 30,
+  "source": "Current Release simulator app; original native captures, never browser-emulated app screens.",
+  "audience": "18+"
+}

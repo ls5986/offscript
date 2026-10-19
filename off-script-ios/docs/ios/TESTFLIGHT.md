@@ -6,17 +6,20 @@ Do not use a simulator or unsigned validation build for TestFlight.
 
 ## Immediate owner-only testing
 
-**Latest beta upload:** the full Library/content 2.8 build **1.3.0 (3)**
-uploaded through Organizer at 12:34 PM on October 18, with matching official
-framework dSYMs included. Apple's receipt confirms upload success and processing
-handoff. The earlier authentication failure was superseded; do not reupload
-this build. The shared portal still needs sign-in, so finished processing and
-current tester access have not been re-verified there.
+**Latest beta upload:** **1.3.0 (4)** uploaded successfully through the local
+Xcode command-line route at **7:50 PM on October 18**, with the compact Library,
+first-use improvements and matching official framework dSYMs included.
+Apple's receipt explicitly confirms upload success and processing handoff.
+Do not reupload this build. The shared portal still needs sign-in, so finished
+processing and current tester access have not been verified there.
 
-The successful GUI delivery used standard App Store Connect export, not the
-internal-only flag used by the earlier failed CLI attempt. This does not
-publish the app or submit it for public review. The restricted internal-only
-instructions below remain an option for future owner-only builds.
+The successful build-4 delivery used standard App Store Connect export,
+`testFlightInternalTestingOnly=false`, `uploadSymbols=true`, and explicit
+build numbering (`manageAppVersionAndBuildNumber=false`). This does not
+publish the app or submit it for public review. Build 3's earlier successful
+Organizer delivery is historical; do not use its older UI as the latest beta.
+The restricted internal-only instructions below remain an option for future
+owner-only builds.
 See [the actual delivery evidence](VERIFICATION.md).
 
 For the owner's **internal TestFlight** build, public privacy/support-page
@@ -40,12 +43,11 @@ The public metadata and `ios:check:local` steps below remain the **full release
 preparation** path. Their strict checks and the EAS production guard are
 unchanged; no placeholder URL should be supplied to make them pass.
 
-The October 18 readability correction has a verified signed **1.3.0 (2)**
-archive, but its upload was blocked by expired App Store Connect access in
-Xcode. Reauthenticate through Xcode Settings > Accounts, then retry the
-internal-only upload. The browser passkey option also requires owner
-authorization. Do not assume build 1 updates itself when local source changes.
-See [the latest build/upload evidence](VERIFICATION.md).
+Older build-2/3 authentication failures were superseded by later successful
+deliveries. Do not retry an already uploaded version/build to resolve a
+logged-out browser. The native Xcode account can upload even while that
+separate browser session is signed out. See
+[the latest build/upload evidence](VERIFICATION.md).
 
 ## 1. Connect the owner's Apple account
 
