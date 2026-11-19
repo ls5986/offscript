@@ -6,14 +6,15 @@ Do not use a simulator or unsigned validation build for TestFlight.
 
 ## Immediate owner-only testing
 
-**Latest beta upload:** **1.3.0 (4)** uploaded successfully through the local
-Xcode command-line route at **7:50 PM on October 18**, with the compact Library,
+**Latest beta upload:** **1.3.0 (6)** uploaded successfully through the local
+Xcode command-line route at **9:16 PM on October 18**, with the Change game
+list repair, live privacy/support links in Settings, the compact Library,
 first-use improvements and matching official framework dSYMs included.
 Apple's receipt explicitly confirms upload success and processing handoff.
 Do not reupload this build. The shared portal still needs sign-in, so finished
 processing and current tester access have not been verified there.
 
-The successful build-4 delivery used standard App Store Connect export,
+The successful build-6 delivery used standard App Store Connect export,
 `testFlightInternalTestingOnly=false`, `uploadSymbols=true`, and explicit
 build numbering (`manageAppVersionAndBuildNumber=false`). This does not
 publish the app or submit it for public review. Build 3's earlier successful
@@ -21,6 +22,10 @@ Organizer delivery is historical; do not use its older UI as the latest beta.
 The restricted internal-only instructions below remain an option for future
 owner-only builds.
 See [the actual delivery evidence](VERIFICATION.md).
+
+For a party whose saved selection was already shortened by the old bug, use
+**Change game > Choose games > Use default mix > Save deck** once after
+updating. Existing intentional exclusions are never reset automatically.
 
 For the owner's **internal TestFlight** build, public privacy/support-page
 publication is not an Apple upload prerequisite. Do not delay this path on
@@ -88,7 +93,8 @@ No other app's identifier was reused.
 ## 2. Fill the real public app metadata for full release preparation
 
 This checkout's ignored `.env.local` now contains the verified bundle and team
-IDs above. Preserve those values and fill its blank privacy/support URLs.
+IDs above. Preserve those values. The owner-supplied live privacy/support URLs
+are now defaulted in `app.json`; environment values can override them.
 For a fresh checkout, copy `.env.example` to `.env.local` and set:
 
 ```dotenv
@@ -133,6 +139,11 @@ remote fonts or analytics. `OFFSCRIPT_SUPPORT_EMAIL` can add the owner's approve
 public contact to both policy/support pages. If unset, only the public
 [repository issue tracker](https://github.com/ls5986/offscript/issues) is offered;
 that alone does not complete Apple's actual-contact-information requirement.
+
+The owner has deployed `https://offscript-off-script-ios.vercel.app/`.
+Build 5 embeds its verified public `/privacy` and `/support` pages, and the
+native Settings buttons have been tested opening both live pages. The site
+still needs an approved direct public contact before App Store submission.
 
 The policy distinguishes local app data and user-chosen feedback from
 Apple's **automatic TestFlight diagnostics** and Vercel's hosting metadata.

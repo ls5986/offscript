@@ -1,18 +1,28 @@
 # Off Script: App Store submission readiness
 
-## Latest TestFlight update: matching build 1.3.0 (4) uploaded
+## Latest TestFlight update: 1.3.0 (6) repairs Change game and retains policy links
 
-The newer compact Library and first-use source now has a signed matching
-archive, **1.3.0 (4)**, successfully uploaded at **7:50 PM on October 18**.
-Apple acknowledged processing. The shared portal remains signed out, so
-completed processing and current tester availability are not verified.
+**1.3.0 (6)** uploaded successfully at **9:16 PM on October 18**, fixing
+manual game choice accidentally shortening the picker. It retains the live
+Settings links introduced in build 5. Apple acknowledged processing; finished
+processing and current tester installation remain unverified. Do not reupload.
+
+The owner deployed `https://offscript-off-script-ios.vercel.app/`. Both
+`/privacy` and `/support` are public and returned 200 HTML. **Build 1.3.0 (5)**
+embeds those exact URLs and was successfully uploaded at **8:47 PM on
+October 18**. Native testing verified Settings buttons open Safari and load
+the corresponding live-page headings. Apple acknowledged processing;
+completed processing and tester installation remain unverified.
 See [the exact build/delivery evidence](ios/VERIFICATION.md).
 
 This standard App Store Connect upload is not restricted to internal-only
-testing, but it is still a **beta upload, not public App Review submission**.
-It does not complete the owner-approved public links, contact details or
-other declarations below. A later public-release binary must embed the
-approved privacy/support URLs, which remain unset. Do not reupload build 4.
+testing, but is **not public App Review submission**. The local release
+metadata preflight now passes; the remaining website contact requirement
+does not. The live pages currently offer only GitHub issues. Publish an
+owner-approved direct support contact using `OFFSCRIPT_SUPPORT_EMAIL` in
+Vercel, redeploy, and complete the listing/contact/privacy/age declarations
+below before submitting. Build 5's successful delivery is historical; use the
+latest appropriate processed build, not an older one lacking this bug fix.
 
 ## Earlier public-release attempt: owner prerequisites blocked
 

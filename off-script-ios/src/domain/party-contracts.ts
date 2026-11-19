@@ -38,6 +38,7 @@ export const PartyCardSchema = z.object({
 export const PartyStateSchema = z.object({
   version: z.literal(1),
   options: PartyOptionsSchema,
+  manualActivityId: z.string().optional(),
   cards: z.array(PartyCardSchema).min(1),
   cursor: z.number().int().nonnegative(),
   archivedPlayers: z.array(PlayerSchema).default([]),

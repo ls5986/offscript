@@ -8,10 +8,14 @@ import assert from "node:assert/strict";
 
 const root = dirname(fileURLToPath(import.meta.url));
 const afterHours = process.argv.includes("--after-hours");
-const output = resolve(root, afterHours ? "exports/after-hours" : "exports");
+const mediumPhone = process.argv.includes("--iphone-medium");
+const output = resolve(root, mediumPhone ? "exports/iphone-medium" : afterHours ? "exports/after-hours" : "exports");
 const frames = 900;
 const fps = 30;
 const videoRequested = process.argv.includes("--video");
+if (mediumPhone && (afterHours || videoRequested)) {
+  throw new Error("--iphone-medium exports screenshots only; do not combine it with campaign/video flags.");
+}
 if (afterHours && !videoRequested) {
   throw new Error("After Hours is a video campaign. Include --video.");
 }
@@ -28,9 +32,13 @@ page.on("pageerror", (error) => errors.push(error.message));
 page.on("request", (request) => {
   assert.ok(request.url().startsWith("file:") || request.url().startsWith("data:"), "Media must render without external requests.");
 });
-const sizes = { phone: [1320, 2868], tablet: [2064, 2752], horizontal: [1920, 1080], vertical: [1080, 1920] };
+const sizes = { phone: [1320, 2868], "phone-medium": [1206, 2622], tablet: [2064, 2752], horizontal: [1920, 1080], vertical: [1080, 1920] };
 const manifest = { screenshots: [], videos: [], duration: 30, fps, source: "Current Release simulator app; original native captures, never browser-emulated app screens." };
 if (afterHours) manifest.audience = "18+";
+if (mediumPhone) {
+  manifest.uploadSlot = "iPhone with Dynamic Island (medium display)";
+  manifest.source = "Marketing artwork rendered for the medium-display canvas; original iPhone 18 Pro Max native captures retain their aspect ratio without stretching.";
+}
 
 async function open(format, mode = "screenshot", shot = 0) {
   const [width, height] = sizes[format];
@@ -101,7 +109,7 @@ async function contactSheet(items, destination, columns, cellWidth) {
 }
 
 try {
-  await open(afterHours ? "horizontal" : "phone", afterHours ? "tutorial" : "screenshot");
+  await open(afterHours ? "horizontal" : mediumPhone ? "phone-medium" : "phone", afterHours ? "tutorial" : "screenshot");
   const story = await page.evaluate(() => window.offscriptMedia);
   assert.equal(story.fps, fps);
   assert.equal(story.duration * fps, frames);
@@ -112,22 +120,24 @@ try {
     assert.ok(scene.caption.split(/\s+/).length / (scene.end - scene.start) * 60 <= 180, "Captions exceed 180 words per minute.");
     if (index) assert.equal(scene.start, story.tutorial[index - 1].end);
   });
-  for (const format of afterHours ? [] : ["phone", "tablet"]) {
-    const folder = format === "phone" ? "iphone" : "ipad";
+  for (const format of afterHours ? [] : mediumPhone ? ["phone-medium"] : ["phone", "tablet"]) {
+    const folder = mediumPhone ? "" : format === "phone" ? "iphone" : "ipad";
     await mkdir(resolve(output, folder), { recursive: true });
     for (const [index, scene] of story.screenshots.entries()) {
       await open(format, "screenshot", index);
       await checkLayout();
-      const file = `${folder}/${scene.id}.png`;
+      const file = folder ? `${folder}/${scene.id}.png` : `${scene.id}.png`;
       await page.screenshot({ path: resolve(output, file), omitBackground: false });
-      manifest.screenshots.push({ file, size: sizes[format], capture: `${folder}/${scene.capture}.png`, headline: scene.title.replaceAll("\n", " ") });
+      manifest.screenshots.push({ file, size: sizes[format], capture: `${format === "tablet" ? "ipad" : "iphone"}/${scene.capture}.png`, headline: scene.title.replaceAll("\n", " ") });
       console.log("Rendered", file);
     }
-    await contactSheet(manifest.screenshots.filter((shot) => shot.file.startsWith(folder)), `${folder}-contact-sheet.png`, 3, 330);
+    await contactSheet(manifest.screenshots.filter((shot) => shot.file.startsWith(folder)), mediumPhone ? "../iphone-medium-contact-sheet.png" : `${folder}-contact-sheet.png`, 3, 330);
   }
   const timestamp = (seconds, separator = ",") => `00:00:${String(seconds).padStart(2, "0")}${separator}000`;
-  await writeFile(resolve(output, "tutorial.srt"), story.tutorial.map((scene, i) => `${i + 1}\n${timestamp(scene.start)} --> ${timestamp(scene.end)}\n${scene.caption}\n`).join("\n"));
-  await writeFile(resolve(output, "tutorial.vtt"), `WEBVTT\n\n${story.tutorial.map((scene) => `${timestamp(scene.start, ".")} --> ${timestamp(scene.end, ".")}\n${scene.caption}\n`).join("\n")}`);
+  if (!mediumPhone) {
+    await writeFile(resolve(output, "tutorial.srt"), story.tutorial.map((scene, i) => `${i + 1}\n${timestamp(scene.start)} --> ${timestamp(scene.end)}\n${scene.caption}\n`).join("\n"));
+    await writeFile(resolve(output, "tutorial.vtt"), `WEBVTT\n\n${story.tutorial.map((scene) => `${timestamp(scene.start, ".")} --> ${timestamp(scene.end, ".")}\n${scene.caption}\n`).join("\n")}`);
+  }
   if (videoRequested) {
     for (const format of ["horizontal", "vertical"]) {
       await open(format, "tutorial");

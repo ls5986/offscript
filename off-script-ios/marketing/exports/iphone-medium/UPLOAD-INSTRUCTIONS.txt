@@ -1,0 +1,30 @@
+OFF SCRIPT - MEDIUM-DISPLAY IPHONE SCREENSHOTS
+
+App Store Connect tab:
+iPhone with Dynamic Island (medium display)
+
+Upload these six PNGs in filename order:
+01-make-it-up.png
+02-party-night.png
+03-prompt-studio.png
+04-new-choice.png
+05-library.png
+06-saved.png
+
+Each is exactly 1206 x 2622 pixels, opaque 8-bit RGB.
+
+Do not use the original 1320 x 2868 large-iPhone files in this tab.
+Do not upload this text, manifests, ZIP, or a contact sheet as a screenshot.
+Keep iPad screenshots in the separate iPad 13-inch tab.
+
+These are screenshot assets, not header/search-results artwork or App Previews.
+Changing screenshots does not require another native app build.
+
+The designs use genuine native app captures with preserved proportions,
+re-rendered for the medium-slot canvas. Native captures were originally made
+on iPhone 18 Pro Max; this is not a claim of a different-device capture.
+
+The source package includes editable artwork and reproduction commands in
+marketing/README.md. The files match the accepted dimensions displayed in
+the owner's App Store Connect screenshot; actual portal acceptance has not
+been verified by an authenticated upload in this task.

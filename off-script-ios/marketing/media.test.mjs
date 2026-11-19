@@ -67,8 +67,46 @@ test("the After Hours audience badge does not cover the native screen", async ()
       return badge.left < device.right && badge.right > device.left &&
         badge.top < device.bottom && badge.bottom > device.top;
     });
+
     assert.equal(overlaps, false);
   } finally {
     await page.close();
   }
+});
+
+test("medium-display iPhone artwork fits the accepted upload canvas without stretching native screens", async () => {
+      const page = await browser.newPage({ viewport: { width: 1206, height: 2622 }, deviceScaleFactor: 1 });
+      try {
+        for (let shot = 0; shot < 6; shot++) {
+          const url = pathToFileURL(resolve(root, "artwork.html"));
+          url.search = `?format=phone-medium&shot=${shot}`;
+          await page.goto(url.href);
+          await page.evaluate(() => window.mediaReady);
+          const layout = await page.evaluate(() => {
+            const bounds = (selector) => {
+              const box = document.querySelector(selector).getBoundingClientRect();
+              return { left: box.left, top: box.top, right: box.right, bottom: box.bottom };
+            };
+            const image = document.querySelector("#capture");
+            return {
+              canvas: bounds("#canvas"),
+              copy: bounds(".copy"),
+              device: bounds(".device"),
+              renderedAspect: image.getBoundingClientRect().width / image.getBoundingClientRect().height,
+              nativeAspect: image.naturalWidth / image.naturalHeight,
+            };
+          });
+          assert.ok(Math.abs(layout.canvas.right - 1206) < 0.1);
+          assert.ok(Math.abs(layout.canvas.bottom - 2622) < 0.1);
+          assert.ok(layout.copy.bottom < layout.device.top);
+          assert.ok(layout.device.left >= 0 && layout.device.right <= 1206);
+          assert.ok(layout.device.bottom <= 2622);
+          assert.ok(Math.abs(layout.renderedAspect - layout.nativeAspect) < 0.0001);
+          const png = await page.screenshot({ omitBackground: false });
+          assert.deepEqual([png.readUInt32BE(16), png.readUInt32BE(20)], [1206, 2622]);
+          assert.equal(png[25], 2, "Upload PNG must be opaque RGB.");
+        }
+      } finally {
+        await page.close();
+      }
 });

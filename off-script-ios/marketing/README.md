@@ -1,5 +1,13 @@
 # Off Script marketing media
 
+## App Store header
+
+Use the [3840 x 1646 header PNG](exports/headers/off-script-header-3840x1646.png)
+in **Header and Search Results > Header**. The
+[header guide](HEADER.md) includes the alternative universal size, official
+template-safe geometry, editable source and the standalone header ZIP.
+This is separate from screenshots; upload one full-size header, not a preview.
+
 ## Separate Cheeky / 18+ campaign
 
 The [After Hours gallery](after-hours.html) and [its source/usage guide](AFTER_HOURS.md)
@@ -9,9 +17,12 @@ below are unchanged. Do not mix the adult campaign into App Store previews.
 
 ## What to use
 
-- `exports/iphone/`: six ordered **1320 x 2868** App Store screenshot designs.
+- **`exports/iphone-medium/`: six ordered 1206 x 2622 PNGs for iPhone with Dynamic Island (medium display)**, matching the slot in the owner's upload-error screenshot.
+- `Off-Script-iPhone-Medium-1206x2622.zip`: the corrected medium-slot PNGs, instructions and size-verification records. Extract it before uploading; upload only the six numbered PNGs.
+- `exports/iphone/`: six ordered **1320 x 2868** designs for iPhone with Dynamic Island (large display), not the medium slot.
 - `exports/ipad/`: six ordered **2064 x 2752** App Store screenshot designs.
 - `exports/iphone-contact-sheet.png` and `ipad-contact-sheet.png`: quick overview.
+- `exports/iphone-medium-contact-sheet.png`: overview of all six corrected medium-slot designs; this is not an upload screenshot.
 - `exports/off-script-tutorial-horizontal-30s.mp4`: **1920 x 1080** website/YouTube tutorial.
 - `exports/off-script-tutorial-vertical-30s.mp4`: **1080 x 1920** social/story tutorial.
 - `exports/tutorial-horizontal-poster.png` and `tutorial-vertical-poster.png`: video covers.
@@ -26,16 +37,35 @@ The videos are silent, caption-first **animated tutorials made from actual nativ
 
 ## App Store upload
 
-Use the six PNGs in each device folder, in filename order. The iPhone set uses Apple's accepted **large Dynamic Island display** size (1320 x 2868); the iPad set uses the **13-inch display** size (2064 x 2752). App Store Connect can scale these to supported smaller devices. Designs use opaque, 8-bit RGB PNGs.
+Use six numbered PNGs from the folder matching the selected upload tab:
+
+| App Store Connect slot | Folder | PNG size |
+| --- | --- | --- |
+| iPhone with Dynamic Island (medium display) | `exports/iphone-medium/` | **1206 x 2622** |
+| iPhone with Dynamic Island (large display) | `exports/iphone/` | **1320 x 2868** |
+| iPad 13-inch display | `exports/ipad/` | **2064 x 2752** |
+
+The reported "File dimensions are invalid" error came from putting the
+large-iPhone set in the medium-iPhone slot. Automatic scaling for smaller
+devices does not mean every upload slot accepts another slot's PNG size.
+Remove the rejected attempts and upload the corrected medium set to the
+medium tab. Leave iPad images in their separate tab. All final designs use
+opaque, 8-bit RGB PNGs.
+
+The medium set is re-rendered at the accepted canvas dimensions from the
+editable artwork, with uniform scaling and preserved native screen aspect
+ratios. It uses the existing genuine iPhone 18 Pro Max captures; it does not
+claim to be a new capture on a different physical device. The original
+large-iPhone/iPad/video exports and their historical ZIP remain unchanged.
 
 **Do not upload the tutorial MP4s as App Store App Previews.** They are branded, frame-animated website/social tutorials, not App Preview deliverables. Apple previews have separate device-specific accepted video resolutions and in-app-footage/content requirements. A preview video is optional; these screenshot sets do not depend on one.
 
-The artwork depicts current source, including the compact Library and first-use
-improvements now included in uploaded TestFlight beta **1.3.0 (4)**. The older
-build 3 does not match. Final App Store release still needs approved live
-privacy/support links and owner metadata; verify final wording and UI against
-the eventual submitted binary. No upload, public deployment, or App Review
-submission is performed by these media scripts.
+The artwork depicts the compact Library and first-use improvements retained
+in uploaded beta **1.3.0 (6)**. The older build 3 does not match. Build 6 also
+includes the live Settings privacy/support links and Change game repair.
+Owner contact/listing declarations remain separate release requirements.
+No upload, public deployment, or App Review submission is performed by these
+media scripts.
 
 ## Editing
 
@@ -45,6 +75,7 @@ Open the HTML in a browser to preview a design:
 
 ```text
 artwork.html?format=phone&shot=0
+artwork.html?format=phone-medium&shot=0
 artwork.html?format=tablet&shot=4
 artwork.html?mode=tutorial&format=horizontal
 artwork.html?mode=tutorial&format=vertical
@@ -58,9 +89,16 @@ From the app root, with the existing Playwright/Chromium installation:
 
 ```bash
 node marketing/render.mjs
+node marketing/render.mjs --iphone-medium
+node marketing/verify.mjs --iphone-medium
 FFMPEG=/absolute/path/to/ffmpeg node marketing/render.mjs --video
 FFMPEG=/absolute/path/to/ffmpeg node marketing/verify.mjs
 ```
+
+`--iphone-medium` writes only the corrected screenshot set and its separate
+manifest/contact sheet; it does not overwrite original screenshots or videos.
+It cannot be combined with video or After Hours flags. This screenshot-only
+verification does not require FFmpeg.
 
 FFmpeg is an external render tool, **not an app runtime dependency**. The initial render used the local `imageio-ffmpeg` 0.6.0 macOS ARM64 package's executable. Any compatible FFmpeg with the `libx264` encoder can reproduce the MP4s. No FFmpeg binary is bundled into the app or committed here.
 

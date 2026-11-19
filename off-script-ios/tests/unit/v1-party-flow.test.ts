@@ -117,6 +117,7 @@ test("replay cannot bypass disabled scenes or a restored default game selection"
   );
   s.party!.options.includeScenes = true;
   s.party!.options.selectedActivityIds = null;
+  s.party!.manualActivityId = undefined;
   expect(() => appendPartyCard(s, randomUUID, now, { replay: true })).toThrow(
     /compatible|included|selected/i,
   );

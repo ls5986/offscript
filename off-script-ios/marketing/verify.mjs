@@ -7,11 +7,13 @@ import { spawnSync } from "node:child_process";
 
 const root = dirname(fileURLToPath(import.meta.url));
 const afterHours = process.argv.includes("--after-hours");
-const output = resolve(root, afterHours ? "exports/after-hours" : "exports");
+const mediumPhone = process.argv.includes("--iphone-medium");
+assert.ok(!(mediumPhone && afterHours), "Choose one media campaign to verify.");
+const output = resolve(root, mediumPhone ? "exports/iphone-medium" : afterHours ? "exports/after-hours" : "exports");
 const manifest = JSON.parse(await readFile(resolve(output, "manifest.json"), "utf8"));
-assert.equal(manifest.screenshots.length, afterHours ? 0 : 12);
+assert.equal(manifest.screenshots.length, mediumPhone ? 6 : afterHours ? 0 : 12);
 if (afterHours) assert.equal(manifest.audience, "18+");
-assert.equal(manifest.videos.length, 2, "Both tutorial aspect ratios must be rendered.");
+assert.equal(manifest.videos.length, mediumPhone ? 0 : 2);
 const result = { checkedAt: new Date().toISOString(), screenshots: [], videos: [] };
 
 for (const shot of manifest.screenshots) {
@@ -19,11 +21,12 @@ for (const shot of manifest.screenshots) {
   assert.equal(bytes.subarray(1, 4).toString(), "PNG");
   const size = [bytes.readUInt32BE(16), bytes.readUInt32BE(20)];
   assert.deepEqual(size, shot.size, shot.file);
+  if (mediumPhone) assert.deepEqual(size, [1206, 2622], "Wrong medium Dynamic Island upload dimensions.");
   assert.equal(bytes[24], 8, `${shot.file}: expected 8-bit color.`);
   assert.equal(bytes[25], 2, `${shot.file}: expected opaque RGB, not an alpha channel.`);
   result.screenshots.push({ file: shot.file, size, color: "8-bit opaque RGB", sha256: createHash("sha256").update(bytes).digest("hex") });
 }
-assert.ok(process.env.FFMPEG, "Set FFMPEG to verify complete MP4 decoding.");
+if (manifest.videos.length) assert.ok(process.env.FFMPEG, "Set FFMPEG to verify complete MP4 decoding.");
 for (const video of manifest.videos) {
   const decoded = spawnSync(process.env.FFMPEG, [
     "-hide_banner", "-xerror", "-i", resolve(output, video.file),
@@ -45,4 +48,4 @@ for (const video of manifest.videos) {
   result.videos.push({ file: video.file, size: video.size, codec: "H.264 / yuv420p", fps: 30, decodedFrames: Number(fields.frame), decodedSeconds: Number(fields.out_time_us) / 1e6, sha256: createHash("sha256").update(await readFile(resolve(output, video.file))).digest("hex") });
 }
 await writeFile(resolve(output, "verification.json"), `${JSON.stringify(result, null, 2)}\n`);
-console.log(`Verified ${result.screenshots.length} opaque RGB screenshots and ${result.videos.length} fully decoded, exactly 30-second videos.`);
+console.log(`Verified ${result.screenshots.length} opaque RGB screenshots${result.videos.length ? ` and ${result.videos.length} fully decoded, exactly 30-second videos` : ""}.`);

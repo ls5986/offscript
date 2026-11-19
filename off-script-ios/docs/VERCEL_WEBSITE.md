@@ -1,5 +1,20 @@
 # One Off Script site: landing, browser play and Apple policy pages
 
+## Owner deployment: verified October 18, 2026
+
+The owner supplied `https://offscript-off-script-ios.vercel.app/` after
+publishing the site. Landing, `/privacy` and `/support` are publicly
+accessible; both policy/support routes returned 200 HTML without login.
+Their exact URLs are durable native metadata defaults in `app.json` and
+were embedded and uploaded in **1.3.0 (5)**. Native Settings was tested
+opening each corresponding live page.
+
+The deployed support/privacy pages still show GitHub issue-tracker contact
+only. Configure the approved public `OFFSCRIPT_SUPPORT_EMAIL` in Vercel and
+redeploy to finish the direct contact requirement. Do not substitute a
+private Apple account address. This contact-content update can use the
+existing URLs and does not need another native binary.
+
 ## What this builds
 
 | URL | Purpose |

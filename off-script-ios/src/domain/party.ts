@@ -94,15 +94,24 @@ export function partyDeckRecipes(options: PartyOptions, count: number) {
     inAutomaticDeck(recipe, options),
   );
 }
+function inCurrentPartyMix(recipe: PartyRecipe, s: SessionSnapshot) {
+  return (
+    inAutomaticDeck(recipe, s.party!.options) ||
+    (s.party!.options.selectedActivityIds === null &&
+      s.party!.manualActivityId === recipe.activityId)
+  );
+}
 export function partyCanRepeat(s: SessionSnapshot): boolean {
   if (!s.party) return false;
   const card = s.party.cards.at(-1);
   return (
     !!card &&
-    partyDeckRecipes(
+    recipesForGroup(
       s.party.options,
       s.players.filter((player) => !player.isSittingOut).length,
-    ).some((recipe) => recipe.id === card.recipeId)
+    ).some(
+      (recipe) => recipe.id === card.recipeId && inCurrentPartyMix(recipe, s),
+    )
   );
 }
 export function partyDeckError(
@@ -151,7 +160,7 @@ export const PartyDeckEngine = {
       s.party!.options.rotation === "stay" &&
       previous &&
       compatible.some((recipe) => recipe.id === previous.id) &&
-      inAutomaticDeck(previous, s.party!.options)
+      inCurrentPartyMix(previous, s)
     )
       return previous;
     const eligible = preferred.filter((r) =>
@@ -350,18 +359,13 @@ export function appendPartyCard(
   if (
     options.recipeId &&
     requested &&
-    selection.party.options.selectedActivityIds === null &&
-    !partyDefaultActivityIds(selection.party.options.level).includes(
-      requested.activityId,
-    )
+    selection.party.options.selectedActivityIds === null
   )
-    selection.party.options = {
-      ...selection.party.options,
-      selectedActivityIds: [
-        ...partyDefaultActivityIds(selection.party.options.level),
-        requested.activityId,
-      ],
-    };
+    selection.party.manualActivityId = partyDefaultActivityIds(
+      selection.party.options.level,
+    ).includes(requested.activityId)
+      ? undefined
+      : requested.activityId;
   if (
     requested &&
     !compatiblePartyRecipes(selection).some((r) => r.id === requested.id)

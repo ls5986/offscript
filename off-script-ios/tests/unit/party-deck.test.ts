@@ -3,13 +3,19 @@ import { expect, test } from "vitest";
 import { UserPreferencesSchema } from "../../src/domain/contracts";
 import {
   appendPartyCard,
+  compatiblePartyRecipes,
   makePartySession,
   normalizePartyOptions,
+  partyCanRepeat,
+  partyDeckRecipes,
   rerollPartyPrompt,
 } from "../../src/domain/party";
 import { PartyOptionsSchema } from "../../src/domain/party-contracts";
 import { partyGuidance, partyInstruction } from "../../src/domain/playbooks";
-import { partyRecipes } from "../../src/domain/party-recipes";
+import {
+  defaultPartyActivityIds,
+  partyRecipes,
+} from "../../src/domain/party-recipes";
 import { advicePrompts } from "../../src/domain/content";
 import { adviceFor, adviceRequests } from "../../src/domain/party-advice";
 import { emptyPrompt } from "../../src/domain/prompts";
@@ -33,6 +39,82 @@ const make = (selectedActivityIds: string[], extra = {}, count = 2) =>
   );
 const next = (session: ReturnType<typeof make>, recipeId?: string) =>
   appendPartyCard(session, randomUUID, now, { recipeId });
+
+test("playing a non-default game preserves the full Change game list and does not rewrite the default mix", () => {
+  const session = makePartySession(
+    3,
+    UserPreferencesSchema.parse({}),
+    [],
+    PartyOptionsSchema.parse({}),
+    randomUUID,
+    42,
+  );
+  const before = compatiblePartyRecipes(session).map((recipe) => recipe.id);
+  const chosen = next(session, "w8_clean");
+  expect(compatiblePartyRecipes(chosen).map((recipe) => recipe.id)).toEqual(
+    before,
+  );
+  expect(chosen.party!.options.selectedActivityIds).toBeNull();
+  expect(session.party!.options.selectedActivityIds).toBeNull();
+  expect(partyCanRepeat(chosen)).toBe(true);
+  expect(currentRound(next(chosen)).activityId).toBe("W8");
+  expect(
+    currentRound(appendPartyCard(chosen, randomUUID, now, { replay: true }))
+      .activityId,
+  ).toBe("W8");
+  expect(
+    partyDeckRecipes(chosen.party!.options, 3).map(
+      (recipe) => recipe.activityId,
+    ),
+  ).toEqual(defaultPartyActivityIds);
+  const restored = SessionSnapshotSchema.parse(
+    JSON.parse(JSON.stringify(chosen)),
+  );
+  expect(partyCanRepeat(restored)).toBe(true);
+  expect(currentRound(next(restored)).activityId).toBe("W8");
+  expect(compatiblePartyRecipes(restored).map((recipe) => recipe.id)).toEqual(
+    before,
+  );
+});
+
+test("manual games remain replayable without expanding shuffled defaults or overriding explicit exclusions", () => {
+  let session = makePartySession(
+    3,
+    UserPreferencesSchema.parse({}),
+    [],
+    PartyOptionsSchema.parse({ rotation: "shuffle" }),
+    randomUUID,
+    42,
+  );
+  session = next(session, "g8_clean");
+  expect(session.party!.options.selectedActivityIds).toBeNull();
+  expect(partyCanRepeat(session)).toBe(true);
+  expect(
+    currentRound(appendPartyCard(session, randomUUID, now, { replay: true }))
+      .activityId,
+  ).toBe("G8");
+  for (let i = 0; i < 12; i++) {
+    session = next(session);
+    expect(defaultPartyActivityIds).toContain(currentRound(session).activityId);
+  }
+  const excluded = next(
+    makePartySession(
+      3,
+      UserPreferencesSchema.parse({}),
+      [],
+      PartyOptionsSchema.parse({}),
+      randomUUID,
+      42,
+    ),
+    "g8_clean",
+  );
+  excluded.party!.options.selectedActivityIds = ["P1"];
+  expect(partyCanRepeat(excluded)).toBe(false);
+  expect(() =>
+    appendPartyCard(excluded, randomUUID, now, { replay: true }),
+  ).toThrow(/included|selected/i);
+  expect(() => next(excluded, "g8_clean")).toThrow(/compatible/i);
+});
 
 test("Hot Seat says the character answers questions rather than ending after an introduction", () => {
   expect(partyInstruction({ id: "T2" })).toMatch(/answer questions/i);

@@ -1,0 +1,56 @@
+{
+  "specifications": "https://developer.apple.com/help/app-store-connect/reference/app-information/creative-assets-specifications",
+  "guidance": "https://developer.apple.com/app-store/asset-best-practices/",
+  "safeAreaSource": "Art Safe Area layer bounds read from Apple's official 16-bit Photoshop header/universal templates on October 18, 2026. Templates are not bundled.",
+  "templateURLs": [
+    "https://devimages-cdn.apple.com/design/resources/download/app-store/creative_assets-product_page_header_template-static.psd",
+    "https://devimages-cdn.apple.com/design/resources/download/app-store/creative_assets-universal_asset_template-static.psd"
+  ],
+  "assets": [
+    {
+      "file": "off-script-header-3840x1646.png",
+      "dimensions": [
+        3840,
+        1646
+      ],
+      "color": "8-bit opaque RGB PNG; no alpha channel",
+      "templateSafeArea": [
+        1097,
+        493,
+        2743,
+        1154
+      ],
+      "focalBounds": [
+        1182,
+        540,
+        2658,
+        1090
+      ],
+      "sha256": "073bebf728060435ffdf72a966ed2d1a48d6c80902dd2682ada2fea6a5647873",
+      "placement": "Product page Header (recommended)"
+    },
+    {
+      "file": "off-script-universal-5244x2950.png",
+      "dimensions": [
+        5244,
+        2950
+      ],
+      "color": "8-bit opaque RGB PNG; no alpha channel",
+      "templateSafeArea": [
+        1921,
+        660,
+        3323,
+        1622
+      ],
+      "focalBounds": [
+        1962,
+        700,
+        3282,
+        1550
+      ],
+      "sha256": "87a051fe080cdc44bdbdcb1cf205aa687c03c55f98c621f9e34fd7c1b859f3cb",
+      "placement": "Universal creative accepted for Header or Search Results; verify both in Apple's Preview tool"
+    }
+  ],
+  "uploadedToApple": false
+}

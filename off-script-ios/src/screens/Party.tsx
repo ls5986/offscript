@@ -158,8 +158,10 @@ export default function Party() {
   const recipe = recipeById(card.recipeId);
   const includedNow = partyCanRepeat(s);
   const gameHidden = !(
-    s.party.options.selectedActivityIds ??
-    partyDefaultActivityIds(s.party.options.level)
+    s.party.options.selectedActivityIds ?? [
+      ...partyDefaultActivityIds(s.party.options.level),
+      ...(s.party.manualActivityId ? [s.party.manualActivityId] : []),
+    ]
   ).includes(a.id);
   const allowed = partyCardAllowed(s, data.preferences.classroomDefault);
   const currentDeckProblem = partyDeckError(
@@ -385,7 +387,12 @@ export default function Party() {
               ? ("light_movement" as const)
               : ("seated" as const),
           },
-          party: { ...session.party!, options },
+          party: {
+            ...session.party!,
+            options,
+            manualActivityId:
+              sheet === "deck" ? undefined : session.party!.manualActivityId,
+          },
         };
         const variants = compatiblePartyRecipes(changed).filter(
           (recipe) => recipe.activityId === currentRound(session).activityId,
@@ -1341,8 +1348,8 @@ export default function Party() {
         {sheet === "games" && (
           <>
             <Txt muted size={14}>
-              Choose a game for this group. A game outside the default quick mix
-              is included for this session. Choose games edits the mix.
+              Choose a game for this group. Playing it keeps the other choices
+              available. Choose games edits the mix or restores the default mix.
             </Txt>
             {compatiblePartyRecipes(s)
               .filter(
@@ -1362,6 +1369,9 @@ export default function Party() {
                   onPress={() => advance({ recipeId: recipe.id })}
                 />
               ))}
+            <Button kind="secondary" onPress={() => open("deck")}>
+              Choose games
+            </Button>
           </>
         )}
         {sheet === "feedback" && (

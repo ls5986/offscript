@@ -107,6 +107,13 @@
     const afterHours = parameters.get("campaign") === "after-hours";
     if (afterHours) window.offscriptMedia = window.offscriptAfterHours;
     const canvas = document.getElementById("canvas");
+    if (format === "phone-medium") {
+      const scale = 1206 / 1320;
+      canvas.style.width = "1320px";
+      canvas.style.height = `${2622 / scale}px`;
+      canvas.style.transform = `scale(${scale})`;
+      canvas.style.transformOrigin = "top left";
+    }
     let active = -1;
     window.renderMedia = async function (seconds = 0) {
       const story = window.offscriptMedia;
@@ -116,7 +123,7 @@
       const scene = (mode === "tutorial" ? story.tutorial : story.screenshots)[index];
       if (!scene) throw new Error(`No media scene at ${seconds}`);
       if (index !== active) {
-        canvas.className = `canvas ${scene.theme} ${mode === "tutorial" ? "tutorial" : format} ${format === "vertical" ? "vertical" : ""} ${scene.outro ? "outro" : ""} ${afterHours ? "after-hours" : ""}`;
+        canvas.className = `canvas ${scene.theme} ${mode === "tutorial" ? "tutorial" : format === "phone-medium" ? "phone" : format} ${format === "vertical" ? "vertical" : ""} ${scene.outro ? "outro" : ""} ${afterHours ? "after-hours" : ""}`;
         document.getElementById("kicker").textContent = scene.kicker;
         document.getElementById("headline").textContent = scene.title;
         document.getElementById("description").textContent = scene.description;

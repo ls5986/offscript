@@ -8,7 +8,7 @@
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "4"
+      "buildNumber": "6"
     },
     "web": {
       "bundler": "metro",
@@ -33,6 +33,12 @@
     "experiments": {
       "typedRoutes": true
     },
-    "icon": "./assets/icon.png"
+    "icon": "./assets/icon.png",
+    "extra": {
+      "release": {
+        "privacyURL": "https://offscript-off-script-ios.vercel.app/privacy",
+        "supportURL": "https://offscript-off-script-ios.vercel.app/support"
+      }
+    }
   }
 }

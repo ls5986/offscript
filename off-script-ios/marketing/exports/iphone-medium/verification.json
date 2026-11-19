@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-10-19T02:09:16.684Z",
+  "screenshots": [
+    {
+      "file": "01-make-it-up.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "14a0b22c8957a3822d76b0345f21948f7764526cfac8b84c5825536dc9b60603"
+    },
+    {
+      "file": "02-party-night.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "943034cf53cf21e3dffdc00dea4ee7b9afb52ee5d283eb94be3e384038eb7c55"
+    },
+    {
+      "file": "03-prompt-studio.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "9398b446c018f5adc5d3b66fbcc1f093d5636aaa488bc9ec242683b354baf27a"
+    },
+    {
+      "file": "04-new-choice.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "641a69484fdbebe40bfe0abbb4b98ec24558ed02f46282b021c9e0e0810a0cf1"
+    },
+    {
+      "file": "05-library.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "334b6755e910767b87dd043a3fce0e7c0e600c9f233f1ec763b7f4fc43014ad8"
+    },
+    {
+      "file": "06-saved.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "color": "8-bit opaque RGB",
+      "sha256": "36415fdb39394a670cea6b0b53689c167f5c5ac5ab77729ad6a65d4312e71ea9"
+    }
+  ],
+  "videos": []
+}

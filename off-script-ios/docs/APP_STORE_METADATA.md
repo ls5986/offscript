@@ -6,6 +6,16 @@ App Store Connect or that Apple approved a release.
 
 ## Listing copy
 
+### Live URLs
+
+- Marketing: `https://offscript-off-script-ios.vercel.app/`
+- Privacy policy: `https://offscript-off-script-ios.vercel.app/privacy`
+- Support: `https://offscript-off-script-ios.vercel.app/support`
+
+These pages are public and the policy/support URLs are embedded in uploaded
+build **1.3.0 (5)**. The support page still needs the approved direct public
+contact; it currently provides GitHub issues only.
+
 ### Name
 
 ```text
@@ -87,13 +97,14 @@ Player names, sessions, favorites, prompts and notes are stored locally in SQLit
 
 Use the six files in each device folder, in filename order:
 
-- [iPhone: 1320 x 2868](../marketing/exports/iphone/)
+- [iPhone medium Dynamic Island: 1206 x 2622](../marketing/exports/iphone-medium/) - use this for the medium-display tab, not the original large set.
+- [iPhone large Dynamic Island: 1320 x 2868](../marketing/exports/iphone/)
 - [iPad: 2064 x 2752](../marketing/exports/ipad/)
 - [Local gallery](../marketing/index.html)
 
-These use the current native UI, matching the source in uploaded beta
-**1.3.0 (4)** rather than older build 3. A public-release binary still needs
-the owner-approved live privacy/support links before submission. Do not
+These use the current native UI, matching the Library/first-use source in
+uploaded beta **1.3.0 (5)** rather than older build 3. Build 5 additionally
+embeds the live privacy/support links in Settings. Do not
 upload the website/social tutorial videos as Apple App Previews; an App
 Preview is optional.
 
@@ -121,11 +132,10 @@ implementation changes; do not make unrelated export declarations by guess.
 
 ## Actual submission state
 
-Both shared App Store Connect and Vercel pages currently require sign-in.
-The public-release preflight rejects unset privacy/support URLs. The matching
-source beta **1.3.0 (4)** has been signed and successfully uploaded using
-standard App Store Connect distribution; Apple acknowledged processing.
-Completed processing and tester access remain unverified. Final public links,
-any matching public-release rebuild, processed-build selection, metadata save
-and App Review submission remain pending their prerequisites.
+The live privacy/support pages are verified and included in successfully
+uploaded beta **1.3.0 (5)**. The local public-release metadata preflight passes.
+Apple acknowledged processing; completed processing and tester access remain
+unverified. The live support page still needs a direct public contact.
+Authenticated processed-build selection, owner declarations/contact fields,
+metadata save and App Review submission remain pending their prerequisites.
 See [release readiness](APP_STORE_READINESS.md) for the current verified state.

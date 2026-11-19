@@ -38,15 +38,26 @@ test("native generation registers Expo's scene lifecycle without enabling multip
   });
 });
 test("development stays runnable without inventing identities; production refuses missing owner metadata", () => {
-  const config = configureApp(base, {});
+  const unconfigured = { ...base, extra: undefined };
+  const config = configureApp(unconfigured, {});
   expect(config.ios?.bundleIdentifier).toBeUndefined();
   expect(config.extra?.eas?.projectId).toBeUndefined();
   expect(releaseIssues(config)).toHaveLength(4);
-  expect(() => configureApp(base, { EAS_BUILD_PROFILE: "production" })).toThrow(
-    /release configuration/,
-  );
+  expect(() =>
+    configureApp(unconfigured, { EAS_BUILD_PROFILE: "production" }),
+  ).toThrow(/release configuration/);
   expect(config.ios?.usesAppleSignIn).toBe(false);
   expect(config.ios?.infoPlist?.NSMicrophoneUsageDescription).toBeUndefined();
+});
+test("native Settings receive the deployed privacy and support pages without local environment overrides", () => {
+  const config = configureApp(base, {
+    OFFSCRIPT_PRIVACY_URL: "",
+    OFFSCRIPT_SUPPORT_URL: "",
+  });
+  expect(publicReleaseLinks(config.extra)).toEqual({
+    privacyURL: "https://offscript-off-script-ios.vercel.app/privacy",
+    supportURL: "https://offscript-off-script-ios.vercel.app/support",
+  });
 });
 test("owner metadata resolves without secrets and leaves SDK required-reason manifest entries intact", () => {
   const sdkApi = {

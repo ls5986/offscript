@@ -19,7 +19,10 @@ test("local Xcode release checks require public owner metadata but not an Expo p
 });
 
 test("local checks do not bypass missing bundle, privacy, support or valid team requirements", () => {
-  const config = configureApp(app.expo as ExpoConfig, {});
+  const config = configureApp(
+    { ...app.expo, extra: undefined } as ExpoConfig,
+    {},
+  );
   const issues = releaseIssues(config, { requireEasProject: false });
   expect(issues).toHaveLength(3);
   for (const name of [

@@ -67,6 +67,18 @@ Returning to Clean always hides an adult card immediately, even if the custom de
 
 Selection is stored as nullable `selectedActivityIds` in Party options and `selectedPartyActivityIds` in preferences. `null` retains the historical default mix; a custom array is a strict allowlist. Optional defaults keep older native/browser saves readable without a storage reset.
 
+**Change game does not edit that selection.** With the default mix, the picker
+continues to show every currently compatible Party game after a manual choice.
+The session separately remembers the manually chosen activity for same-game
+continuation/replay; it does not convert the default mix into a five-game
+allowlist or broaden automatic shuffle. Explicit custom selections, hidden
+games, group size, content consent, scene and movement preferences still apply.
+Saving Choose games clears that temporary manual choice; restoring the default
+mix keeps the current card but returns subsequent automatic deals to the quick
+mix. The picker includes a direct Choose games action for recovering an older
+restricted selection without clearing saves. Existing saved allowlists are not
+silently reset, because they may reflect deliberate exclusions.
+
 ## What a turn means
 
 The round limit appears above the creative input, not only at the bottom of the instructions. These are concrete stopping rules, not “keep going until ready”:

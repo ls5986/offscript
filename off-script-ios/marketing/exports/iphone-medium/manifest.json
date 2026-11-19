@@ -1,0 +1,63 @@
+{
+  "screenshots": [
+    {
+      "file": "01-make-it-up.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "capture": "iphone/01-home.png",
+      "headline": "Make it up. As you go."
+    },
+    {
+      "file": "02-party-night.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "capture": "iphone/03-party.png",
+      "headline": "One phone. Everyone plays."
+    },
+    {
+      "file": "03-prompt-studio.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "capture": "iphone/08-studio.png",
+      "headline": "Small prompt. Big possibilities."
+    },
+    {
+      "file": "04-new-choice.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "capture": "iphone/05-new-choice.png",
+      "headline": "New choice. New chaos."
+    },
+    {
+      "file": "05-library.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "capture": "iphone/09-library.png",
+      "headline": "Good ideas. By the listful."
+    },
+    {
+      "file": "06-saved.png",
+      "size": [
+        1206,
+        2622
+      ],
+      "capture": "iphone/11-saved.png",
+      "headline": "Keep the gems. Riff on them later."
+    }
+  ],
+  "videos": [],
+  "duration": 30,
+  "fps": 30,
+  "source": "Marketing artwork rendered for the medium-display canvas; original iPhone 18 Pro Max native captures retain their aspect ratio without stretching.",
+  "uploadSlot": "iPhone with Dynamic Island (medium display)"
+}

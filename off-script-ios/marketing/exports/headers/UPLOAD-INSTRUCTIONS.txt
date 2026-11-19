@@ -1,0 +1,28 @@
+OFF SCRIPT - APP STORE HEADER
+
+RECOMMENDED FILE:
+off-script-header-3840x1646.png
+
+App Store Connect:
+Your app version > Header and Search Results > Header > Upload
+
+Select the recommended PNG, check Apple's Preview, then Save.
+This slot takes ONE asset. Do not upload both files there.
+
+ALTERNATIVE:
+off-script-universal-5244x2950.png
+This is also an accepted Header size. Apple's current specifications permit
+this exact universal PNG size in Search Results as well; preview before use.
+
+Both full-resolution files are opaque RGB PNGs with no alpha channel.
+The mark and all wording fit Apple's official template art-safe areas.
+
+DO NOT UPLOAD:
+- Anything in the previews subfolder
+- A green safe-area diagnostic image
+- This text, verification JSON, or the ZIP itself
+- Device screenshots into the Header slot
+
+The previews subfolder is only for inspecting the artwork.
+No new native app build is needed to change the header.
+No Apple upload/approval is claimed by generating these files.

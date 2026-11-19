@@ -1,5 +1,109 @@
 # iOS handoff verification
 
+## Latest beta: 1.3.0 (6), Change game list repair uploaded
+
+The disappearing-game report was reproduced exactly: a default three-person
+Party showed **21** compatible games; manually choosing Listening Echo
+converted the nullable default selection into the four quick defaults plus
+Listening Echo, leaving only **5** choices. This was a selection-state bug,
+not exhausted content.
+
+Manual choices now preserve `selectedActivityIds=null`. A backward-compatible
+optional session-only `manualActivityId` keeps the chosen game repeatable
+without altering the default automatic shuffle pool or remembered selections.
+Explicit deck/hidden-game choices and player/content/scene/movement gates
+remain enforced. Saving Choose games clears that temporary choice.
+The Change game dialog includes a direct **Choose games** action.
+
+Already-saved restrictive arrays are not silently rewritten: they cannot be
+distinguished safely from intentional exclusions. In an affected party use
+**Change game > Choose games > Use default mix > Save deck** once. The current
+card/words/history remain intact and the full compatible picker returns.
+Select all games remains a separate explicit choice, not an automatic repair.
+
+New domain and browser regressions failed before the fix and pass afterward.
+Fresh validation: **361 unit tests across 41 files**, TypeScript, lint,
+content validation, live-link release preflight, production web export and
+**117 complete browser tests**. Measured **21** choices remain after choosing,
+JSON restoring and replaying Listening Echo, New Choice, Secret Objective,
+Expert Interview and Yes, And. Explicit exclusions and original default-reset
+tests still pass.
+
+A native XCTest reproduced the disappearing list on the previously installed
+build, then passed on the fixed Release simulator update without clearing
+saves. It checks manual choice, reroll/replay, scene switching and explicit
+default recovery. This does not substitute for physical-device acceptance.
+
+Signed **1.3.0 (6)** was uploaded at **9:16 PM on October 18**. The Xcode
+receipt explicitly says **"Upload succeeded"**, **"Uploaded package is
+processing"** and **"EXPORT SUCCEEDED"**. Finished processing, internal tester
+assignment and owner installation remain unverified; do not reupload build 6.
+Standard App Store Connect distribution keeps symbols enabled and explicit
+build numbering, with no missing-symbol warnings.
+
+The real bundle contains the new selection field/picker copy and preserves
+the live privacy/support URLs. Its SHA-256 is
+`5e5cc99f651d91ad9656a92963358df81e797cf2ce7051cb60ce5311540d81ea`.
+The app and all three authentic framework symbol UUIDs match. Attaching
+symbols leaves all **83** app-payload hashes unchanged and strict deep/team
+signature verification passes.
+
+Retained session evidence:
+`OffScript-TestFlight-1.3.0-6.xcarchive`,
+`testflight-build6-verification.json`,
+`testflight-build6-upload.log`, and `game-list-ui-green.xcresult`.
+This upload does not publish local source to GitHub/Vercel or submit App Review.
+
+## Latest beta: 1.3.0 (5), live privacy/support links and upload confirmed
+
+The owner supplied the deployed site
+`https://offscript-off-script-ios.vercel.app/` on October 18. Both `/privacy`
+and `/support` returned public **200 HTML** without authentication. Their
+exact URLs are now durable defaults in `app.json` under `extra.release`;
+valid owner environment overrides still work.
+
+A new signed **1.3.0 (5)** archive was uploaded successfully at **8:47 PM
+on October 18**. Xcode's receipt explicitly records **"Upload succeeded"**,
+**"Uploaded package is processing"** and **"EXPORT SUCCEEDED"**. Do not
+reupload this build. Finished Apple processing, internal tester assignment
+and physical-iPhone installation have not been verified.
+
+The actual signed app's **`EXConstants.bundle/app.config`**, not just source
+configuration, contains:
+
+- Privacy: `https://offscript-off-script-ios.vercel.app/privacy`
+- Support: `https://offscript-off-script-ios.vercel.app/support`
+- Version **1.3.0**, build **5**, guest/device-local storage mode.
+
+The real native Release UI was installed as an update on the task demo
+simulator without clearing its saves. The Settings test first failed against
+the old missing-link app, then passed with build 5: **Privacy policy** and
+**Support** are reachable, each opens Safari, and the respective live-page
+headings **Privacy policy** / **Off Script support** load. Native screenshots
+and XCTest results are retained in the session workspace. This is simulator
+verification, not a claim of owner-device installation.
+
+Fresh **359 unit tests across 41 files**, TypeScript, lint, content validation
+and the local public-release metadata preflight passed. Missing-metadata
+guards remain covered using explicitly unconfigured fixtures. Signed device
+archive and matching simulator compilation succeeded. All authentic vendor
+and app dSYM UUIDs match, all **83** payload hashes remain unchanged after
+symbol attachment, and strict deep signing/team verification passed.
+Standard App Store Connect delivery kept symbols enabled and explicit build
+numbering; there were no missing-symbol upload warnings.
+
+Retained evidence:
+`OffScript-TestFlight-1.3.0-5.xcarchive`,
+`testflight-build5-verification.json`,
+`testflight-build5-upload.log`, and `privacy-link-ui-final.xcresult`.
+
+**Remaining public-submission detail:** the live support/privacy pages still
+offer only GitHub issues, not an owner-approved direct contact. Add the public
+support email using Vercel's `OFFSCRIPT_SUPPORT_EMAIL` and redeploy before
+submission; no private Apple email was reused. Updating page content at the
+same URLs does not require another native build. Passing URL preflight and
+uploading this beta do not certify legal compliance or submit App Review.
+
 ## Latest matching beta: 1.3.0 (4), upload confirmed
 
 On October 18, the requested latest-source TestFlight update was signed and
